@@ -143,3 +143,20 @@ copyLinkButton?.addEventListener('click', async () => {
     if (copyMessage) copyMessage.textContent = 'Copy unavailable. Please copy the address from your browser.';
   }
 });
+
+const consultationForm = document.querySelector('.consultation-form');
+const consultationMessage = document.querySelector('[data-consultation-message]');
+
+consultationForm?.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  if (!consultationForm.checkValidity()) {
+    consultationForm.reportValidity();
+    if (consultationMessage) consultationMessage.textContent = 'Please complete your name and email.';
+    return;
+  }
+
+  if (consultationMessage) {
+    consultationMessage.textContent = 'Thank you! Your consultation request is ready to send.';
+  }
+});
