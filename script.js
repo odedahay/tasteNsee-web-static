@@ -2,6 +2,14 @@ const menuToggle = document.querySelector('.site-header__menu-toggle');
 const primaryNav = document.querySelector('.site-header__nav');
 const dropdown = document.querySelector('.site-header__dropdown');
 const dropdownToggle = document.querySelector('.site-header__dropdown-toggle');
+const siteHeader = document.querySelector('.site-header');
+
+function updateStickyHeader() {
+  siteHeader?.classList.toggle('site-header--scrolled', window.scrollY > 8);
+}
+
+updateStickyHeader();
+window.addEventListener('scroll', updateStickyHeader, { passive: true });
 
 function closeMenu() {
   menuToggle?.setAttribute('aria-expanded', 'false');
@@ -109,4 +117,29 @@ galleryFilters.forEach((filterButton) => {
 
     if (galleryCount) galleryCount.textContent = String(visibleCount);
   });
+});
+
+document.querySelectorAll('[data-faq-trigger]').forEach((trigger) => {
+  trigger.addEventListener('click', () => {
+    const panelId = trigger.getAttribute('aria-controls');
+    const panel = panelId ? document.getElementById(panelId) : null;
+    const willOpen = trigger.getAttribute('aria-expanded') !== 'true';
+
+    trigger.setAttribute('aria-expanded', String(willOpen));
+    trigger.querySelector('i')?.classList.toggle('ri-add-line', !willOpen);
+    trigger.querySelector('i')?.classList.toggle('ri-subtract-line', willOpen);
+    if (panel) panel.hidden = !willOpen;
+  });
+});
+
+const copyLinkButton = document.querySelector('[data-copy-link]');
+const copyMessage = document.querySelector('[data-copy-message]');
+
+copyLinkButton?.addEventListener('click', async () => {
+  try {
+    await navigator.clipboard.writeText(window.location.href);
+    if (copyMessage) copyMessage.textContent = 'Page link copied.';
+  } catch {
+    if (copyMessage) copyMessage.textContent = 'Copy unavailable. Please copy the address from your browser.';
+  }
 });
