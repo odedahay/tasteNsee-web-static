@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Book a free, no-obligation cake consultation with tasteNsee in Calgary."
+      content="Request a custom cake quote from tasteNsee in Calgary. Tell us about your celebration and receive a reply within 24 hours."
     />
-    <title>Book a Cake Consultation | tasteNsee</title>
+    <title>Request a Custom Cake Quote | tasteNsee</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -69,22 +69,22 @@
       <section class="contact contact--consultation">
         <div class="contact__inner contact__inner--consultation">
           <header class="contact__heading">
-            <p class="contact__eyebrow">Let's talk cake</p>
-            <h1 class="contact__title">Inquire Now</h1>
+            <p class="contact__eyebrow">Lets create something sweet</p>
+            <h1 class="contact__title">Request a Custom Cake Quote</h1>
             <p class="contact__intro">
-              Every great cake starts with a conversation. Fill in a few details and Odede will confirm within 24 hours.
+              Tell us about your celebration. We’ll review your date and requirements and respond within 24 hours.
             </p>
           </header>
 
           <div class="contact__layout">
-            <form class="consultation-form consultation-form--request" id="consultation-request">
+            <form class="consultation-form consultation-form--request" id="consultation-request" data-form-type="quote">
               <div class="consultation-form__top consultation-form__top--request">
-                <h2 class="consultation-form__title">Consultation Request</h2>
-                <p>Free · No obligation · Reply within 24 hrs</p>
+                <h2 class="consultation-form__title">Tell us about your celebration</h2>
+                <p>Free consultation · No obligation · Reply within 24 hrs</p>
               </div>
 
               <div class="consultation-form__body">
-                <div class="consultation-form__fields consultation-form__fields--two-column">
+                <div class="consultation-form__fields consultation-form__fields--two-column consultation-form__fields--first">
                   <div class="consultation-form__field">
                     <label class="consultation-form__label" for="consultation-name">
                       Name <span class="consultation-form__required" aria-hidden="true">*</span>
@@ -99,6 +99,98 @@
                   </div>
                 </div>
 
+                <div class="consultation-form__fields consultation-form__fields--two-column">
+                  <div class="consultation-form__field">
+                    <label class="consultation-form__label" for="consultation-date">
+                      Event Date <span class="consultation-form__required" aria-hidden="true">*</span>
+                    </label>
+                    <input class="consultation-form__control consultation-form__date" id="consultation-date" name="event-date" type="date" required />
+                  </div>
+                  <div class="consultation-form__field">
+                    <label class="consultation-form__label" for="consultation-occasion">
+                      Occassion <span class="consultation-form__required" aria-hidden="true">*</span>
+                    </label>
+                    <div class="consultation-form__select-wrap">
+                      <select class="consultation-form__control consultation-form__select" id="consultation-occasion" name="occasion" required>
+                        <option value="" selected disabled>Select an occassion</option>
+                        <option value="birthday">Birthday</option>
+                        <option value="wedding">Wedding</option>
+                        <option value="anniversary">Anniversary</option>
+                        <option value="corporate">Corporate event</option>
+                        <option value="other">Other celebration</option>
+                      </select>
+                      <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="consultation-form__fields consultation-form__fields--two-column">
+                  <div class="consultation-form__field">
+                    <label class="consultation-form__label" for="consultation-servings">
+                      Number of serving <span class="consultation-form__required" aria-hidden="true">*</span>
+                    </label>
+                    <div class="consultation-form__select-wrap">
+                      <select class="consultation-form__control consultation-form__select" id="consultation-servings" name="servings" required>
+                        <option value="" selected disabled>Select number of serving</option>
+                        <option value="1-10">1–10 servings</option>
+                        <option value="11-25">11–25 servings</option>
+                        <option value="26-50">26–50 servings</option>
+                        <option value="51-100">51–100 servings</option>
+                        <option value="100+">More than 100 servings</option>
+                      </select>
+                      <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                  <div class="consultation-form__field">
+                    <label class="consultation-form__label" for="consultation-cake-type">
+                      Cake type <span class="consultation-form__required" aria-hidden="true">*</span>
+                    </label>
+                    <div class="consultation-form__select-wrap">
+                      <select class="consultation-form__control consultation-form__select" id="consultation-cake-type" name="cake-type" required>
+                        <option value="" selected disabled>Select cake type</option>
+                        <option value="custom-cake">Custom cake</option>
+                        <option value="wedding-cake">Wedding cake</option>
+                        <option value="cupcakes">Cupcakes</option>
+                        <option value="dessert-table">Dessert table</option>
+                        <option value="other">Other</option>
+                      </select>
+                      <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="consultation-form__fields consultation-form__fields--two-column">
+                  <div class="consultation-form__field">
+                    <label class="consultation-form__label" for="consultation-budget">
+                      Budget range <span class="consultation-form__required" aria-hidden="true">*</span>
+                    </label>
+                    <div class="consultation-form__select-wrap">
+                      <select class="consultation-form__control consultation-form__select" id="consultation-budget" name="budget" required>
+                        <option value="" selected disabled>Select budget range</option>
+                        <option value="under-100">Under $100</option>
+                        <option value="100-250">$100–$250</option>
+                        <option value="250-500">$250–$500</option>
+                        <option value="500-1000">$500–$1,000</option>
+                        <option value="1000+">$1,000+</option>
+                      </select>
+                      <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                  <div class="consultation-form__field">
+                    <label class="consultation-form__label" for="consultation-fulfillment">
+                      Pick or Delivery <span class="consultation-form__required" aria-hidden="true">*</span>
+                    </label>
+                    <div class="consultation-form__select-wrap">
+                      <select class="consultation-form__control consultation-form__select" id="consultation-fulfillment" name="fulfillment" required>
+                        <option value="" selected disabled>Select pick or delivery</option>
+                        <option value="pickup">Pickup</option>
+                        <option value="delivery">Delivery</option>
+                      </select>
+                      <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="consultation-form__field consultation-form__field--phone">
                   <label class="consultation-form__label" for="consultation-phone">
                     Phone <span class="consultation-form__optional">optional</span>
@@ -106,28 +198,9 @@
                   <input class="consultation-form__control" id="consultation-phone" name="phone" type="tel" placeholder="(204) 000-0000" autocomplete="tel" />
                 </div>
 
-                <div class="consultation-form__divider" aria-hidden="true"></div>
-
-                <div class="consultation-form__field consultation-form__field--occasion">
-                  <label class="consultation-form__label" for="consultation-occasion">
-                    What's the occasion? <span class="consultation-form__optional">optional</span>
-                  </label>
-                  <div class="consultation-form__select-wrap">
-                    <select class="consultation-form__control consultation-form__select" id="consultation-occasion" name="occasion">
-                      <option value="">Select an occasion…</option>
-                      <option value="birthday">Birthday</option>
-                      <option value="wedding">Wedding</option>
-                      <option value="anniversary">Anniversary</option>
-                      <option value="corporate">Corporate event</option>
-                      <option value="other">Other celebration</option>
-                    </select>
-                    <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
-                  </div>
-                </div>
-
                 <div class="consultation-form__field consultation-form__field--vision">
                   <label class="consultation-form__label" for="consultation-vision">
-                    Tell us a little about your vision <span class="consultation-form__optional">optional</span>
+                    Describe your cake vision
                   </label>
                   <textarea
                     class="consultation-form__control consultation-form__textarea"
@@ -137,27 +210,68 @@
                   ></textarea>
                 </div>
 
+                <div class="consultation-form__field consultation-form__field--upload">
+                  <label class="consultation-form__label" for="consultation-inspiration">Add inspiration photo</label>
+                  <label class="consultation-form__upload" for="consultation-inspiration">
+                    <span data-upload-label>Browse image</span>
+                    <input id="consultation-inspiration" name="inspiration" type="file" accept="image/*" data-upload-input />
+                  </label>
+                </div>
+
                 <ul class="consultation-form__promises" aria-label="Consultation benefits">
-                  <li><i class="ri-check-line" aria-hidden="true"></i>Completely free</li>
-                  <li><i class="ri-check-line" aria-hidden="true"></i>No obligation</li>
                   <li><i class="ri-check-line" aria-hidden="true"></i>Reply within 24 hrs</li>
                   <li><i class="ri-check-line" aria-hidden="true"></i>No payment at this stage</li>
+                  <li><i class="ri-check-line" aria-hidden="true"></i>Your details stay private</li>
                 </ul>
 
                 <button class="consultation-form__submit" type="submit">
-                  Book My Consultation <i class="ri-arrow-right-line" aria-hidden="true"></i>
+                  Request My Cake Quote <i class="ri-arrow-right-line" aria-hidden="true"></i>
                 </button>
                 <p class="consultation-form__status" data-consultation-message role="status" aria-live="polite"></p>
               </div>
 
-              <address class="consultation-form__contact">
-                <a href="tel:+12041234567"><i class="ri-phone-line" aria-hidden="true"></i>(204) 123-4567</a>
-                <a href="mailto:tastensee82@gmail.com"><i class="ri-mail-line" aria-hidden="true"></i>tastensee82@gmail.com</a>
-                <a href="index.html#instagram"><i class="ri-instagram-line" aria-hidden="true"></i>@tatsensee82</a>
-              </address>
+              <p class="consultation-form__general-question">Have a general question? <a href="contact.html">Contact Us</a></p>
             </form>
 
             <aside class="contact__aside" aria-label="Consultation information">
+              <section class="quote-steps">
+                <h2 class="quote-steps__title">What happen next</h2>
+                <ol class="quote-steps__list">
+                  <li>
+                    <span class="quote-steps__number">1</span>
+                    <div><h3>We review your details</h3><p>We check your date, requirements and delivery area</p></div>
+                  </li>
+                  <li>
+                    <span class="quote-steps__number">2</span>
+                    <div><h3>We receive your quotes</h3><p>We approve, we approve it when you’re ready</p></div>
+                  </li>
+                  <li>
+                    <span class="quote-steps__number">3</span>
+                    <div><h3>We contact you</h3><p>We clarify ideas, flavours, sizing and budget</p></div>
+                  </li>
+                </ol>
+              </section>
+
+              <section class="quote-consultant">
+                <div class="quote-consultant__profile">
+                  <img class="workshop-host__image" src="assets/workshop-host.png" alt="Karen, tasteNsee consultant" />
+                  <div class="workshop-host__content">
+                    <p class="workshop-host__eyebrow">Meet your consultant</p>
+                    <h2 class="workshop-host__name">Karen</h2>
+                    <p class="workshop-host__role">Certified Cake Designer · Registered Nurse · Calgary, AB</p>
+                    <p class="workshop-host__description">
+                      Odede brings ten years of professional cake design experience and a genuine warmth to every consultation. She takes time to truly understand your vision and helps shape it into something beautiful and uniquely yours.
+                    </p>
+                  </div>
+                </div>
+                  <ul class="workshop-host__tags" aria-label="Experience and qualifications">
+                    <li>10+ years experience</li>
+                    <li>200+ custom cakes</li>
+                    <li>Inclusive approach</li>
+                    <li>Certified cake designer</li>
+                  </ul>
+              </section>
+
               <section class="studio-card">
                 <img class="studio-card__image" src="assets/contact-studio.png" alt="Interior of the tasteNsee studio" />
                 <div class="studio-card__overlay" aria-hidden="true"></div>
@@ -171,28 +285,8 @@
                   </address>
                 </div>
               </section>
-
-              <section class="workshop-host workshop-host--consultant">
-                <img class="workshop-host__image" src="assets/workshop-host.png" alt="Karen, tasteNsee consultant" />
-                <div class="workshop-host__content">
-                  <p class="workshop-host__eyebrow">Meet your consultant</p>
-                  <h2 class="workshop-host__name">Karen</h2>
-                  <p class="workshop-host__role">Certified Cake Designer · Registered Nurse · Calgary, AB</p>
-                  <p class="workshop-host__description">
-                    Odede brings ten years of professional cake design experience and a genuine warmth to every consultation. She takes time to truly understand your vision and helps shape it into something beautiful and uniquely yours.
-                  </p>
-                  <ul class="workshop-host__tags" aria-label="Experience and qualifications">
-                    <li>10+ years experience</li>
-                    <li>200+ custom cakes</li>
-                    <li>Inclusive approach</li>
-                    <li>Certified cake designer</li>
-                  </ul>
-                </div>
-              </section>
             </aside>
           </div>
-
-          <a class="contact__back" href="index.html"><i class="ri-arrow-left-line" aria-hidden="true"></i>Back to home</a>
         </div>
       </section>
     </main>

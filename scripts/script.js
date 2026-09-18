@@ -150,21 +150,36 @@ const consultationMessage = document.querySelector('[data-consultation-message]'
 consultationForm?.addEventListener('submit', (event) => {
   event.preventDefault();
   const isContactForm = consultationForm.dataset.formType === 'contact';
+  const isQuoteForm = consultationForm.dataset.formType === 'quote';
 
   if (!consultationForm.checkValidity()) {
     consultationForm.reportValidity();
     if (consultationMessage) {
-      consultationMessage.textContent = isContactForm
-        ? 'Please complete all required fields.'
-        : 'Please complete your name and email.';
+      consultationMessage.textContent = isQuoteForm
+        ? 'Please complete all required quote details.'
+        : isContactForm
+          ? 'Please complete all required fields.'
+          : 'Please complete your name and email.';
     }
     return;
   }
 
   if (consultationMessage) {
-    consultationMessage.textContent = isContactForm
-      ? 'Thank you! Your message is ready to send.'
-      : 'Thank you! Your consultation request is ready to send.';
+    consultationMessage.textContent = isQuoteForm
+      ? 'Thank you! Your cake quote request is ready to send.'
+      : isContactForm
+        ? 'Thank you! Your message is ready to send.'
+        : 'Thank you! Your consultation request is ready to send.';
+  }
+});
+
+const inspirationUpload = document.querySelector('[data-upload-input]');
+const inspirationUploadLabel = document.querySelector('[data-upload-label]');
+
+inspirationUpload?.addEventListener('change', () => {
+  const selectedFile = inspirationUpload.files?.[0];
+  if (inspirationUploadLabel) {
+    inspirationUploadLabel.textContent = selectedFile?.name || 'Browse image';
   }
 });
 
