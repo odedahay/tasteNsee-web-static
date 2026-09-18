@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="tasteNsee creates custom cakes, desserts, and inclusive creative workshops in Calgary."
+    />
+    <title>tasteNsee Cakes &amp; Desserts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&amp;family=Nunito:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" id="home">
+      <div class="site-header__inner page-shell">
+        <a class="site-header__brand" href="#home" aria-label="tasteNsee home">
+          <img class="site-header__logo" src="assets/logo.svg" alt="tasteNsee" />
+        </a>
+
+        <button
+          class="site-header__menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Open navigation"
+        >
+          <span class="site-header__menu-line"></span>
+          <span class="site-header__menu-line"></span>
+          <span class="site-header__menu-line"></span>
+        </button>
+
+        <nav class="site-header__nav" id="primary-navigation" aria-label="Primary navigation">
+          <a class="site-header__nav-link" href="#home">Home</a>
+          <a class="site-header__nav-link" href="#cakes">Cakes</a>
+          <div class="site-header__dropdown">
+            <button class="site-header__nav-link site-header__dropdown-toggle" type="button" aria-expanded="false">
+              More <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
+            </button>
+            <div class="site-header__dropdown-menu">
+              <a class="site-header__dropdown-link" href="gallery.html">Gallery</a>
+              <a class="site-header__dropdown-link" href="#workshops">Workshops</a>
+              <a class="site-header__dropdown-link" href="#events">Events</a>
+              <a class="site-header__dropdown-link" href="#journal">Blog</a>
+            </div>
+          </div>
+          <a class="site-header__nav-link" href="about.html">About Me</a>
+          <a class="site-header__nav-link" href="#contact">Contact</a>
+        </nav>
+
+        <div class="site-header__actions">
+          <a class="site-header__social" href="#instagram" aria-label="Instagram"><i class="ri-instagram-line" aria-hidden="true"></i></a>
+          <a class="site-header__social" href="#contact" aria-label="Facebook"><i class="ri-facebook-fill" aria-hidden="true"></i></a>
+          <a class="button button--small button--solid" href="#contact">Inquire Now</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero">
+        <div class="hero__inner page-shell">
+          <div class="hero__content">
+            <p class="eyebrow">How sweet it can be!</p>
+            <h1 class="hero__title">Made for you!<br />Custom Cakes &amp;<br />Desserts</h1>
+            <p class="hero__description">
+              Custom cakes, delicious desserts, and creative edible arts workshops for every celebration.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--solid" href="#cakes">Order a Cake</a>
+              <a class="button button--outline" href="#workshops">Join a Workshop</a>
+            </div>
+          </div>
+          <div class="hero__visual">
+            <img class="hero__image" src="assets/hero-cake.png" alt="Floral custom cake displayed outdoors" />
+            <div class="hero__seal" aria-hidden="true">
+              <i class="hero__seal-heart ri-heart-line"></i>
+              <span>Made<br />for you</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits" aria-label="Why choose tasteNsee">
+        <div class="benefits__grid page-shell">
+          <article class="benefits__item">
+            <i class="benefits__icon ri-cake-3-line" aria-hidden="true"></i>
+            <h2 class="benefits__title">Custom Cakes</h2>
+            <p class="benefits__text">Made to order for your special moments</p>
+          </article>
+          <article class="benefits__item">
+            <i class="benefits__icon ri-heart-3-line" aria-hidden="true"></i>
+            <h2 class="benefits__title">Inclusive &amp; Autism-Friendly</h2>
+            <p class="benefits__text">Workshops designed for all abilities</p>
+          </article>
+          <article class="benefits__item">
+            <i class="benefits__icon ri-palette-line" aria-hidden="true"></i>
+            <h2 class="benefits__title">Hands-On Learning</h2>
+            <p class="benefits__text">Fun, creative, and meaningful experiences</p>
+          </article>
+          <article class="benefits__item">
+            <i class="benefits__icon ri-group-2-line" aria-hidden="true"></i>
+            <h2 class="benefits__title">Social Impact</h2>
+            <p class="benefits__text">Supporting special needs youth and families</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--mint creations" id="cakes">
+        <div class="page-shell">
+          <div class="section-heading section-heading--row">
+            <div>
+              <p class="eyebrow">Our Creations</p>
+              <h2 class="section-heading__title">Featured Cakes &amp; Desserts</h2>
+            </div>
+            <a class="text-link" href="gallery.html">View All Cakes <i class="ri-arrow-right-s-line" aria-hidden="true"></i></a>
+          </div>
+
+          <div class="creations__grid">
+            <article class="product-card">
+              <img class="product-card__image" src="assets/cake-birthday.png" alt="Colorful birthday cake" />
+              <div class="product-card__body">
+                <h3 class="product-card__title">Birthday Cakes</h3>
+                <p class="product-card__price">Starting at $45</p>
+                <a class="product-card__link" href="#contact">View Options <i class="ri-arrow-right-s-line" aria-hidden="true"></i></a>
+              </div>
+            </article>
+            <article class="product-card">
+              <img class="product-card__image" src="assets/cake-wedding.png" alt="Elegant white wedding cake" />
+              <div class="product-card__body">
+                <h3 class="product-card__title">Wedding Cakes</h3>
+                <p class="product-card__price">Starting at $600</p>
+                <a class="product-card__link" href="#contact">View Options <i class="ri-arrow-right-s-line" aria-hidden="true"></i></a>
+              </div>
+            </article>
+            <article class="product-card">
+              <img class="product-card__image" src="assets/cupcakes.png" alt="Decorated cupcakes with frosting" />
+              <div class="product-card__body">
+                <h3 class="product-card__title">Cupcakes</h3>
+                <p class="product-card__price">Starting at $25</p>
+                <a class="product-card__link" href="#contact">View Options <i class="ri-arrow-right-s-line" aria-hidden="true"></i></a>
+              </div>
+            </article>
+            <article class="product-card">
+              <img class="product-card__image" src="assets/cookies.png" alt="Assorted decorated sugar cookies" />
+              <div class="product-card__body">
+                <h3 class="product-card__title">Cookies</h3>
+                <p class="product-card__price">Starting at $25</p>
+                <a class="product-card__link" href="#contact">View Options <i class="ri-arrow-right-s-line" aria-hidden="true"></i></a>
+              </div>
+            </article>
+            <article class="product-card">
+              <img class="product-card__image" src="assets/macarons.png" alt="Colorful French macarons" />
+              <div class="product-card__body">
+                <h3 class="product-card__title">Macarons</h3>
+                <p class="product-card__price">Starting at $25</p>
+                <a class="product-card__link" href="#contact">View Options <i class="ri-arrow-right-s-line" aria-hidden="true"></i></a>
+              </div>
+            </article>
+            <article class="product-card">
+              <img class="product-card__image" src="assets/dessert-table.png" alt="Beautiful dessert table spread" />
+              <div class="product-card__body">
+                <h3 class="product-card__title">Dessert Tables</h3>
+                <p class="product-card__price">Starting at $250</p>
+                <a class="product-card__link" href="#contact">View Options <i class="ri-arrow-right-s-line" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="about__grid page-shell">
+          <div class="about__media">
+            <img class="about__image" src="assets/about-founder.png" alt="tasteNsee founder decorating a cake" />
+          </div>
+          <div class="about__content">
+            <p class="eyebrow">About tasteNsee</p>
+            <h2 class="section-heading__title">More Than Just Cakes</h2>
+            <p class="about__text">
+              I'm a certified cake designer, registered nurse, and passionate home baker with over 10 years of
+              experience.
+            </p>
+            <p class="about__text">
+              Baking is my way of connecting, creating joy, and making every moment sweeter. Every cake is a blend
+              of professional care, thoughtful touch, and love for celebration.
+            </p>
+            <ul class="about__features">
+              <li class="about__feature"><i class="ri-palette-line" aria-hidden="true"></i> Custom Designs</li>
+              <li class="about__feature"><i class="ri-cake-3-line" aria-hidden="true"></i> Inclusive &amp; Creative Workshops</li>
+              <li class="about__feature"><i class="ri-restaurant-2-line" aria-hidden="true"></i> Made with Premium Ingredients</li>
+              <li class="about__feature"><i class="ri-alarm-line" aria-hidden="true"></i> Reliable &amp; On-Time Service</li>
+              <li class="about__feature"><i class="ri-user-heart-line" aria-hidden="true"></i> Nurse &amp; Cake Designer</li>
+              <li class="about__feature"><i class="ri-service-line" aria-hidden="true"></i> Passionate &amp; Detail-Oriented</li>
+            </ul>
+            <a class="button button--outline" href="about.html">Learn Our Story</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section workshops" id="workshops">
+        <div class="workshops__grid page-shell">
+          <div class="workshops__content">
+            <p class="eyebrow">What's Happening</p>
+            <h2 class="section-heading__title">Creative Edible Arts Workshops</h2>
+            <p class="workshops__text">
+              Fun, engaging, and inclusive workshops for kids of all abilities—especially tailored for children
+              with special needs.
+            </p>
+            <a class="button button--solid" href="#events">View Workshops</a>
+          </div>
+          <div class="workshops__media">
+            <a class="text-link workshops__more" href="#events">View More Workshops <i class="ri-arrow-right-s-line" aria-hidden="true"></i></a>
+            <img class="workshops__image" src="assets/workshop.png" alt="Kids enjoying a cake decorating workshop" />
+            <button class="workshops__previous" type="button"><i class="ri-arrow-left-s-line" aria-hidden="true"></i> View Previous Workshops</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--mint events" id="events">
+        <div class="page-shell">
+          <div class="section-heading section-heading--row">
+            <div>
+              <p class="eyebrow">Inspire. Create. Belong.</p>
+              <h2 class="section-heading__title">Events</h2>
+            </div>
+            <a class="text-link" href="#events">View More Events <i class="ri-arrow-right-s-line" aria-hidden="true"></i></a>
+          </div>
+          <div class="events__grid">
+            <article class="event-card">
+              <div class="event-card__date"><span>SEP</span><strong>10</strong></div>
+              <div class="event-card__content">
+                <h3 class="event-card__title">Community Open House</h3>
+                <p class="event-card__detail"><i class="ri-map-pin-line" aria-hidden="true"></i> Royal Oak Community Hall, Calgary</p>
+                <p class="event-card__detail"><i class="ri-time-line" aria-hidden="true"></i> 11:00 AM</p>
+                <a class="event-card__link" href="#contact">Learn More <i class="ri-arrow-right-s-line" aria-hidden="true"></i></a>
+              </div>
+            </article>
+            <article class="event-card">
+              <div class="event-card__date"><span>SEP</span><strong>25</strong></div>
+              <div class="event-card__content">
+                <h3 class="event-card__title">Creative Kids Workshop</h3>
+                <p class="event-card__detail"><i class="ri-map-pin-line" aria-hidden="true"></i> Airdrie Community Centre</p>
+                <p class="event-card__detail"><i class="ri-time-line" aria-hidden="true"></i> 2:00 PM</p>
+                <a class="event-card__link" href="#contact">Learn More <i class="ri-arrow-right-s-line" aria-hidden="true"></i></a>
+              </div>
+            </article>
+            <article class="event-card">
+              <div class="event-card__date"><span>JUN</span><strong>28</strong></div>
+              <div class="event-card__content">
+                <h3 class="event-card__title">Family Fun Day</h3>
+                <p class="event-card__detail"><i class="ri-map-pin-line" aria-hidden="true"></i> Christmas Market 2026 at Mahogany, SE, AB</p>
+                <p class="event-card__detail"><i class="ri-time-line" aria-hidden="true"></i> 7:00 PM</p>
+                <a class="event-card__link" href="#contact">Learn More <i class="ri-arrow-right-s-line" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section journal" id="journal">
+        <div class="page-shell">
+          <div class="section-heading section-heading--row">
+            <div>
+              <p class="eyebrow">Inspire. Create. Belong.</p>
+              <h2 class="section-heading__title">Blogs</h2>
+            </div>
+            <a class="text-link" href="#journal">View Calendar <i class="ri-arrow-right-s-line" aria-hidden="true"></i></a>
+          </div>
+          <div class="journal__grid">
+            <article class="blog-card">
+              <div class="blog-card__media">
+                <img class="blog-card__image" src="assets/blog-fall.png" alt="Fall-themed fondant cake workshop" />
+                <span class="blog-card__tag">Beginner</span>
+              </div>
+              <div class="blog-card__body">
+                <h3 class="blog-card__title">Back-to-School Kids Creative Workshop: Decorating a Fall Themed Fondant Cake</h3>
+                <p class="blog-card__excerpt">Foundation skills in reading, writing, and math for young creatives.</p>
+                <a class="button button--outline button--compact" href="#contact">Learn More <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
+              </div>
+            </article>
+            <article class="blog-card">
+              <div class="blog-card__media">
+                <img class="blog-card__image" src="assets/blog-holiday.png" alt="Holiday celebration cake" />
+                <span class="blog-card__tag">Beginner</span>
+              </div>
+              <div class="blog-card__body">
+                <h3 class="blog-card__title">Holiday Celebration &amp; Gathering</h3>
+                <p class="blog-card__excerpt">Foundation skills in reading, writing, and math for young creatives.</p>
+                <a class="button button--outline button--compact" href="#contact">Learn More <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
+              </div>
+            </article>
+            <article class="blog-card">
+              <div class="blog-card__media">
+                <img class="blog-card__image" src="assets/blog-market.png" alt="Pop up market vendor event" />
+                <span class="blog-card__tag">Beginner</span>
+              </div>
+              <div class="blog-card__body">
+                <h3 class="blog-card__title">Pop Up Market Vendor Event</h3>
+                <p class="blog-card__excerpt">Foundation skills in reading, writing, and math for young creatives.</p>
+                <a class="button button--outline button--compact" href="#contact">Learn More <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonials" aria-labelledby="testimonials-title">
+        <div class="page-shell">
+          <div class="section-heading section-heading--center">
+            <p class="eyebrow">Kind Words</p>
+            <h2 class="section-heading__title" id="testimonials-title">What Our Clients Say</h2>
+          </div>
+          <div class="testimonials__viewport">
+            <div class="testimonials__track">
+              <article class="testimonial-card">
+                <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+                  <i class="ri-star-fill" aria-hidden="true"></i><i class="ri-star-fill" aria-hidden="true"></i><i class="ri-star-fill" aria-hidden="true"></i><i class="ri-star-fill" aria-hidden="true"></i><i class="ri-star-fill" aria-hidden="true"></i>
+                </div>
+                <blockquote class="testimonial-card__quote">“The cake was even more beautiful than we imagined! It looked amazing and was the highlight of our celebration.”</blockquote>
+                <div class="testimonial-card__author">
+                  <img class="testimonial-card__avatar" src="assets/avatar-sarah.png" alt="" />
+                  <cite>— Sarah M.</cite>
+                </div>
+              </article>
+              <article class="testimonial-card">
+                <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+                  <i class="ri-star-fill" aria-hidden="true"></i><i class="ri-star-fill" aria-hidden="true"></i><i class="ri-star-fill" aria-hidden="true"></i><i class="ri-star-fill" aria-hidden="true"></i><i class="ri-star-fill" aria-hidden="true"></i>
+                </div>
+                <blockquote class="testimonial-card__quote">“My son loved the workshop! The instructors are so patient and kind. A wonderful experience for the kids!”</blockquote>
+                <div class="testimonial-card__author">
+                  <img class="testimonial-card__avatar" src="assets/avatar-melissa.png" alt="" />
+                  <cite>— Melissa T.</cite>
+                </div>
+              </article>
+              <article class="testimonial-card">
+                <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+                  <i class="ri-star-fill" aria-hidden="true"></i><i class="ri-star-fill" aria-hidden="true"></i><i class="ri-star-fill" aria-hidden="true"></i><i class="ri-star-fill" aria-hidden="true"></i><i class="ri-star-fill" aria-hidden="true"></i>
+                </div>
+                <blockquote class="testimonial-card__quote">“Professional, creative, and so easy to work with. We always order from tasteNsee for every occasion!”</blockquote>
+                <div class="testimonial-card__author">
+                  <img class="testimonial-card__avatar" src="assets/avatar-janice.png" alt="" />
+                  <cite>— Janice R.</cite>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="testimonials__dots" aria-label="Testimonial navigation">
+            <button class="testimonials__dot testimonials__dot--active" type="button" aria-label="Show testimonial 1"></button>
+            <button class="testimonials__dot" type="button" aria-label="Show testimonial 2"></button>
+            <button class="testimonials__dot" type="button" aria-label="Show testimonial 3"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--mint instagram" id="instagram">
+        <div class="page-shell">
+          <div class="section-heading section-heading--row section-heading--compact">
+            <div>
+              <h2 class="instagram__title">Follow Our Sweet Creations</h2>
+              <p class="eyebrow">@tastensee82</p>
+            </div>
+            <a class="text-link" href="#instagram">Follow Us on Instagram <i class="ri-arrow-right-s-line" aria-hidden="true"></i></a>
+          </div>
+          <div class="instagram__grid">
+            <img class="instagram__image" src="assets/instagram-1.png" alt="Chocolate cake creation" />
+            <img class="instagram__image" src="assets/instagram-2.png" alt="Cupcake creation" />
+            <img class="instagram__image" src="assets/instagram-3.png" alt="Chocolate drip cake" />
+            <img class="instagram__image" src="assets/instagram-4.png" alt="Decorated celebration cake" />
+            <img class="instagram__image" src="assets/instagram-5.png" alt="Colorful custom cake" />
+            <img class="instagram__image" src="assets/instagram-6.png" alt="Dessert platter" />
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter" aria-labelledby="newsletter-title">
+        <div class="newsletter__inner page-shell">
+          <div class="newsletter__intro">
+            <span class="newsletter__icon" aria-hidden="true"><img src="assets/icon-mail.svg" alt="" /></span>
+            <div>
+              <h2 class="newsletter__title" id="newsletter-title">Let's Stay in Touch!</h2>
+              <p class="newsletter__text">Get baking tips, workshop updates, and special offers straight to your inbox.</p>
+            </div>
+          </div>
+          <form class="newsletter__form" novalidate>
+            <label class="sr-only" for="newsletter-email">Your email address</label>
+            <input class="newsletter__input" id="newsletter-email" name="email" type="email" placeholder="Your email address" required />
+            <button class="button button--solid newsletter__submit" type="submit">Subscribe</button>
+            <p class="newsletter__message" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="site-footer__inner page-shell">
+        <div class="site-footer__grid">
+          <div class="site-footer__brand-column">
+            <img class="site-footer__logo" src="assets/logo-footer.svg" alt="tasteNsee" />
+            <p class="site-footer__summary">Custom cakes &amp; desserts, kids creative workshop, dessert tables</p>
+            <div class="site-footer__socials">
+              <a class="site-footer__social" href="#instagram" aria-label="Instagram"><img src="assets/icon-instagram.svg" alt="" /></a>
+              <a class="site-footer__social" href="#contact" aria-label="Facebook"><img src="assets/icon-facebook.svg" alt="" /></a>
+            </div>
+          </div>
+
+          <nav class="site-footer__column" aria-label="Footer quick links">
+            <h2 class="site-footer__heading">Quick Links</h2>
+            <a href="#home">Home</a>
+            <a href="about.html">About</a>
+            <a href="#cakes">Cakes</a>
+            <a href="#workshops">Workshops</a>
+            <a href="#events">Events</a>
+          </nav>
+
+          <nav class="site-footer__column" aria-label="Customer care links">
+            <h2 class="site-footer__heading">Customer Care</h2>
+            <a href="#contact">FAQ</a>
+            <a href="#contact">Ordering &amp; Pricing</a>
+            <a href="#contact">Payment &amp; Delivery</a>
+            <a href="#contact">Returns &amp; Refunds</a>
+            <a href="#contact">Contact Us</a>
+          </nav>
+
+          <div class="site-footer__column">
+            <h2 class="site-footer__heading">Contact Us</h2>
+            <a href="tel:+12041234567">(204) 123-4567</a>
+            <a href="mailto:tastensee82@gmail.com">tastensee82@gmail.com</a>
+            <address class="site-footer__address">1-204-963-8496 at 270 Sora Way SE<br />Calgary AB</address>
+            <h2 class="site-footer__heading site-footer__heading--spaced">Business Hours</h2>
+            <p class="site-footer__hours">Mon – Fri: 10:00 AM – 6:00 PM<br />Sat: 10:00 AM – 4:00 PM<br />Sun: Closed</p>
+          </div>
+        </div>
+
+        <div class="site-footer__bottom">
+          <p>© <span data-current-year>2024</span> tasteNsee Cakes &amp; Desserts. All Rights Reserved.</p>
+          <div class="site-footer__legal">
+            <a href="#contact">Privacy Policy</a>
+            <span aria-hidden="true">|</span>
+            <a href="#contact">Terms &amp; Conditions</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

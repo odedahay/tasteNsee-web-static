@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Browse tasteNsee's gallery of custom wedding, birthday, character, fondant, cupcake, and dessert creations."
+    />
+    <title>Cake Gallery | tasteNsee Cakes &amp; Desserts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&amp;family=Nunito:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="gallery-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" id="home">
+      <div class="site-header__inner page-shell">
+        <a class="site-header__brand" href="index.html" aria-label="tasteNsee home">
+          <img class="site-header__logo" src="assets/logo.svg" alt="tasteNsee" />
+        </a>
+
+        <button
+          class="site-header__menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Open navigation"
+        >
+          <span class="site-header__menu-line"></span>
+          <span class="site-header__menu-line"></span>
+          <span class="site-header__menu-line"></span>
+        </button>
+
+        <nav class="site-header__nav" id="primary-navigation" aria-label="Primary navigation">
+          <a class="site-header__nav-link" href="index.html">Home</a>
+          <a class="site-header__nav-link" href="index.html#cakes">Cakes</a>
+          <div class="site-header__dropdown">
+            <button
+              class="site-header__nav-link site-header__nav-link--active site-header__dropdown-toggle"
+              type="button"
+              aria-expanded="false"
+            >
+              More <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
+            </button>
+            <div class="site-header__dropdown-menu">
+              <a class="site-header__dropdown-link site-header__dropdown-link--active" href="gallery.html" aria-current="page">Gallery</a>
+              <a class="site-header__dropdown-link" href="index.html#workshops">Workshops</a>
+              <a class="site-header__dropdown-link" href="index.html#events">Events</a>
+              <a class="site-header__dropdown-link" href="index.html#journal">Blog</a>
+            </div>
+          </div>
+          <a class="site-header__nav-link" href="about.html">About Me</a>
+          <a class="site-header__nav-link" href="#contact">Contact</a>
+        </nav>
+
+        <div class="site-header__actions">
+          <a class="site-header__social" href="index.html#instagram" aria-label="Instagram"><i class="ri-instagram-line" aria-hidden="true"></i></a>
+          <a class="site-header__social" href="#contact" aria-label="Facebook"><i class="ri-facebook-fill" aria-hidden="true"></i></a>
+          <a class="button button--small button--solid" href="#contact">Inquire Now</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="gallery-hero" aria-labelledby="gallery-title">
+        <div class="gallery-hero__glow gallery-hero__glow--purple" aria-hidden="true"></div>
+        <div class="gallery-hero__glow gallery-hero__glow--green" aria-hidden="true"></div>
+        <div class="gallery-hero__inner page-shell">
+          <div class="gallery-hero__content">
+            <p class="eyebrow">Made with love</p>
+            <h1 class="gallery-hero__title" id="gallery-title">Cake Gallery</h1>
+            <p class="gallery-hero__text">
+              Every cake tells a story. Browse our portfolio of custom creations — from intimate birthday cakes to
+              towering wedding tiers — and find the style that speaks to your celebration.
+            </p>
+          </div>
+          <dl class="gallery-hero__stats" aria-label="Gallery highlights">
+            <div class="gallery-hero__stat">
+              <dt>200+</dt>
+              <dd>Cakes created</dd>
+            </div>
+            <div class="gallery-hero__stat">
+              <dt>5 ★</dt>
+              <dd>Average rating</dd>
+            </div>
+            <div class="gallery-hero__stat">
+              <dt>100%</dt>
+              <dd>Custom made</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="gallery-catalog" aria-label="Cake gallery collection">
+        <div class="gallery-catalog__inner page-shell">
+          <div class="gallery-catalog__results">
+            <p class="gallery-catalog__count" aria-live="polite">Showing <strong data-gallery-count>26</strong> cakes</p>
+            <div class="gallery-grid">
+              <figure class="gallery-card" data-category="wedding">
+                <img class="gallery-card__image" src="assets/gallery-ivory-rose-tier.png" alt="Ivory tiered wedding cake decorated with roses" />
+                <figcaption class="gallery-card__tag gallery-card__tag--wedding">Wedding &amp; Tiered</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="wedding">
+                <img class="gallery-card__image" src="assets/gallery-pink-floral-dream.png" alt="Pink floral tiered wedding cake" />
+                <figcaption class="gallery-card__tag gallery-card__tag--wedding">Wedding &amp; Tiered</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="wedding">
+                <img class="gallery-card__image" src="assets/gallery-white-four-tier-classic.png" alt="Classic white four-tier wedding cake" />
+                <figcaption class="gallery-card__tag gallery-card__tag--wedding">Wedding &amp; Tiered</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="wedding">
+                <img class="gallery-card__image" src="assets/gallery-fondant-four-layer.png" alt="Four-layer fondant wedding cake" />
+                <figcaption class="gallery-card__tag gallery-card__tag--wedding">Wedding &amp; Tiered</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="wedding">
+                <img class="gallery-card__image" src="assets/gallery-pink-rose-garden.png" alt="Wedding cake surrounded by pink roses" />
+                <figcaption class="gallery-card__tag gallery-card__tag--wedding">Wedding &amp; Tiered</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="wedding">
+                <img class="gallery-card__image" src="assets/gallery-three-tier-fondant.png" alt="Three-tier white fondant wedding cake" />
+                <figcaption class="gallery-card__tag gallery-card__tag--wedding">Wedding &amp; Tiered</figcaption>
+              </figure>
+
+              <figure class="gallery-card" data-category="birthday">
+                <img class="gallery-card__image" src="assets/gallery-chocolate-rose-birthday.png" alt="Chocolate birthday cake with piped roses" />
+                <figcaption class="gallery-card__tag gallery-card__tag--birthday">Birthday</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="birthday">
+                <img class="gallery-card__image" src="assets/gallery-sparkling-celebration.png" alt="Sparkling celebration birthday cake" />
+                <figcaption class="gallery-card__tag gallery-card__tag--birthday">Birthday</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="birthday">
+                <img class="gallery-card__image" src="assets/gallery-strawberry-delight.png" alt="Strawberry-topped birthday cake" />
+                <figcaption class="gallery-card__tag gallery-card__tag--birthday">Birthday</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="birthday">
+                <img class="gallery-card__image" src="assets/gallery-candle-wish-cake.png" alt="Birthday cake topped with glowing candles" />
+                <figcaption class="gallery-card__tag gallery-card__tag--birthday">Birthday</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="birthday">
+                <img class="gallery-card__image" src="assets/gallery-tropical-floral-burst.png" alt="Tropical floral birthday cake" />
+                <figcaption class="gallery-card__tag gallery-card__tag--birthday">Birthday</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="birthday">
+                <img class="gallery-card__image" src="assets/gallery-gold-white-elegance.png" alt="Gold and white elegant birthday cake" />
+                <figcaption class="gallery-card__tag gallery-card__tag--birthday">Birthday</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="birthday">
+                <img class="gallery-card__image" src="assets/gallery-rainbow-birthday-pop.png" alt="Colorful rainbow birthday cake" />
+                <figcaption class="gallery-card__tag gallery-card__tag--birthday">Birthday</figcaption>
+              </figure>
+
+              <figure class="gallery-card" data-category="kids">
+                <img class="gallery-card__image" src="assets/gallery-hello-kitty-dream.png" alt="Hello Kitty character cake" />
+                <figcaption class="gallery-card__tag gallery-card__tag--kids">Kids &amp; Characters</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="kids">
+                <img class="gallery-card__image" src="assets/gallery-piggy-character-cake.png" alt="Pink pig character cake" />
+                <figcaption class="gallery-card__tag gallery-card__tag--kids">Kids &amp; Characters</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="kids">
+                <img class="gallery-card__image" src="assets/gallery-three-tier-candle-cake.png" alt="Three-tier character birthday cake" />
+                <figcaption class="gallery-card__tag gallery-card__tag--kids">Kids &amp; Characters</figcaption>
+              </figure>
+
+              <figure class="gallery-card" data-category="fondant">
+                <img class="gallery-card__image" src="assets/gallery-macaroon-crown-cake.png" alt="Custom fondant cake with a macaron crown" />
+                <figcaption class="gallery-card__tag gallery-card__tag--fondant">Fondant &amp; Custom</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="fondant">
+                <img class="gallery-card__image" src="assets/gallery-berry-cream-tier.png" alt="Berry and cream custom tiered cake" />
+                <figcaption class="gallery-card__tag gallery-card__tag--fondant">Fondant &amp; Custom</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="fondant">
+                <img class="gallery-card__image" src="assets/gallery-slice-reveal.png" alt="Custom cake with a slice revealing its layers" />
+                <figcaption class="gallery-card__tag gallery-card__tag--fondant">Fondant &amp; Custom</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="fondant">
+                <img class="gallery-card__image" src="assets/gallery-fruit-topped-creation.png" alt="Custom cake topped with fresh fruit" />
+                <figcaption class="gallery-card__tag gallery-card__tag--fondant">Fondant &amp; Custom</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="fondant">
+                <img class="gallery-card__image" src="assets/gallery-rustic-naked-tier.png" alt="Rustic naked custom tiered cake" />
+                <figcaption class="gallery-card__tag gallery-card__tag--fondant">Fondant &amp; Custom</figcaption>
+              </figure>
+
+              <figure class="gallery-card" data-category="sweets">
+                <img class="gallery-card__image" src="assets/gallery-classic-star-cake.png" alt="Classic star-decorated cake" />
+                <figcaption class="gallery-card__tag gallery-card__tag--sweets">Cupcakes &amp; Sweets</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="sweets">
+                <img class="gallery-card__image" src="assets/gallery-cupcake-display.png" alt="Display of decorated cupcakes" />
+                <figcaption class="gallery-card__tag gallery-card__tag--sweets">Cupcakes &amp; Sweets</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="sweets">
+                <img class="gallery-card__image" src="assets/gallery-royal-icing-cookies.png" alt="Royal icing decorated cookies" />
+                <figcaption class="gallery-card__tag gallery-card__tag--sweets">Cupcakes &amp; Sweets</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="sweets">
+                <img class="gallery-card__image" src="assets/gallery-macaron-selection.png" alt="Colorful selection of macarons" />
+                <figcaption class="gallery-card__tag gallery-card__tag--sweets">Cupcakes &amp; Sweets</figcaption>
+              </figure>
+              <figure class="gallery-card" data-category="sweets">
+                <img class="gallery-card__image" src="assets/gallery-fondant-topped-cupcakes.png" alt="Cupcakes with custom fondant toppers" />
+                <figcaption class="gallery-card__tag gallery-card__tag--sweets">Cupcakes &amp; Sweets</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <aside class="gallery-sidebar" aria-label="Gallery categories and actions">
+            <div class="gallery-sidebar__heading">
+              <span>Browse by</span>
+              <strong>Category</strong>
+            </div>
+            <div class="gallery-sidebar__filters" role="group" aria-label="Filter gallery by category">
+              <button class="gallery-filter gallery-filter--active" type="button" data-gallery-filter="all" aria-pressed="true">
+                <span class="gallery-filter__label"><i class="ri-apps-2-line" aria-hidden="true"></i>All</span>
+                <span class="gallery-filter__count">26 <i class="ri-arrow-right-s-line" aria-hidden="true"></i></span>
+              </button>
+              <button class="gallery-filter" type="button" data-gallery-filter="wedding" aria-pressed="false">
+                <span class="gallery-filter__label"><i class="ri-cake-3-line" aria-hidden="true"></i>Wedding &amp; Tiered</span>
+                <span class="gallery-filter__count">6</span>
+              </button>
+              <button class="gallery-filter" type="button" data-gallery-filter="birthday" aria-pressed="false">
+                <span class="gallery-filter__label"><i class="ri-gift-line" aria-hidden="true"></i>Birthday</span>
+                <span class="gallery-filter__count">7</span>
+              </button>
+              <button class="gallery-filter" type="button" data-gallery-filter="kids" aria-pressed="false">
+                <span class="gallery-filter__label"><i class="ri-bear-smile-line" aria-hidden="true"></i>Kids &amp; Characters</span>
+                <span class="gallery-filter__count">3</span>
+              </button>
+              <button class="gallery-filter" type="button" data-gallery-filter="fondant" aria-pressed="false">
+                <span class="gallery-filter__label"><i class="ri-palette-line" aria-hidden="true"></i>Fondant &amp; Custom</span>
+                <span class="gallery-filter__count">5</span>
+              </button>
+              <button class="gallery-filter" type="button" data-gallery-filter="sweets" aria-pressed="false">
+                <span class="gallery-filter__label"><i class="ri-cup-line" aria-hidden="true"></i>Cupcakes &amp; Sweets</span>
+                <span class="gallery-filter__count">5</span>
+              </button>
+            </div>
+            <div class="gallery-sidebar__actions">
+              <h2>Quick actions</h2>
+              <a class="gallery-sidebar__button gallery-sidebar__button--primary" href="#contact">Order a Custom Cake</a>
+              <a class="gallery-sidebar__button gallery-sidebar__button--outline" href="#contact">Inquire Now</a>
+              <a class="gallery-sidebar__question" href="#contact">Ask a question <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
+            </div>
+            <dl class="gallery-sidebar__stats">
+              <div><dt>200+</dt><dd>Cakes made</dd></div>
+              <div><dt>5 ★</dt><dd>Rating</dd></div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section class="gallery-cta" aria-labelledby="gallery-cta-title">
+        <div class="gallery-cta__inner page-shell">
+          <div class="gallery-cta__top">
+            <div class="gallery-cta__content">
+              <p class="gallery-cta__eyebrow">Your vision, our craft</p>
+              <h2 class="gallery-cta__title" id="gallery-cta-title">Love what you see? Let’s create yours.</h2>
+              <p class="gallery-cta__text">
+                Every cake in this gallery started with a conversation. Tell us about your occasion, your flavours,
+                and your dream design — we’ll bring it to life.
+              </p>
+            </div>
+            <div class="gallery-cta__actions">
+              <a class="gallery-cta__button gallery-cta__button--primary" href="#contact">Start Your Custom Order</a>
+              <a class="gallery-cta__button gallery-cta__button--outline" href="index.html#workshops">Browse Workshops</a>
+            </div>
+          </div>
+          <ul class="gallery-cta__features">
+            <li><i class="ri-cake-3-line" aria-hidden="true"></i>200+ custom cakes made</li>
+            <li><i class="ri-star-fill" aria-hidden="true"></i>5-star rated by clients</li>
+            <li><i class="ri-map-pin-2-line" aria-hidden="true"></i>Serving Calgary &amp; area</li>
+            <li><i class="ri-brush-line" aria-hidden="true"></i>Collaborative design process</li>
+            <li><i class="ri-heart-3-line" aria-hidden="true"></i>Inclusive &amp; accommodating</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="gallery-extras" aria-labelledby="gallery-extras-title">
+        <div class="gallery-extras__inner page-shell">
+          <div class="gallery-extras__heading">
+            <div>
+              <p class="gallery-extras__eyebrow">More than cakes</p>
+              <h2 class="gallery-extras__title" id="gallery-extras-title">Dessert Tables &amp; Sweets</h2>
+            </div>
+            <a class="gallery-extras__link" href="index.html#events">View upcoming events <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
+          </div>
+          <div class="gallery-extras__grid">
+            <article class="gallery-extra-card">
+              <img class="gallery-extra-card__image" src="assets/gallery-dessert-tables.png" alt="Styled dessert table for a celebration" />
+              <div class="gallery-extra-card__overlay"></div>
+              <div class="gallery-extra-card__content">
+                <h3>Dessert Tables</h3>
+                <p>Full styled setups for parties &amp; celebrations</p>
+              </div>
+            </article>
+            <article class="gallery-extra-card">
+              <img class="gallery-extra-card__image" src="assets/gallery-cake-sculpting.png" alt="Custom sculpted cake project" />
+              <div class="gallery-extra-card__overlay"></div>
+              <div class="gallery-extra-card__content">
+                <h3>Cake Sculpting</h3>
+                <p>3D carved masterpieces for any occasion</p>
+              </div>
+            </article>
+            <article class="gallery-extra-card">
+              <img class="gallery-extra-card__image" src="assets/gallery-cookie-sets.png" alt="Decorated royal icing cookie sets" />
+              <div class="gallery-extra-card__overlay"></div>
+              <div class="gallery-extra-card__content">
+                <h3>Cookie Sets</h3>
+                <p>Royal icing cookies boxed as gifts</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="site-footer__inner page-shell">
+        <div class="site-footer__grid">
+          <div class="site-footer__brand-column">
+            <img class="site-footer__logo" src="assets/logo-footer.svg" alt="tasteNsee" />
+            <p class="site-footer__summary">Custom cakes &amp; desserts, kids creative workshop, dessert tables</p>
+            <div class="site-footer__socials">
+              <a class="site-footer__social" href="index.html#instagram" aria-label="Instagram"><img src="assets/icon-instagram.svg" alt="" /></a>
+              <a class="site-footer__social" href="#contact" aria-label="Facebook"><img src="assets/icon-facebook.svg" alt="" /></a>
+            </div>
+          </div>
+
+          <nav class="site-footer__column" aria-label="Footer quick links">
+            <h2 class="site-footer__heading">Quick Links</h2>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="index.html#cakes">Cakes</a>
+            <a href="index.html#workshops">Workshops</a>
+            <a href="index.html#events">Events</a>
+          </nav>
+
+          <nav class="site-footer__column" aria-label="Customer care links">
+            <h2 class="site-footer__heading">Customer Care</h2>
+            <a href="#contact">FAQ</a>
+            <a href="#contact">Ordering &amp; Pricing</a>
+            <a href="#contact">Payment &amp; Delivery</a>
+            <a href="#contact">Returns &amp; Refunds</a>
+            <a href="#contact">Contact Us</a>
+          </nav>
+
+          <div class="site-footer__column">
+            <h2 class="site-footer__heading">Contact Us</h2>
+            <a href="tel:+12041234567">(204) 123-4567</a>
+            <a href="mailto:tastensee82@gmail.com">tastensee82@gmail.com</a>
+            <address class="site-footer__address">1-204-963-8496 at 270 Sora Way SE<br />Calgary AB</address>
+            <h2 class="site-footer__heading site-footer__heading--spaced">Business Hours</h2>
+            <p class="site-footer__hours">Mon – Fri: 10:00 AM – 6:00 PM<br />Sat: 10:00 AM – 4:00 PM<br />Sun: Closed</p>
+          </div>
+        </div>
+
+        <div class="site-footer__bottom">
+          <p>© <span data-current-year>2024</span> tasteNsee Cakes &amp; Desserts. All Rights Reserved.</p>
+          <div class="site-footer__legal">
+            <a href="#contact">Privacy Policy</a>
+            <span aria-hidden="true">|</span>
+            <a href="#contact">Terms &amp; Conditions</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
