@@ -4279,3 +4279,615 @@ textarea:focus-visible {
     margin-top: 40px;
   }
 }
+
+/* Workshop registration page */
+
+.workshop-registration {
+  min-height: 1960px;
+  background: var(--color-mint);
+}
+
+.workshop-registration__inner {
+  width: min(calc(100% - (var(--page-gutter) * 2)), 1200px);
+  min-height: 1960px;
+  margin-inline: auto;
+  padding: 40px 24px 69px;
+}
+
+.workshop-registration__heading {
+  height: 159px;
+  padding-top: 36px;
+  text-align: center;
+}
+
+.workshop-registration__title {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 55px;
+}
+
+.workshop-registration__intro {
+  margin: 12px 0 0;
+  color: rgba(26, 26, 26, 0.55);
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.workshop-registration__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 740px) minmax(0, 380px);
+  align-items: start;
+  gap: 32px;
+}
+
+.registration-form {
+  overflow: hidden;
+  background: var(--color-white);
+  border: 1px solid var(--color-line);
+  border-radius: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form__header {
+  height: 104px;
+  padding: 24px 32px;
+  color: var(--color-white);
+  background: var(--color-purple);
+}
+
+.registration-form__title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 33px;
+}
+
+.registration-form__subtitle {
+  margin: 2px 0 0;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.registration-form__body {
+  padding: 28px 32px 0;
+}
+
+.registration-form__field {
+  min-width: 0;
+}
+
+.registration-form__field--spaced {
+  padding-bottom: 20px;
+}
+
+.registration-form__field--top-gap {
+  padding-top: 16px;
+}
+
+.registration-form__field--section-gap {
+  padding-top: 28px;
+}
+
+.registration-form__row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.registration-form__label,
+.registration-form__label-row {
+  min-height: 29px;
+  padding-bottom: 8px;
+}
+
+.registration-form__label {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.registration-form__label span,
+.registration-form__media-consent legend span {
+  color: #c2185b;
+}
+
+.registration-form__label-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.registration-form__label-row .registration-form__label {
+  min-height: 0;
+  padding: 0;
+}
+
+.registration-form__counter {
+  flex: 0 0 auto;
+  color: rgba(26, 26, 26, 0.3);
+  font-size: 11px;
+  line-height: 16.5px;
+}
+
+.registration-form__control {
+  width: 100%;
+  height: 49px;
+  padding: 12px 16px;
+  color: var(--color-ink);
+  background: var(--color-white);
+  border: 2px solid var(--color-line);
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 21px;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.registration-form__control::placeholder {
+  color: rgba(26, 26, 26, 0.3);
+  opacity: 1;
+}
+
+.registration-form__control:hover {
+  border-color: #a8c886;
+}
+
+.registration-form__control:focus {
+  border-color: var(--color-purple-light);
+  box-shadow: 0 0 0 3px rgba(176, 141, 227, 0.12);
+}
+
+.registration-form__textarea {
+  display: block;
+  resize: vertical;
+}
+
+.registration-form__textarea--medical {
+  height: 100px;
+}
+
+.registration-form__textarea--message {
+  height: 133px;
+}
+
+.registration-form__section-title {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  margin: 0;
+  padding-bottom: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.registration-form__select-wrap {
+  position: relative;
+  padding-top: 8px;
+}
+
+.registration-form__select {
+  appearance: none;
+  padding-right: 44px;
+  cursor: pointer;
+}
+
+.registration-form__select-wrap > i {
+  position: absolute;
+  top: calc(50% + 4px);
+  right: 12px;
+  color: var(--color-purple-light);
+  font-size: 18px;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+.registration-form__divider {
+  height: 1px;
+  margin-top: 28px;
+  background: var(--color-mint);
+}
+
+.registration-form__field--message {
+  padding-bottom: 34px;
+}
+
+.registration-form__consent,
+.registration-form__media-option {
+  position: relative;
+  display: grid;
+  grid-template-columns: 26px minmax(0, 1fr);
+  align-items: start;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.registration-form__consent--spaced {
+  padding-top: 28px;
+}
+
+.registration-form__consent > input,
+.registration-form__media-option > input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.registration-form__check {
+  display: grid;
+  width: 26px;
+  height: 25px;
+  place-items: center;
+  color: transparent;
+  background: var(--color-white);
+  border: 1px solid #838383;
+  font-size: 16px;
+  transition: color 160ms ease, background-color 160ms ease, border-color 160ms ease;
+}
+
+.registration-form__consent > input:focus-visible + .registration-form__check,
+.registration-form__media-option > input:focus-visible + .registration-form__check {
+  outline: 3px solid rgba(249, 83, 181, 0.38);
+  outline-offset: 3px;
+}
+
+.registration-form__consent > input:checked + .registration-form__check,
+.registration-form__media-option > input:checked + .registration-form__check {
+  color: var(--color-white);
+  background: var(--color-purple);
+  border-color: var(--color-purple);
+}
+
+.registration-form__consent-copy strong {
+  display: block;
+  font-size: 13px;
+  line-height: 19.5px;
+}
+
+.registration-form__consent-copy small {
+  display: block;
+  padding-top: 2px;
+  font-size: 12px;
+  line-height: 16.5px;
+}
+
+.registration-form__consent-copy a {
+  text-decoration: underline;
+}
+
+.registration-form__media-consent {
+  margin: 28px 0 0;
+  padding: 0;
+  border: 0;
+}
+
+.registration-form__media-consent legend {
+  padding: 0;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19.5px;
+}
+
+.registration-form__media-consent > p {
+  margin: 2px 0 0;
+  font-size: 12px;
+  line-height: 16.5px;
+}
+
+.registration-form__media-option {
+  padding-top: 10px;
+  font-size: 12px;
+  line-height: 16.5px;
+}
+
+.registration-form__submit {
+  display: flex;
+  width: 100%;
+  height: 58px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 28px;
+  padding: 16px;
+  color: var(--color-white);
+  background: var(--color-purple);
+  border: 0;
+  border-radius: 999px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 25.5px;
+  transition: background-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.registration-form__submit:hover {
+  background: #6c45b4;
+  box-shadow: 0 10px 24px rgba(125, 87, 194, 0.22);
+  transform: translateY(-1px);
+}
+
+.registration-form__submit i {
+  font-size: 14px;
+}
+
+.registration-form__status {
+  min-height: 28px;
+  margin: 0;
+  padding-top: 7px;
+  color: var(--color-muted);
+  font-size: 13px;
+  text-align: center;
+}
+
+.registration-form__footer {
+  display: flex;
+  min-height: 53px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 16px 32px;
+  color: rgba(26, 26, 26, 0.45);
+  background: #f9fdf5;
+  border-top: 1px solid var(--color-mint);
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.registration-form__contact {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 0;
+  font-style: normal;
+}
+
+.registration-form__contact a,
+.registration-form__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.registration-form__contact a:hover,
+.registration-form__back:hover {
+  color: var(--color-purple);
+}
+
+.registration-form__contact i {
+  font-size: 14px;
+}
+
+.registration-form__back {
+  font-size: 12px;
+}
+
+.workshop-registration__aside {
+  min-width: 0;
+}
+
+.studio-card--workshop {
+  margin-top: 20px;
+}
+
+.workshop-host {
+  display: grid;
+  grid-template-columns: 80px minmax(0, 1fr);
+  gap: 16px;
+  min-height: 302px;
+  margin-top: 20px;
+  padding: 20px;
+  background: var(--color-white);
+  border: 1px solid var(--color-line);
+  border-radius: 24px;
+}
+
+.workshop-host__image {
+  width: 80px;
+  height: 95px;
+  object-fit: cover;
+  border: 2px solid #c4a4eb;
+  border-radius: 16px;
+}
+
+.workshop-host__content {
+  min-width: 0;
+}
+
+.workshop-host__eyebrow {
+  margin: 0;
+  color: var(--color-pink);
+  font-family: "Caveat", cursive;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.workshop-host__name {
+  margin: 2px 0 0;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px;
+}
+
+.workshop-host__role {
+  margin: 2px 0 0;
+  color: var(--color-purple);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.workshop-host__description {
+  margin: 8px 0 0;
+  color: rgba(26, 26, 26, 0.65);
+  font-size: 12px;
+  line-height: 19.5px;
+}
+
+.workshop-host__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 5px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.workshop-host__tags li {
+  padding: 2px 10px;
+  color: var(--color-muted);
+  background: var(--color-mint);
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  font-size: 11px;
+  line-height: 16.5px;
+  white-space: nowrap;
+}
+
+@media (max-width: 1180px) {
+  .workshop-registration__layout {
+    grid-template-columns: minmax(0, 1fr) 350px;
+    gap: 24px;
+  }
+
+  .registration-form__contact {
+    flex-wrap: wrap;
+    gap: 6px 18px;
+  }
+
+  .registration-form__footer {
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 920px) {
+  .workshop-registration {
+    min-height: 0;
+  }
+
+  .workshop-registration__inner {
+    min-height: 0;
+    padding-inline: 0;
+  }
+
+  .workshop-registration__layout {
+    grid-template-columns: 1fr;
+  }
+
+  .workshop-registration__aside {
+    display: grid;
+    grid-template-columns: minmax(300px, 0.9fr) minmax(0, 1.1fr);
+    align-items: start;
+    gap: 20px;
+  }
+
+  .workshop-host {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .workshop-registration__inner {
+    padding-top: 28px;
+    padding-bottom: 56px;
+  }
+
+  .workshop-registration__heading {
+    height: auto;
+    padding: 24px 8px 32px;
+  }
+
+  .workshop-registration__title {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .workshop-registration__intro {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .registration-form__row,
+  .workshop-registration__aside {
+    grid-template-columns: 1fr;
+  }
+
+  .registration-form__row {
+    gap: 16px;
+  }
+
+  .registration-form__row + .registration-form__field--top-gap {
+    padding-top: 16px;
+  }
+
+  .registration-form__footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .workshop-host {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .workshop-registration__inner {
+    width: calc(100% - 32px);
+  }
+
+  .registration-form__header,
+  .registration-form__body,
+  .registration-form__footer {
+    padding-inline: 20px;
+  }
+
+  .registration-form__header {
+    height: auto;
+    min-height: 104px;
+  }
+
+  .registration-form__subtitle {
+    line-height: 19px;
+  }
+
+  .registration-form__label-row {
+    align-items: flex-start;
+  }
+
+  .registration-form__label-row .registration-form__label {
+    white-space: normal;
+  }
+
+  .registration-form__contact {
+    display: grid;
+    gap: 8px;
+  }
+
+  .registration-form__consent,
+  .registration-form__media-option {
+    grid-template-columns: 24px minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .registration-form__check {
+    width: 24px;
+    height: 24px;
+  }
+
+  .workshop-host {
+    grid-template-columns: 72px minmax(0, 1fr);
+    padding: 18px;
+  }
+
+  .workshop-host__image {
+    width: 72px;
+    height: 88px;
+  }
+}

@@ -160,3 +160,29 @@ consultationForm?.addEventListener('submit', (event) => {
     consultationMessage.textContent = 'Thank you! Your consultation request is ready to send.';
   }
 });
+
+document.querySelectorAll('[data-character-counter]').forEach((counter) => {
+  const fieldId = counter.dataset.characterCounter;
+  const field = fieldId ? document.getElementById(fieldId) : null;
+
+  field?.addEventListener('input', () => {
+    counter.textContent = `${field.value.length} chars`;
+  });
+});
+
+const registrationForm = document.querySelector('.registration-form');
+const registrationMessage = document.querySelector('[data-registration-message]');
+
+registrationForm?.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  if (!registrationForm.checkValidity()) {
+    registrationForm.reportValidity();
+    if (registrationMessage) registrationMessage.textContent = 'Please complete all required fields and consent choices.';
+    return;
+  }
+
+  if (registrationMessage) {
+    registrationMessage.textContent = 'Thank you! Your workshop registration is ready to send.';
+  }
+});

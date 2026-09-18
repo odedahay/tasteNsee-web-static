@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Register a child for a tasteNsee creative baking workshop in Calgary."
+    />
+    <title>Kids Creative Workshop Registration | tasteNsee</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&amp;family=Nunito:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts/script.js" defer></script>
+  </head>
+  <body class="workshop-registration-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" id="home">
+      <div class="site-header__inner page-shell">
+        <a class="site-header__brand" href="index.html" aria-label="tasteNsee home">
+          <img class="site-header__logo" src="assets/logo.svg" alt="tasteNsee" />
+        </a>
+
+        <button
+          class="site-header__menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Open navigation"
+        >
+          <span class="site-header__menu-line"></span>
+          <span class="site-header__menu-line"></span>
+          <span class="site-header__menu-line"></span>
+        </button>
+
+        <nav class="site-header__nav" id="primary-navigation" aria-label="Primary navigation">
+          <a class="site-header__nav-link" href="index.html">Home</a>
+          <a class="site-header__nav-link" href="gallery.html">Cakes</a>
+          <div class="site-header__dropdown">
+            <button
+              class="site-header__nav-link site-header__nav-link--active site-header__dropdown-toggle"
+              type="button"
+              aria-expanded="false"
+            >
+              More <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
+            </button>
+            <div class="site-header__dropdown-menu">
+              <a class="site-header__dropdown-link" href="gallery.html">Gallery</a>
+              <a class="site-header__dropdown-link site-header__dropdown-link--active" href="workshop-registration.html" aria-current="page">Workshops</a>
+              <a class="site-header__dropdown-link" href="index.html#events">Events</a>
+              <a class="site-header__dropdown-link" href="index.html#journal">Blog</a>
+            </div>
+          </div>
+          <a class="site-header__nav-link" href="about.html">About Me</a>
+          <a class="site-header__nav-link" href="contact.html">Contact</a>
+        </nav>
+
+        <div class="site-header__actions">
+          <a class="site-header__social" href="index.html#instagram" aria-label="Instagram"><i class="ri-instagram-line" aria-hidden="true"></i></a>
+          <a class="site-header__social" href="contact.html" aria-label="Facebook"><i class="ri-facebook-fill" aria-hidden="true"></i></a>
+          <a class="button button--small button--solid" href="contact.html">Inquire Now</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="workshop-registration">
+        <div class="workshop-registration__inner">
+          <header class="workshop-registration__heading">
+            <h1 class="workshop-registration__title">Kids Creative Workshop</h1>
+            <p class="workshop-registration__intro">
+              Custom cakes, workshops, dessert tables or just a question — Odede reads every message personally and replies within 24 hours.
+            </p>
+          </header>
+
+          <div class="workshop-registration__layout">
+            <form class="registration-form" id="workshop-registration-form">
+              <header class="registration-form__header">
+                <h2 class="registration-form__title">Registration</h2>
+                <p class="registration-form__subtitle">Registration &amp; Consent Form. Participant Age Group: 8–14 yrs old</p>
+              </header>
+
+              <div class="registration-form__body">
+                <div class="registration-form__field registration-form__field--spaced">
+                  <label class="registration-form__label" for="participant-name">
+                    Participant Information (Child) Name <span aria-hidden="true">*</span>
+                  </label>
+                  <input
+                    class="registration-form__control"
+                    id="participant-name"
+                    name="participant_name"
+                    type="text"
+                    placeholder="Your name"
+                    autocomplete="name"
+                    required
+                  />
+                </div>
+
+                <div class="registration-form__row">
+                  <div class="registration-form__field">
+                    <label class="registration-form__label" for="participant-age">
+                      Age &amp; Grade Level <span aria-hidden="true">*</span>
+                    </label>
+                    <input
+                      class="registration-form__control"
+                      id="participant-age"
+                      name="participant_age_grade"
+                      type="text"
+                      placeholder="Your name"
+                      required
+                    />
+                  </div>
+                  <div class="registration-form__field">
+                    <label class="registration-form__label" for="participant-email">
+                      Email <span aria-hidden="true">*</span>
+                    </label>
+                    <input
+                      class="registration-form__control"
+                      id="participant-email"
+                      name="participant_email"
+                      type="email"
+                      placeholder="you@example.com"
+                      autocomplete="email"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="registration-form__field registration-form__field--top-gap">
+                  <label class="registration-form__label" for="participant-phone">Phone</label>
+                  <input
+                    class="registration-form__control"
+                    id="participant-phone"
+                    name="participant_phone"
+                    type="tel"
+                    placeholder="(204) 000-0000"
+                    autocomplete="tel"
+                  />
+                </div>
+
+                <div class="registration-form__field registration-form__field--section-gap">
+                  <div class="registration-form__label-row">
+                    <label class="registration-form__label" for="medical-considerations">
+                      Medical Conditions/ Behavioral Considerations: <span aria-hidden="true">*</span>
+                    </label>
+                    <span class="registration-form__counter" data-character-counter="medical-considerations">0 chars</span>
+                  </div>
+                  <textarea
+                    class="registration-form__control registration-form__textarea registration-form__textarea--medical"
+                    id="medical-considerations"
+                    name="medical_considerations"
+                    maxlength="500"
+                    placeholder="Tell Odede what you need — include dates, occasion, guest count, colour palette, or anything relevant. The more detail, the better."
+                    required
+                  ></textarea>
+                </div>
+
+                <h2 class="registration-form__section-title">Guardian Information</h2>
+
+                <div class="registration-form__field registration-form__field--spaced">
+                  <label class="registration-form__label" for="guardian-name">Name</label>
+                  <input
+                    class="registration-form__control"
+                    id="guardian-name"
+                    name="guardian_name"
+                    type="text"
+                    placeholder="Your name"
+                    autocomplete="name"
+                  />
+                </div>
+
+                <div class="registration-form__field registration-form__field--spaced">
+                  <label class="registration-form__label" for="guardian-relationship">Relationship to Child</label>
+                  <div class="registration-form__select-wrap">
+                    <select class="registration-form__control registration-form__select" id="guardian-relationship" name="guardian_relationship">
+                      <option value="">Please select</option>
+                      <option value="parent">Parent</option>
+                      <option value="guardian">Legal guardian</option>
+                      <option value="grandparent">Grandparent</option>
+                      <option value="other">Other</option>
+                    </select>
+                    <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
+                  </div>
+                </div>
+
+                <div class="registration-form__row">
+                  <div class="registration-form__field">
+                    <label class="registration-form__label" for="guardian-phone">
+                      Phone <span aria-hidden="true">*</span>
+                    </label>
+                    <input
+                      class="registration-form__control"
+                      id="guardian-phone"
+                      name="guardian_phone"
+                      type="tel"
+                      placeholder="(204) 000-0000"
+                      autocomplete="tel"
+                      required
+                    />
+                  </div>
+                  <div class="registration-form__field">
+                    <label class="registration-form__label" for="guardian-email">
+                      Email <span aria-hidden="true">*</span>
+                    </label>
+                    <input
+                      class="registration-form__control"
+                      id="guardian-email"
+                      name="guardian_email"
+                      type="email"
+                      placeholder="you@example.com"
+                      autocomplete="email"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="registration-form__divider" aria-hidden="true"></div>
+
+                <div class="registration-form__field registration-form__field--message">
+                  <div class="registration-form__label-row">
+                    <label class="registration-form__label" for="registration-message">
+                      Your message <span aria-hidden="true">*</span>
+                    </label>
+                    <span class="registration-form__counter" data-character-counter="registration-message">0 chars</span>
+                  </div>
+                  <textarea
+                    class="registration-form__control registration-form__textarea registration-form__textarea--message"
+                    id="registration-message"
+                    name="message"
+                    maxlength="1000"
+                    placeholder="Tell Odede what you need — include dates, occasion, guest count, colour palette, or anything relevant. The more detail, the better."
+                    required
+                  ></textarea>
+                </div>
+
+                <label class="registration-form__consent">
+                  <input name="pickup_authorization" type="checkbox" required />
+                  <span class="registration-form__check" aria-hidden="true"><i class="ri-check-line"></i></span>
+                  <span class="registration-form__consent-copy">
+                    <strong>Pickup Authorization</strong>
+                    <small>
+                      We are mindful of our drop off (12:45pm–1pm) and pickup time (2:45pm–3pm). Please list the TWO individuals (Name, Relationship to Child, Phone Number) authorized to pick up your child after the workshop. Children will not be released to anyone not listed below without prior written notice.
+                    </small>
+                  </span>
+                </label>
+
+                <label class="registration-form__consent registration-form__consent--spaced">
+                  <input name="workshop_policy" type="checkbox" required />
+                  <span class="registration-form__check" aria-hidden="true"><i class="ri-check-line"></i></span>
+                  <span class="registration-form__consent-copy">
+                    <strong>TasteNsee Workshop Policy (Mon, Oct 19):</strong>
+                    <small>
+                      Within 72 Hours: Non-refundable. Cancellations or no-shows forfeit fees. Transfers: Allowed if approved by management before class. Organizer Cancellation: 100% refund. Questions/Transfers: <a href="mailto:tastensee82@gmail.com">tastensee82@gmail.com</a>. Please confirm your acknowledgment with your initials.
+                    </small>
+                  </span>
+                </label>
+
+                <fieldset class="registration-form__media-consent">
+                  <legend>Media Release Consent<span aria-hidden="true">*</span></legend>
+                  <p>
+                    We love showcasing the beautiful sweet creations made during workshops! Please indicate your preference regarding photos and videos taken during the event:
+                  </p>
+                  <label class="registration-form__media-option">
+                    <input name="media_consent" type="radio" value="grant" required />
+                    <span class="registration-form__check" aria-hidden="true"><i class="ri-check-line"></i></span>
+                    <span>I GRANT permission for photos/videos of my child and their edible art to be used for promotional purposes (social media, website, flyers)</span>
+                  </label>
+                  <label class="registration-form__media-option">
+                    <input name="media_consent" type="radio" value="deny" required />
+                    <span class="registration-form__check" aria-hidden="true"><i class="ri-check-line"></i></span>
+                    <span>I DO NOT GRANT permission for photos/videos of my child and their edible art to be used for promotional purposes (social media, website, flyers)</span>
+                  </label>
+                </fieldset>
+
+                <button class="registration-form__submit" type="submit">
+                  Send My Message <i class="ri-arrow-right-line" aria-hidden="true"></i>
+                </button>
+                <p class="registration-form__status" data-registration-message role="status" aria-live="polite"></p>
+              </div>
+
+              <footer class="registration-form__footer">
+                <address class="registration-form__contact">
+                  <a href="tel:+12041234567"><i class="ri-phone-line" aria-hidden="true"></i>(204) 123-4567</a>
+                  <a href="mailto:tastensee82@gmail.com"><i class="ri-mail-line" aria-hidden="true"></i>tastensee82@gmail.com</a>
+                  <a href="index.html#instagram"><i class="ri-instagram-line" aria-hidden="true"></i>@tatsensee82</a>
+                </address>
+                <a class="registration-form__back" href="index.html"><i class="ri-arrow-left-line" aria-hidden="true"></i>Back to home</a>
+              </footer>
+            </form>
+
+            <aside class="workshop-registration__aside" aria-label="Workshop contact information">
+              <section class="studio-card studio-card--workshop">
+                <img class="studio-card__image" src="assets/workshop-studio.png" alt="Interior of the tasteNsee studio" />
+                <div class="studio-card__overlay" aria-hidden="true"></div>
+                <div class="studio-card__content">
+                  <p class="studio-card__eyebrow">Come say hello</p>
+                  <h2 class="studio-card__title">tasteNsee Studio</h2>
+                  <address class="studio-card__details">
+                    <span><i class="ri-map-pin-line" aria-hidden="true"></i>270 Sora Way SE, Calgary AB</span>
+                    <span><i class="ri-time-line" aria-hidden="true"></i>Mon – Fri: 10 AM – 6 PM</span>
+                    <span><i class="ri-calendar-line" aria-hidden="true"></i>Sat by appointment · Sun closed</span>
+                  </address>
+                </div>
+              </section>
+
+              <section class="workshop-host">
+                <img class="workshop-host__image" src="assets/workshop-host.png" alt="Karen from tasteNsee" />
+                <div class="workshop-host__content">
+                  <p class="workshop-host__eyebrow">Who you're writing to</p>
+                  <h2 class="workshop-host__name">Karen</h2>
+                  <p class="workshop-host__role">Certified Cake Designer · Registered Nurse · Calgary, AB</p>
+                  <p class="workshop-host__description">
+                    Odede reads every inquiry personally and replies with warmth and detail. There's no question too small and no brief too vague — she loves a good conversation about cake.
+                  </p>
+                  <ul class="workshop-host__tags" aria-label="Experience and qualifications">
+                    <li>10+ years experience</li>
+                    <li>200+ custom cakes</li>
+                    <li>Inclusive approach</li>
+                    <li>Certified cake designer</li>
+                  </ul>
+                </div>
+              </section>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact-footer">
+      <div class="site-footer__inner page-shell">
+        <div class="site-footer__grid">
+          <div class="site-footer__brand-column">
+            <img class="site-footer__logo" src="assets/logo-footer.svg" alt="tasteNsee" />
+            <p class="site-footer__summary">Custom cakes &amp; desserts, kids creative workshop, dessert tables</p>
+            <div class="site-footer__socials">
+              <a class="site-footer__social" href="index.html#instagram" aria-label="Instagram"><img src="assets/icon-instagram.svg" alt="" /></a>
+              <a class="site-footer__social" href="contact.html" aria-label="Facebook"><img src="assets/icon-facebook.svg" alt="" /></a>
+            </div>
+          </div>
+
+          <nav class="site-footer__column" aria-label="Footer quick links">
+            <h2 class="site-footer__heading">Quick Links</h2>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Cakes</a>
+            <a href="workshop-registration.html" aria-current="page">Workshops</a>
+            <a href="index.html#events">Events</a>
+          </nav>
+
+          <nav class="site-footer__column" aria-label="Customer care links">
+            <h2 class="site-footer__heading">Customer Care</h2>
+            <a href="contact.html">FAQ</a>
+            <a href="contact.html">Ordering &amp; Pricing</a>
+            <a href="contact.html">Payment &amp; Delivery</a>
+            <a href="contact.html">Returns &amp; Refunds</a>
+            <a href="contact.html">Contact Us</a>
+          </nav>
+
+          <div class="site-footer__column">
+            <h2 class="site-footer__heading">Contact Us</h2>
+            <a href="tel:+12041234567">(204) 123-4567</a>
+            <a href="mailto:tastensee82@gmail.com">tastensee82@gmail.com</a>
+            <address class="site-footer__address">1-204-963-8496 at 270 Sora Way SE<br />Calgary AB</address>
+            <h2 class="site-footer__heading site-footer__heading--spaced">Business Hours</h2>
+            <p class="site-footer__hours">Mon – Fri: 10:00 AM – 6:00 PM<br />Sat: 10:00 AM – 4:00 PM<br />Sun: Closed</p>
+          </div>
+        </div>
+
+        <div class="site-footer__bottom">
+          <p>© <span data-current-year>2024</span> tasteNsee Cakes &amp; Desserts. All Rights Reserved.</p>
+          <div class="site-footer__legal">
+            <a href="contact.html">Privacy Policy</a>
+            <span aria-hidden="true">|</span>
+            <a href="contact.html">Terms &amp; Conditions</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
