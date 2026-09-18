@@ -149,15 +149,22 @@ const consultationMessage = document.querySelector('[data-consultation-message]'
 
 consultationForm?.addEventListener('submit', (event) => {
   event.preventDefault();
+  const isContactForm = consultationForm.dataset.formType === 'contact';
 
   if (!consultationForm.checkValidity()) {
     consultationForm.reportValidity();
-    if (consultationMessage) consultationMessage.textContent = 'Please complete your name and email.';
+    if (consultationMessage) {
+      consultationMessage.textContent = isContactForm
+        ? 'Please complete all required fields.'
+        : 'Please complete your name and email.';
+    }
     return;
   }
 
   if (consultationMessage) {
-    consultationMessage.textContent = 'Thank you! Your consultation request is ready to send.';
+    consultationMessage.textContent = isContactForm
+      ? 'Thank you! Your message is ready to send.'
+      : 'Thank you! Your consultation request is ready to send.';
   }
 });
 
