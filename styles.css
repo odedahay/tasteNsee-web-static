@@ -948,6 +948,7 @@ textarea:focus-visible {
 .site-footer__logo {
   width: min(100%, 300px);
   height: auto;
+  filter: brightness(0) invert(1);
 }
 
 .site-footer__summary {
