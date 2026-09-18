@@ -214,6 +214,13 @@ textarea:focus-visible {
 .site-header__logo {
   width: 180px;
   height: auto;
+  transform-origin: left center;
+  transition: transform 180ms ease;
+}
+
+.site-header--scrolled .site-header__logo {
+  transform: scale(1.4);
+  padding: 20px 0;
 }
 
 .site-header__nav {
