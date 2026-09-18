@@ -4894,17 +4894,23 @@ textarea:focus-visible {
 
 /* Consultation request page */
 
-.contact--consultation,
-.contact__inner--consultation {
-  min-height: 1571px;
+.consultation-page .site-header__inner {
+  width: 100%;
+  max-width: none;
+  padding-inline: 24px;
 }
 
-.contact__inner--consultation {
-  padding-bottom: 56px;
+.consultation-page .site-footer__inner {
+  width: min(100%, 1280px);
+  padding: 56px 24px 24px;
 }
 
-.consultation-form--request {
-  height: 1242px;
+.consultation-page .site-footer__grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.consultation-page .site-footer__logo {
+  width: 350px;
 }
 
 .consultation-form__top--request {
@@ -4929,15 +4935,6 @@ textarea:focus-visible {
 }
 
 @media (max-width: 920px) {
-  .contact--consultation,
-  .contact__inner--consultation {
-    min-height: 0;
-  }
-
-  .consultation-form--request {
-    height: auto;
-  }
-
   .contact--consultation .contact__aside {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -4949,6 +4946,10 @@ textarea:focus-visible {
   .contact--consultation .contact__back {
     margin-top: 48px;
   }
+
+  .consultation-page .site-footer__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 700px) {
@@ -4958,5 +4959,15 @@ textarea:focus-visible {
 
   .workshop-host--consultant {
     grid-column: auto;
+  }
+}
+
+@media (max-width: 560px) {
+  .consultation-page .site-header__inner {
+    padding-inline: 16px;
+  }
+
+  .consultation-page .site-footer__grid {
+    grid-template-columns: 1fr;
   }
 }
