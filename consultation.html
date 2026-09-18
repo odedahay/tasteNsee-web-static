@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Start a free cake consultation with tasteNsee for custom cakes, desserts, and celebration planning."
+      content="Book a free, no-obligation cake consultation with tasteNsee in Calgary."
     />
-    <title>Contact Us | tasteNsee Cakes &amp; Desserts</title>
+    <title>Book a Cake Consultation | tasteNsee</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="scripts/script.js" defer></script>
   </head>
-  <body class="contact-page">
+  <body class="consultation-page">
     <a class="skip-link" href="#main-content">Skip to content</a>
 
     <header class="site-header" id="home">
@@ -54,89 +54,66 @@
             </div>
           </div>
           <a class="site-header__nav-link" href="about.html">About Me</a>
-          <a class="site-header__nav-link site-header__nav-link--active" href="contact.html" aria-current="page">Contact</a>
+          <a class="site-header__nav-link site-header__nav-link--active" href="contact.html">Contact</a>
         </nav>
 
         <div class="site-header__actions">
           <a class="site-header__social" href="index.html#instagram" aria-label="Instagram"><i class="ri-instagram-line" aria-hidden="true"></i></a>
-          <a class="site-header__social" href="#contact-footer" aria-label="Facebook"><i class="ri-facebook-fill" aria-hidden="true"></i></a>
-          <a class="button button--small button--solid" href="consultation.html">Inquire Now</a>
+          <a class="site-header__social" href="contact.html" aria-label="Facebook"><i class="ri-facebook-fill" aria-hidden="true"></i></a>
+          <a class="button button--small button--solid" href="#consultation-request">Inquire Now</a>
         </div>
       </div>
     </header>
 
     <main id="main-content">
-      <section class="contact">
-        <div class="contact__inner page-shell">
+      <section class="contact contact--consultation">
+        <div class="contact__inner contact__inner--consultation">
           <header class="contact__heading">
             <p class="contact__eyebrow">Let's talk cake</p>
-            <h1 class="contact__title">Contact Us</h1>
+            <h1 class="contact__title">Inquire Now</h1>
             <p class="contact__intro">
               Every great cake starts with a conversation. Fill in a few details and Odede will confirm within 24 hours.
             </p>
           </header>
 
           <div class="contact__layout">
-            <form class="consultation-form" id="consultation-form">
-              <div class="consultation-form__top">
-                <p>Will reply within 24 hrs</p>
+            <form class="consultation-form consultation-form--request" id="consultation-request">
+              <div class="consultation-form__top consultation-form__top--request">
+                <h2 class="consultation-form__title">Consultation Request</h2>
+                <p>Free · No obligation · Reply within 24 hrs</p>
               </div>
 
               <div class="consultation-form__body">
                 <div class="consultation-form__fields consultation-form__fields--two-column">
                   <div class="consultation-form__field">
-                    <label class="consultation-form__label" for="contact-name">
+                    <label class="consultation-form__label" for="consultation-name">
                       Name <span class="consultation-form__required" aria-hidden="true">*</span>
                     </label>
-                    <input
-                      class="consultation-form__control"
-                      id="contact-name"
-                      name="name"
-                      type="text"
-                      placeholder="Your name"
-                      autocomplete="name"
-                      required
-                    />
+                    <input class="consultation-form__control" id="consultation-name" name="name" type="text" placeholder="Your name" autocomplete="name" required />
                   </div>
-
                   <div class="consultation-form__field">
-                    <label class="consultation-form__label" for="contact-email">
+                    <label class="consultation-form__label" for="consultation-email">
                       Email <span class="consultation-form__required" aria-hidden="true">*</span>
                     </label>
-                    <input
-                      class="consultation-form__control"
-                      id="contact-email"
-                      name="email"
-                      type="email"
-                      placeholder="you@example.com"
-                      autocomplete="email"
-                      required
-                    />
+                    <input class="consultation-form__control" id="consultation-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required />
                   </div>
                 </div>
 
                 <div class="consultation-form__field consultation-form__field--phone">
-                  <label class="consultation-form__label" for="contact-phone">
+                  <label class="consultation-form__label" for="consultation-phone">
                     Phone <span class="consultation-form__optional">optional</span>
                   </label>
-                  <input
-                    class="consultation-form__control"
-                    id="contact-phone"
-                    name="phone"
-                    type="tel"
-                    placeholder="(204) 000-0000"
-                    autocomplete="tel"
-                  />
+                  <input class="consultation-form__control" id="consultation-phone" name="phone" type="tel" placeholder="(204) 000-0000" autocomplete="tel" />
                 </div>
 
                 <div class="consultation-form__divider" aria-hidden="true"></div>
 
                 <div class="consultation-form__field consultation-form__field--occasion">
-                  <label class="consultation-form__label" for="contact-occasion">
+                  <label class="consultation-form__label" for="consultation-occasion">
                     What's the occasion? <span class="consultation-form__optional">optional</span>
                   </label>
                   <div class="consultation-form__select-wrap">
-                    <select class="consultation-form__control consultation-form__select" id="contact-occasion" name="occasion">
+                    <select class="consultation-form__control consultation-form__select" id="consultation-occasion" name="occasion">
                       <option value="">Select an occasion…</option>
                       <option value="birthday">Birthday</option>
                       <option value="wedding">Wedding</option>
@@ -149,12 +126,12 @@
                 </div>
 
                 <div class="consultation-form__field consultation-form__field--vision">
-                  <label class="consultation-form__label" for="contact-vision">
+                  <label class="consultation-form__label" for="consultation-vision">
                     Tell us a little about your vision <span class="consultation-form__optional">optional</span>
                   </label>
                   <textarea
                     class="consultation-form__control consultation-form__textarea"
-                    id="contact-vision"
+                    id="consultation-vision"
                     name="vision"
                     placeholder="Any ideas on style, colours, flavours, or the occasion — don't worry, we'll cover everything in the consultation."
                   ></textarea>
@@ -184,49 +161,30 @@
               <section class="consultation-expectations">
                 <p class="consultation-expectations__eyebrow">What to expect</p>
                 <h2 class="consultation-expectations__title">What's covered in every consultation</h2>
-
                 <div class="consultation-expectations__grid">
                   <article class="consultation-expectations__item">
                     <i class="ri-pencil-ruler-2-line" aria-hidden="true"></i>
-                    <div>
-                      <h3>Design discussion</h3>
-                      <p>Colours, styles, decoration — from simple and elegant to elaborate and sculpted.</p>
-                    </div>
+                    <div><h3>Design discussion</h3><p>Colours, styles, decoration — from simple and elegant to elaborate and sculpted.</p></div>
                   </article>
                   <article class="consultation-expectations__item">
                     <i class="ri-cake-3-line" aria-hidden="true"></i>
-                    <div>
-                      <h3>Flavour guidance</h3>
-                      <p>All sponge, filling, and coating options with pairings that suit your occasion.</p>
-                    </div>
+                    <div><h3>Flavour guidance</h3><p>All sponge, filling, and coating options with pairings that suit your occasion.</p></div>
                   </article>
                   <article class="consultation-expectations__item">
                     <i class="ri-group-line" aria-hidden="true"></i>
-                    <div>
-                      <h3>Sizing &amp; servings</h3>
-                      <p>The right number of tiers and cake size for your guest count. No over-ordering.</p>
-                    </div>
+                    <div><h3>Sizing &amp; servings</h3><p>The right number of tiers and cake size for your guest count. No over-ordering.</p></div>
                   </article>
                   <article class="consultation-expectations__item">
                     <i class="ri-money-dollar-circle-line" aria-hidden="true"></i>
-                    <div>
-                      <h3>Honest pricing</h3>
-                      <p>A clear price estimate before committing. No surprises, no pressure.</p>
-                    </div>
+                    <div><h3>Honest pricing</h3><p>A clear price estimate before committing. No surprises, no pressure.</p></div>
                   </article>
                   <article class="consultation-expectations__item">
                     <i class="ri-calendar-check-line" aria-hidden="true"></i>
-                    <div>
-                      <h3>Availability check</h3>
-                      <p>Confirm your date is free — especially important for weddings and large events.</p>
-                    </div>
+                    <div><h3>Availability check</h3><p>Confirm your date is free — especially important for weddings and large events.</p></div>
                   </article>
                   <article class="consultation-expectations__item">
                     <i class="ri-truck-line" aria-hidden="true"></i>
-                    <div>
-                      <h3>Delivery planning</h3>
-                      <p>Delivery or pickup logistics, venue access, and set-up for tiered cakes.</p>
-                    </div>
+                    <div><h3>Delivery planning</h3><p>Delivery or pickup logistics, venue access, and set-up for tiered cakes.</p></div>
                   </article>
                 </div>
               </section>
@@ -242,6 +200,24 @@
                     <span><i class="ri-time-line" aria-hidden="true"></i>Mon – Fri: 10 AM – 6 PM</span>
                     <span><i class="ri-calendar-line" aria-hidden="true"></i>Sat by appointment · Sun closed</span>
                   </address>
+                </div>
+              </section>
+
+              <section class="workshop-host workshop-host--consultant">
+                <img class="workshop-host__image" src="assets/workshop-host.png" alt="Karen, tasteNsee consultant" />
+                <div class="workshop-host__content">
+                  <p class="workshop-host__eyebrow">Meet your consultant</p>
+                  <h2 class="workshop-host__name">Karen</h2>
+                  <p class="workshop-host__role">Certified Cake Designer · Registered Nurse · Calgary, AB</p>
+                  <p class="workshop-host__description">
+                    Odede brings ten years of professional cake design experience and a genuine warmth to every consultation. She takes time to truly understand your vision and helps shape it into something beautiful and uniquely yours.
+                  </p>
+                  <ul class="workshop-host__tags" aria-label="Experience and qualifications">
+                    <li>10+ years experience</li>
+                    <li>200+ custom cakes</li>
+                    <li>Inclusive approach</li>
+                    <li>Certified cake designer</li>
+                  </ul>
                 </div>
               </section>
             </aside>
@@ -260,28 +236,20 @@
             <p class="site-footer__summary">Custom cakes &amp; desserts, kids creative workshop, dessert tables</p>
             <div class="site-footer__socials">
               <a class="site-footer__social" href="index.html#instagram" aria-label="Instagram"><img src="assets/icon-instagram.svg" alt="" /></a>
-              <a class="site-footer__social" href="#contact-footer" aria-label="Facebook"><img src="assets/icon-facebook.svg" alt="" /></a>
+              <a class="site-footer__social" href="contact.html" aria-label="Facebook"><img src="assets/icon-facebook.svg" alt="" /></a>
             </div>
           </div>
-
           <nav class="site-footer__column" aria-label="Footer quick links">
             <h2 class="site-footer__heading">Quick Links</h2>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="index.html#cakes">Cakes</a>
-            <a href="workshop-registration.html">Workshops</a>
-            <a href="index.html#events">Events</a>
+            <a href="index.html">Home</a><a href="about.html">About</a><a href="gallery.html">Cakes</a>
+            <a href="workshop-registration.html">Workshops</a><a href="index.html#events">Events</a>
           </nav>
-
           <nav class="site-footer__column" aria-label="Customer care links">
             <h2 class="site-footer__heading">Customer Care</h2>
-            <a href="contact.html">FAQ</a>
-            <a href="contact.html">Ordering &amp; Pricing</a>
-            <a href="contact.html">Payment &amp; Delivery</a>
-            <a href="contact.html">Returns &amp; Refunds</a>
-            <a href="contact.html" aria-current="page">Contact Us</a>
+            <a href="contact.html">FAQ</a><a href="contact.html">Ordering &amp; Pricing</a>
+            <a href="contact.html">Payment &amp; Delivery</a><a href="contact.html">Returns &amp; Refunds</a>
+            <a href="contact.html">Contact Us</a>
           </nav>
-
           <div class="site-footer__column">
             <h2 class="site-footer__heading">Contact Us</h2>
             <a href="tel:+12041234567">(204) 123-4567</a>
@@ -291,14 +259,9 @@
             <p class="site-footer__hours">Mon – Fri: 10:00 AM – 6:00 PM<br />Sat: 10:00 AM – 4:00 PM<br />Sun: Closed</p>
           </div>
         </div>
-
         <div class="site-footer__bottom">
           <p>© <span data-current-year>2024</span> tasteNsee Cakes &amp; Desserts. All Rights Reserved.</p>
-          <div class="site-footer__legal">
-            <a href="contact.html">Privacy Policy</a>
-            <span aria-hidden="true">|</span>
-            <a href="contact.html">Terms &amp; Conditions</a>
-          </div>
+          <div class="site-footer__legal"><a href="contact.html">Privacy Policy</a><span aria-hidden="true">|</span><a href="contact.html">Terms &amp; Conditions</a></div>
         </div>
       </div>
     </footer>

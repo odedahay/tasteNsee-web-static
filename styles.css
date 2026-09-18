@@ -4891,3 +4891,72 @@ textarea:focus-visible {
     height: 88px;
   }
 }
+
+/* Consultation request page */
+
+.contact--consultation,
+.contact__inner--consultation {
+  min-height: 1571px;
+}
+
+.contact__inner--consultation {
+  padding-bottom: 56px;
+}
+
+.consultation-form--request {
+  height: 1242px;
+}
+
+.consultation-form__top--request {
+  min-height: 104px;
+  flex-direction: column;
+}
+
+.consultation-form__title {
+  margin: 0;
+  color: var(--color-white);
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 33px;
+}
+
+.workshop-host--consultant {
+  min-height: 322px;
+}
+
+.contact--consultation .contact__back {
+  margin-top: 27px;
+}
+
+@media (max-width: 920px) {
+  .contact--consultation,
+  .contact__inner--consultation {
+    min-height: 0;
+  }
+
+  .consultation-form--request {
+    height: auto;
+  }
+
+  .contact--consultation .contact__aside {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .workshop-host--consultant {
+    grid-column: 1 / -1;
+  }
+
+  .contact--consultation .contact__back {
+    margin-top: 48px;
+  }
+}
+
+@media (max-width: 700px) {
+  .contact--consultation .contact__aside {
+    grid-template-columns: 1fr;
+  }
+
+  .workshop-host--consultant {
+    grid-column: auto;
+  }
+}
