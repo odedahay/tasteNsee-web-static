@@ -15,6 +15,8 @@ tasteNsee brings together thoughtful cake design, premium ingredients, and a pas
 - **Gallery** — a filterable collection of wedding cakes, birthday cakes, character cakes, cupcakes, cookies, macarons, and dessert tables
 - **Gallery Details** — a closer look at a featured cake, including its design story and creative process
 - **Consultation** — a detailed custom-cake quote request form with inspiration-image upload
+- **Events & Workshops** — upcoming classes and events, workshop values, and private group bookings
+- **Blog** — featured stories, cake tips, workshop recaps, seasonal updates, and category browsing
 - **Workshop Registration** — registration for inclusive children's creative baking workshops
 - **Contact** — contact information and a general enquiry form
 
@@ -63,6 +65,8 @@ Then open [http://localhost:8000](http://localhost:8000) in your browser.
 ├── gallery-details.html
 ├── gallery.html
 ├── index.html
+├── blog.html
+├── workshops-events.html
 ├── workshop-registration.html
 └── styles.css                  # Shared site styles and responsive layouts
 ```

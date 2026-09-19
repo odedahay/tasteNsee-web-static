@@ -208,3 +208,61 @@ registrationForm?.addEventListener('submit', (event) => {
     registrationMessage.textContent = 'Thank you! Your workshop registration is ready to send.';
   }
 });
+
+const blogPosts = [...document.querySelectorAll('[data-blog-post]')];
+const blogEmptyMessage = document.querySelector('[data-blog-empty]');
+const blogFilterButtons = [...document.querySelectorAll('[data-blog-filter]')];
+const blogQueryButtons = [...document.querySelectorAll('[data-blog-query]')];
+const blogTopicLinks = [...document.querySelectorAll('[data-blog-topic]')];
+
+function filterBlogPosts({ category = 'all', query = '' } = {}) {
+  const normalizedQuery = query.trim().toLowerCase();
+  let visibleCount = 0;
+
+  blogPosts.forEach((post) => {
+    const matchesCategory = category === 'all' || post.dataset.blogCategory === category;
+    const matchesQuery = !normalizedQuery || post.dataset.blogSearchText?.includes(normalizedQuery);
+    const isVisible = matchesCategory && matchesQuery;
+    post.hidden = !isVisible;
+    if (isVisible) visibleCount += 1;
+  });
+
+  if (blogEmptyMessage) blogEmptyMessage.hidden = visibleCount !== 0;
+
+  blogFilterButtons.forEach((button) => {
+    button.classList.toggle('is-active', button.dataset.blogFilter === category);
+  });
+
+  blogQueryButtons.forEach((button) => {
+    button.classList.toggle('is-active', button.dataset.blogQuery === normalizedQuery);
+  });
+}
+
+blogFilterButtons.forEach((button) => {
+  button.addEventListener('click', () => filterBlogPosts({ category: button.dataset.blogFilter }));
+});
+
+blogQueryButtons.forEach((button) => {
+  button.addEventListener('click', () => filterBlogPosts({ query: button.dataset.blogQuery }));
+});
+
+blogTopicLinks.forEach((link) => {
+  link.addEventListener('click', () => filterBlogPosts({ category: link.dataset.blogTopic }));
+});
+
+const blogSubscribeForm = document.querySelector('[data-blog-subscribe]');
+const blogSubscribeMessage = document.querySelector('[data-blog-subscribe-message]');
+
+blogSubscribeForm?.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const emailInput = blogSubscribeForm.querySelector('input[type="email"]');
+
+  if (!emailInput?.checkValidity()) {
+    if (blogSubscribeMessage) blogSubscribeMessage.textContent = 'Please enter a valid email address.';
+    emailInput?.focus();
+    return;
+  }
+
+  if (blogSubscribeMessage) blogSubscribeMessage.textContent = 'Thank you! You’re on the list.';
+  blogSubscribeForm.reset();
+});

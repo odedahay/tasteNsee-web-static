@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Read cake decorating tips, flavour stories, workshop recaps, and behind-the-scenes notes from tasteNsee."
+    />
+    <title>The tasteNsee Journal</title>
+    <link rel="icon" href="assets/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#f0fae8" />
+    <meta name="application-name" content="tasteNsee" />
+    <meta name="apple-mobile-web-app-title" content="tasteNsee" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&amp;family=Nunito:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts/script.js" defer></script>
+  </head>
+  <body class="journal-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" id="home">
+      <div class="site-header__inner page-shell">
+        <a class="site-header__brand" href="index.html" aria-label="tasteNsee home">
+          <img class="site-header__logo" src="assets/tastensee-logo.svg" alt="tasteNsee" />
+        </a>
+
+        <button
+          class="site-header__menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Open navigation"
+        >
+          <span class="site-header__menu-line"></span>
+          <span class="site-header__menu-line"></span>
+          <span class="site-header__menu-line"></span>
+        </button>
+
+        <nav class="site-header__nav" id="primary-navigation" aria-label="Primary navigation">
+          <a class="site-header__nav-link" href="index.html">Home</a>
+          <a class="site-header__nav-link" href="gallery.html">Cakes</a>
+          <div class="site-header__dropdown">
+            <button class="site-header__nav-link site-header__dropdown-toggle site-header__nav-link--active" type="button" aria-expanded="false">
+              More <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
+            </button>
+            <div class="site-header__dropdown-menu">
+              <a class="site-header__dropdown-link" href="gallery.html">Gallery</a>
+              <a class="site-header__dropdown-link" href="workshops-events.html">Events &amp; Workshops</a>
+              <a class="site-header__dropdown-link site-header__dropdown-link--active" href="blog.html" aria-current="page">Blog</a>
+            </div>
+          </div>
+          <a class="site-header__nav-link" href="about.html">About Me</a>
+          <a class="site-header__nav-link" href="contact.html">Contact</a>
+        </nav>
+
+        <div class="site-header__actions">
+          <a class="site-header__social" href="#instagram" aria-label="Instagram"><i class="ri-instagram-line" aria-hidden="true"></i></a>
+          <a class="site-header__social" href="#contact" aria-label="Facebook"><i class="ri-facebook-fill" aria-hidden="true"></i></a>
+          <a class="button button--small button--solid" href="consultation.html">Inquire Now</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="journal-hero">
+        <div class="journal-hero__orb journal-hero__orb--purple" aria-hidden="true"></div>
+        <div class="journal-hero__orb journal-hero__orb--green" aria-hidden="true"></div>
+        <div class="journal-hero__inner page-shell">
+          <nav class="journal-hero__breadcrumb" aria-label="Breadcrumb">
+            <a href="index.html">Home</a><span aria-hidden="true">›</span><strong>blog</strong>
+          </nav>
+          <div class="journal-hero__content">
+            <p class="eyebrow">Stories, tips &amp; sweet things</p>
+            <h1 class="journal-hero__title">The tasteNsee<br />Journal</h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="journal-feature page-shell" aria-labelledby="featured-story-title">
+        <article class="journal-feature__card" id="featured-story">
+          <img class="journal-feature__image" src="assets/blog-featured.png" alt="Baker working at a pastry machine" />
+          <div class="journal-feature__overlay" aria-hidden="true"></div>
+          <span class="journal-feature__label">Featured</span>
+          <div class="journal-feature__content">
+            <div class="journal-post__meta journal-post__meta--light">
+              <span class="journal-post__category"><img src="assets/blog-icon-cake-tips.svg" alt="" />Cake Tips</span>
+              <span>6 min read</span>
+            </div>
+            <h2 class="journal-feature__title" id="featured-story-title">5 Secrets to Perfect Buttercream Roses Every Time</h2>
+            <p class="journal-feature__excerpt">
+              After piping hundreds of roses across hundreds of cakes, I’ve learned a handful of small tricks that make
+              the difference between a rose that looks handmade in the best way and one that just looks rushed.
+            </p>
+            <div class="journal-feature__footer">
+              <div class="journal-author journal-author--light">
+                <img class="journal-author__avatar" src="assets/blog-author.png" alt="" />
+                <div><strong>Karen</strong><time datetime="2026-09-03">Sep 3, 2026</time></div>
+              </div>
+              <a class="journal-post__read journal-post__read--light" href="#featured-story">Read the story →</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="journal-content" id="latest-posts" aria-labelledby="latest-posts-title">
+        <div class="journal-content__inner page-shell">
+          <div class="journal-feed">
+            <header class="journal-feed__header">
+              <h2 id="latest-posts-title">Latest posts</h2>
+              <span>9 articles</span>
+            </header>
+
+            <article class="journal-post journal-post--lead" id="post-ivory-rose" data-blog-post data-blog-category="behind-the-scenes" data-blog-search-text="behind the cake ivory rose tier wedding process inspiration">
+              <div class="journal-post__media">
+                <img class="journal-post__image" src="assets/blog-ivory-rose.png" alt="Ivory wedding cake decorated with flowers" />
+              </div>
+              <div class="journal-post__body">
+                <div class="journal-post__meta">
+                  <span class="journal-post__category journal-post__category--pink"><img src="assets/blog-icon-behind-scenes.svg" alt="" />Behind the Scenes</span>
+                  <span>8 min read</span>
+                </div>
+                <h3 class="journal-post__title">Behind the Cake: How the Ivory Rose Tier Came to Life</h3>
+                <p class="journal-post__excerpt">A bride reached out eight months before her wedding with a single Pinterest image and the words “something timeless.” Here’s the full story of how that conversation became one of my favourite cakes ever.</p>
+                <ul class="journal-post__tags" aria-label="Article tags"><li>#wedding</li><li>#process</li><li>#inspiration</li></ul>
+                <div class="journal-post__footer">
+                  <div class="journal-author"><img class="journal-author__avatar" src="assets/blog-author.png" alt="" /><div><strong>Karen</strong><time datetime="2026-08-27">Aug 27, 2026</time></div></div>
+                  <a class="journal-post__read" href="#post-ivory-rose">Read →</a>
+                </div>
+              </div>
+            </article>
+
+            <div class="journal-feed__grid">
+              <article class="journal-post" id="post-lavender-honey" data-blog-post data-blog-category="flavour-spotlight" data-blog-search-text="lavender honey flavour seasonal cake">
+                <div class="journal-post__media"><img class="journal-post__image" src="assets/blog-lavender-honey.png" alt="Cupcakes topped with strawberries and white chocolate" /></div>
+                <div class="journal-post__body">
+                  <div class="journal-post__meta"><span class="journal-post__category journal-post__category--gold"><img src="assets/blog-icon-flavour.svg" alt="" />Flavour Spotlight</span><span>5 min read</span></div>
+                  <h3 class="journal-post__title">Why Lavender &amp; Honey Is Our Most-Requested Flavour Right Now</h3>
+                  <p class="journal-post__excerpt">We added it as a seasonal option two summers ago and it never left. A delicate floral note paired with the warmth of local raw honey — find out why it works and how we layer it through a full cake.</p>
+                  <div class="journal-post__footer"><div class="journal-author"><img class="journal-author__avatar" src="assets/blog-author.png" alt="" /><div><strong>Karen</strong><time datetime="2026-08-19">Aug 19, 2026</time></div></div><a class="journal-post__read" href="#post-lavender-honey">Read →</a></div>
+                </div>
+              </article>
+
+              <article class="journal-post" id="post-kids-fondant" data-blog-post data-blog-category="workshop-recaps" data-blog-search-text="kids fondant workshop recap cake">
+                <div class="journal-post__media"><img class="journal-post__image" src="assets/blog-kids-fondant.png" alt="Blackberry cake decorated with lilac flowers" /></div>
+                <div class="journal-post__body">
+                  <div class="journal-post__meta"><span class="journal-post__category journal-post__category--green"><img src="assets/blog-icon-workshop.svg" alt="" />Workshop Recaps</span><span>4 min read</span></div>
+                  <h3 class="journal-post__title">July Kids’ Fondant Workshop — What Happened When 12 Eight-Year-Olds Met Fondant</h3>
+                  <p class="journal-post__excerpt">Spoiler: it was wonderful chaos. Here’s a full recap of our July kids’ fondant workshop, what the little artists made, and a few quotes from the session that genuinely made me tear up.</p>
+                  <div class="journal-post__footer"><div class="journal-author"><img class="journal-author__avatar" src="assets/blog-author.png" alt="" /><div><strong>Karen</strong><time datetime="2026-08-10">Aug 10, 2026</time></div></div><a class="journal-post__read" href="#post-kids-fondant">Read →</a></div>
+                </div>
+              </article>
+
+              <article class="journal-post" id="post-autumn-menu" data-blog-post data-blog-category="seasonal" data-blog-search-text="autumn seasonal flavour menu caramel chai hazelnut">
+                <div class="journal-post__media"><img class="journal-post__image" src="assets/blog-autumn-menu.png" alt="Fresh artisan breads and wheat" /></div>
+                <div class="journal-post__body">
+                  <div class="journal-post__meta"><span class="journal-post__category journal-post__category--pink"><img src="assets/blog-icon-seasonal.svg" alt="" />Seasonal</span><span>5 min read</span></div>
+                  <h3 class="journal-post__title">Our Autumn 2026 Flavour Menu Is Here — and It Smells Like a Hug</h3>
+                  <p class="journal-post__excerpt">Brown butter caramel, spiced chai cream cheese, toasted hazelnut praline. Our autumn menu is the thing I look forward to designing all year. Here’s what’s coming and how to order.</p>
+                  <div class="journal-post__footer"><div class="journal-author"><img class="journal-author__avatar" src="assets/blog-author.png" alt="" /><div><strong>Karen</strong><time datetime="2026-08-01">Aug 1, 2026</time></div></div><a class="journal-post__read" href="#post-autumn-menu">Read →</a></div>
+                </div>
+              </article>
+
+              <article class="journal-post" id="post-sarah-story" data-blog-post data-blog-category="customer-stories" data-blog-search-text="sarah customer story wedding cake">
+                <div class="journal-post__media"><img class="journal-post__image" src="assets/blog-sarah-story.png" alt="Three-tier blush wedding cake with roses" /></div>
+                <div class="journal-post__body">
+                  <div class="journal-post__meta"><span class="journal-post__category journal-post__category--teal"><img src="assets/blog-icon-customer.svg" alt="" />Customer Stories</span><span>7 min read</span></div>
+                  <h3 class="journal-post__title">Sarah’s Story: From Nervous First Call to a Cake That Made Everyone Cry</h3>
+                  <p class="journal-post__excerpt">“I was terrified I wouldn’t know how to describe what I wanted.” Sarah reached out six months before her wedding with a lot of uncertainty and a few photos she loved. Here’s how it went.</p>
+                  <div class="journal-post__footer"><div class="journal-author"><img class="journal-author__avatar" src="assets/blog-author.png" alt="" /><div><strong>Karen</strong><time datetime="2026-07-24">Jul 24, 2026</time></div></div><a class="journal-post__read" href="#post-sarah-story">Read →</a></div>
+                </div>
+              </article>
+
+              <article class="journal-post" id="post-fondant-buttercream" data-blog-post data-blog-category="cake-tips" data-blog-search-text="fondant buttercream honest guide tips piping roses technique custom">
+                <div class="journal-post__media"><img class="journal-post__image" src="assets/blog-fondant-buttercream.png" alt="Pink striped cake topped with macarons" /></div>
+                <div class="journal-post__body">
+                  <div class="journal-post__meta"><span class="journal-post__category"><img src="assets/blog-icon-cake-tips.svg" alt="" />Cake Tips</span><span>7 min read</span></div>
+                  <h3 class="journal-post__title">Fondant vs. Buttercream: A Completely Honest Guide for Anyone Who’s Ever Been Confused</h3>
+                  <p class="journal-post__excerpt">There is no universally “better” option — but there is a better option for your specific cake, your event, and your taste preferences. Here’s how to think about it.</p>
+                  <div class="journal-post__footer"><div class="journal-author"><img class="journal-author__avatar" src="assets/blog-author.png" alt="" /><div><strong>Karen</strong><time datetime="2026-07-15">Jul 15, 2026</time></div></div><a class="journal-post__read" href="#post-fondant-buttercream">Read →</a></div>
+                </div>
+              </article>
+
+              <article class="journal-post" id="post-market-diary" data-blog-post data-blog-category="behind-the-scenes" data-blog-search-text="market day diary calgary farmers market behind scenes">
+                <div class="journal-post__media"><img class="journal-post__image" src="assets/blog-market-diary.png" alt="Colourful produce at a farmers market" /></div>
+                <div class="journal-post__body">
+                  <div class="journal-post__meta"><span class="journal-post__category journal-post__category--pink"><img src="assets/blog-icon-behind-scenes.svg" alt="" />Behind the Scenes</span><span>5 min read</span></div>
+                  <h3 class="journal-post__title">Market Day Diary: A Saturday at the Calgary Farmers’ Market</h3>
+                  <p class="journal-post__excerpt">We’ve been at the Calgary Farmers’ Market every third Saturday this summer. Here’s what a typical day looks like — from 5 AM load-in to the last cupcake sold at 2 PM.</p>
+                  <div class="journal-post__footer"><div class="journal-author"><img class="journal-author__avatar" src="assets/blog-author.png" alt="" /><div><strong>Karen</strong><time datetime="2026-07-06">Jul 6, 2026</time></div></div><a class="journal-post__read" href="#post-market-diary">Read →</a></div>
+                </div>
+              </article>
+
+              <article class="journal-post" id="post-cake-size" data-blog-post data-blog-category="cake-tips" data-blog-search-text="cake size birthday party guide tips planning">
+                <div class="journal-post__media"><img class="journal-post__image" src="assets/blog-cake-size.png" alt="Celebration cake with sparklers" /></div>
+                <div class="journal-post__body">
+                  <div class="journal-post__meta"><span class="journal-post__category"><img src="assets/blog-icon-cake-tips.svg" alt="" />Cake Tips</span><span>4 min read</span></div>
+                  <h3 class="journal-post__title">How to Choose the Right Cake Size for Your Birthday Party (Without Over-Ordering)</h3>
+                  <p class="journal-post__excerpt">The number one question I get from birthday clients: “How big does it need to be?” Here’s a simple table and a few questions to ask yourself before you order.</p>
+                  <div class="journal-post__footer"><div class="journal-author"><img class="journal-author__avatar" src="assets/blog-author.png" alt="" /><div><strong>Karen</strong><time datetime="2026-06-28">Jun 28, 2026</time></div></div><a class="journal-post__read" href="#post-cake-size">Read →</a></div>
+                </div>
+              </article>
+            </div>
+            <p class="journal-feed__empty" data-blog-empty hidden>No journal posts match that search.</p>
+          </div>
+
+          <aside class="journal-sidebar" aria-label="Journal information and filters">
+            <section class="journal-sidebar__card journal-author-card">
+              <img class="journal-author-card__cover" src="assets/blog-studio.png" alt="tasteNsee studio" />
+              <img class="journal-author-card__portrait" src="assets/blog-author.png" alt="Karen from tasteNsee" />
+              <div class="journal-author-card__body">
+                <h2>Karen</h2>
+                <p>Custom cake designer &amp; workshop host in Calgary. I write about baking, creative process, and the stories behind each cake.</p>
+                <a class="button button--solid journal-author-card__button" href="contact.html">Get in touch</a>
+              </div>
+            </section>
+
+            <section class="journal-sidebar__card journal-subscribe" aria-labelledby="journal-subscribe-title">
+              <p class="journal-subscribe__eyebrow">Stay in the loop</p>
+              <h2 id="journal-subscribe-title">Recipes, tips &amp; sweet news</h2>
+              <p>New posts, seasonal menus, and behind-the-scenes stories — straight to your inbox. No spam, ever.</p>
+              <form class="journal-subscribe__form" data-blog-subscribe novalidate>
+                <label class="sr-only" for="blog-email">Your email address</label>
+                <input id="blog-email" name="email" type="email" placeholder="your@email.com" required />
+                <button type="submit">Subscribe</button>
+                <span class="journal-subscribe__message" data-blog-subscribe-message aria-live="polite"></span>
+              </form>
+            </section>
+
+            <section class="journal-sidebar__card journal-popular" aria-labelledby="popular-posts-title">
+              <h2 id="popular-posts-title">Popular posts</h2>
+              <ol class="journal-popular__list">
+                <li><span>1</span><a href="#featured-story"><strong>5 Secrets to Perfect Buttercream Roses Every Time</strong><small>Cake Tips · 6 min</small></a></li>
+                <li><span>2</span><a href="#post-lavender-honey"><strong>Why Lavender &amp; Honey Is Our Most-Requested Flavour Right Now</strong><small>Flavour Spotlight · 5 min</small></a></li>
+                <li><span>3</span><a href="#post-fondant-buttercream"><strong>Fondant vs. Buttercream: A Completely Honest Guide</strong><small>Cake Tips · 7 min</small></a></li>
+                <li><span>4</span><a href="#post-autumn-menu"><strong>Our Autumn 2026 Flavour Menu Is Here</strong><small>Seasonal · 5 min</small></a></li>
+              </ol>
+            </section>
+
+            <section class="journal-sidebar__card journal-filter" aria-labelledby="journal-categories-title">
+              <h2 id="journal-categories-title">Categories</h2>
+              <div class="journal-filter__list">
+                <button type="button" data-blog-filter="cake-tips"><span><img src="assets/blog-icon-cake-tips.svg" alt="" />Cake Tips</span><b>3</b></button>
+                <button type="button" data-blog-filter="behind-the-scenes"><span><img src="assets/blog-icon-behind-scenes.svg" alt="" />Behind the Scenes</span><b>2</b></button>
+                <button type="button" data-blog-filter="flavour-spotlight"><span><img src="assets/blog-icon-flavour.svg" alt="" />Flavour Spotlight</span><b>1</b></button>
+                <button type="button" data-blog-filter="workshop-recaps"><span><img src="assets/blog-icon-workshop.svg" alt="" />Workshop Recaps</span><b>1</b></button>
+                <button type="button" data-blog-filter="seasonal"><span><img src="assets/blog-icon-seasonal.svg" alt="" />Seasonal</span><b>1</b></button>
+                <button type="button" data-blog-filter="customer-stories"><span><img src="assets/blog-icon-customer.svg" alt="" />Customer Stories</span><b>1</b></button>
+              </div>
+              <button class="journal-filter__reset" type="button" data-blog-filter="all">Show all posts</button>
+            </section>
+
+            <section class="journal-sidebar__card journal-tags" aria-labelledby="journal-tags-title">
+              <h2 id="journal-tags-title">Tags</h2>
+              <div class="journal-tags__list">
+                <button type="button" data-blog-query="buttercream">#buttercream</button><button type="button" data-blog-query="piping">#piping</button><button type="button" data-blog-query="roses">#roses</button>
+                <button type="button" data-blog-query="technique">#technique</button><button type="button" data-blog-query="wedding">#wedding</button><button type="button" data-blog-query="process">#process</button>
+                <button type="button" data-blog-query="inspiration">#inspiration</button><button type="button" data-blog-query="flavour">#flavour</button><button type="button" data-blog-query="lavender">#lavender</button>
+                <button type="button" data-blog-query="honey">#honey</button><button type="button" data-blog-query="seasonal">#seasonal</button><button type="button" data-blog-query="kids">#kids</button>
+                <button type="button" data-blog-query="fondant">#fondant</button><button type="button" data-blog-query="workshop">#workshop</button><button type="button" data-blog-query="recap">#recap</button>
+                <button type="button" data-blog-query="autumn">#autumn</button><button type="button" data-blog-query="menu">#menu</button><button type="button" data-blog-query="custom">#custom</button>
+                <button type="button" data-blog-query="tips">#tips</button><button type="button" data-blog-query="market">#market</button><button type="button" data-blog-query="calgary">#calgary</button>
+                <button type="button" data-blog-query="birthday">#birthday</button><button type="button" data-blog-query="planning">#planning</button>
+              </div>
+            </section>
+
+            <section class="journal-sidebar__card journal-order">
+              <p class="journal-order__eyebrow">Ready to order?</p>
+              <p>Turn your inspiration into a real cake.</p>
+              <a class="button button--solid" href="consultation.html">Start an Order</a>
+              <a class="button button--outline" href="gallery.html">Browse the Gallery</a>
+            </section>
+          </aside>
+        </div>
+      </section>
+
+      <section class="journal-topics" aria-labelledby="journal-topics-title">
+        <div class="journal-topics__inner page-shell">
+          <header class="journal-topics__header">
+            <p class="eyebrow">Explore more</p>
+            <h2 id="journal-topics-title">What we write about</h2>
+          </header>
+          <div class="journal-topics__grid">
+            <a class="journal-topic journal-topic--purple" href="#latest-posts" data-blog-topic="cake-tips"><img src="assets/blog-icon-cake-tips.svg" alt="" /><strong>Cake Tips</strong><span>Pro techniques, how-tos and decorating guides from Karen’s kitchen.</span><small>3 posts →</small></a>
+            <a class="journal-topic journal-topic--pink" href="#latest-posts" data-blog-topic="behind-the-scenes"><img src="assets/blog-icon-behind-scenes.svg" alt="" /><strong>Behind the Scenes</strong><span>Market days, studio life, and the real process behind every order.</span><small>2 posts →</small></a>
+            <a class="journal-topic journal-topic--gold" href="#latest-posts" data-blog-topic="flavour-spotlight"><img src="assets/blog-icon-flavour.svg" alt="" /><strong>Flavour Spotlight</strong><span>Deep dives into our most beloved and seasonal flavour combinations.</span><small>1 post →</small></a>
+            <a class="journal-topic journal-topic--green" href="#latest-posts" data-blog-topic="workshop-recaps"><img src="assets/blog-icon-workshop.svg" alt="" /><strong>Workshop Recaps</strong><span>Stories and photos from our adult and kids baking sessions.</span><small>1 post →</small></a>
+            <a class="journal-topic journal-topic--rose" href="#latest-posts" data-blog-topic="seasonal"><img src="assets/blog-icon-seasonal.svg" alt="" /><strong>Seasonal</strong><span>New menus, limited-time flavours and what’s happening each season.</span><small>1 post →</small></a>
+            <a class="journal-topic journal-topic--teal" href="#latest-posts" data-blog-topic="customer-stories"><img src="assets/blog-icon-customer.svg" alt="" /><strong>Customer Stories</strong><span>Real couples, families and clients sharing their tasteNsee moments.</span><small>1 post →</small></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="site-footer__inner page-shell">
+        <div class="site-footer__grid">
+          <div class="site-footer__brand-column">
+            <img class="site-footer__logo" src="assets/tastensee-logo.svg" alt="tasteNsee" />
+            <p class="site-footer__summary">Custom cakes &amp; desserts, kids creative workshop, dessert tables</p>
+            <div class="site-footer__socials">
+              <a class="site-footer__social" href="#instagram" aria-label="Instagram"><img src="assets/icon-instagram.svg" alt="" /></a>
+              <a class="site-footer__social" href="#contact" aria-label="Facebook"><img src="assets/icon-facebook.svg" alt="" /></a>
+            </div>
+          </div>
+          <nav class="site-footer__column" aria-label="Footer quick links">
+            <h2 class="site-footer__heading">Quick Links</h2>
+            <a href="index.html">Home</a><a href="about.html">About</a><a href="gallery.html">Cakes</a>
+            <a href="workshops-events.html#workshops">Workshops</a><a href="workshops-events.html#events">Events</a>
+          </nav>
+          <nav class="site-footer__column" aria-label="Customer care links">
+            <h2 class="site-footer__heading">Customer Care</h2>
+            <a href="#contact">FAQ</a><a href="#contact">Ordering &amp; Pricing</a><a href="#contact">Payment &amp; Delivery</a>
+            <a href="#contact">Returns &amp; Refunds</a><a href="contact.html">Contact Us</a>
+          </nav>
+          <div class="site-footer__column">
+            <h2 class="site-footer__heading">Contact Us</h2>
+            <a href="tel:+12041234567">(204) 123-4567</a><a href="mailto:tastensee82@gmail.com">tastensee82@gmail.com</a>
+            <address class="site-footer__address">1-204-963-8496 at 270 Sora Way SE<br />Calgary AB</address>
+            <h2 class="site-footer__heading site-footer__heading--spaced">Business Hours</h2>
+            <p class="site-footer__hours">Mon – Fri: 10:00 AM – 6:00 PM<br />Sat: 10:00 AM – 4:00 PM<br />Sun: Closed</p>
+          </div>
+        </div>
+        <div class="site-footer__bottom">
+          <p>© <span data-current-year>2024</span> tasteNsee Cakes &amp; Desserts. All Rights Reserved.</p>
+          <div class="site-footer__legal"><a href="#contact">Privacy Policy</a><span aria-hidden="true">|</span><a href="#contact">Terms &amp; Conditions</a></div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
