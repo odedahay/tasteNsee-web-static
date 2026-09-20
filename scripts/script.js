@@ -51,27 +51,48 @@ window.addEventListener('resize', () => {
   if (window.innerWidth > 1100) closeMenu();
 });
 
-const testimonialTrack = document.querySelector('.testimonials__track');
-const testimonialDots = [...document.querySelectorAll('.testimonials__dot')];
+const testimonialsSlider = document.querySelector('[data-testimonials-slider]');
 
-function showTestimonial(index) {
-  if (!testimonialTrack || window.innerWidth > 820) return;
-  testimonialTrack.style.transform = `translateX(-${index * 100}%)`;
-  testimonialDots.forEach((dot, dotIndex) => {
-    dot.classList.toggle('testimonials__dot--active', dotIndex === index);
-    dot.setAttribute('aria-pressed', String(dotIndex === index));
+if (testimonialsSlider && window.Swiper) {
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  new window.Swiper(testimonialsSlider, {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    speed: prefersReducedMotion ? 0 : 700,
+    autoplay: prefersReducedMotion
+      ? false
+      : {
+          delay: 4500,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        },
+    pagination: {
+      el: '.testimonials__pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.testimonials__button--next',
+      prevEl: '.testimonials__button--previous',
+    },
+    a11y: {
+      prevSlideMessage: 'Previous testimonial',
+      nextSlideMessage: 'Next testimonial',
+      paginationBulletMessage: 'Go to testimonial group {{index}}',
+    },
+    breakpoints: {
+      700: {
+        slidesPerView: 2,
+        spaceBetween: 24,
+      },
+      1100: {
+        slidesPerView: 3,
+        spaceBetween: 48,
+      },
+    },
   });
 }
-
-testimonialDots.forEach((dot, index) => {
-  dot.addEventListener('click', () => showTestimonial(index));
-});
-
-window.addEventListener('resize', () => {
-  if (window.innerWidth > 820 && testimonialTrack) {
-    testimonialTrack.style.transform = '';
-  }
-});
 
 const newsletterForm = document.querySelector('.newsletter__form');
 const newsletterMessage = document.querySelector('.newsletter__message');
@@ -132,16 +153,18 @@ document.querySelectorAll('[data-faq-trigger]').forEach((trigger) => {
   });
 });
 
-const copyLinkButton = document.querySelector('[data-copy-link]');
+const copyLinkButtons = [...document.querySelectorAll('[data-copy-link]')];
 const copyMessage = document.querySelector('[data-copy-message]');
 
-copyLinkButton?.addEventListener('click', async () => {
-  try {
-    await navigator.clipboard.writeText(window.location.href);
-    if (copyMessage) copyMessage.textContent = 'Page link copied.';
-  } catch {
-    if (copyMessage) copyMessage.textContent = 'Copy unavailable. Please copy the address from your browser.';
-  }
+copyLinkButtons.forEach((copyLinkButton) => {
+  copyLinkButton.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      if (copyMessage) copyMessage.textContent = 'Page link copied.';
+    } catch {
+      if (copyMessage) copyMessage.textContent = 'Copy unavailable. Please copy the address from your browser.';
+    }
+  });
 });
 
 const consultationForm = document.querySelector('.consultation-form');
