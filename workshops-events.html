@@ -77,11 +77,11 @@
     </header>
 
     <main id="main-content">
-      <section class="workshops-events-hero">
-        <div class="workshops-events-hero__inner page-shell">
+      <section class="page-hero" aria-labelledby="workshops-events-hero-title">
+        <div class="page-hero__inner page-shell">
           <p class="eyebrow">Inspire. Create. Belong.</p>
-          <h1 class="workshops-events-hero__title">Events &amp; Workshops</h1>
-          <p class="workshops-events-hero__description">
+          <h1 class="page-hero__title" id="workshops-events-hero-title">Events &amp; Workshops</h1>
+          <p class="page-hero__description">
             Fun, engaging, and inclusive workshops for kids of all abilities — especially tailored for children with
             special needs.
           </p>
@@ -95,13 +95,13 @@
               <p class="eyebrow">Our Creations</p>
               <h2 class="activity-collection__title" id="workshops-title">Upcoming Workshops</h2>
             </div>
-            <a class="text-link activity-collection__link" href="#workshops">
+            <!-- <a class="text-link activity-collection__link" href="#workshops">
               View Past Workshops <i class="ri-arrow-right-s-line" aria-hidden="true"></i>
-            </a>
+            </a> -->
           </header>
 
           <div class="activity-collection__grid activity-collection__grid--workshops">
-            <article class="activity-card activity-card--bookable">
+            <a class="activity-card activity-card--bookable" href="workshop-details.html">
               <div class="activity-card__media">
                 <img
                   class="activity-card__image"
@@ -112,7 +112,7 @@
                 <span class="activity-card__level">Beginner</span>
               </div>
               <div class="activity-card__body">
-                <h3 class="activity-card__title"><a href="workshop-details.html">Back-to-School Kids Creative Workshop: Decorating a Fall Themed Fondant Cake</a></h3>
+                <h3 class="activity-card__title">Back-to-School Kids Creative Workshop: Decorating a Fall Themed Fondant Cake</h3>
                 <p class="activity-card__time">Tue, Jun 10 · 10:00 AM</p>
                 <p class="activity-card__description">
                   Join us for a fun fall-themed fondant cake decorating session! Kids will learn to sculpt leaves,
@@ -123,12 +123,12 @@
                 </ul>
                 <div class="activity-card__booking">
                   <div><strong>$45</strong><span>8 spots left</span></div>
-                  <a class="button button--solid activity-card__button" href="workshop-details.html">View Details</a>
+                  <span class="button button--solid activity-card__button">View Details</span>
                 </div>
               </div>
-            </article>
+            </a>
 
-            <article class="activity-card activity-card--bookable">
+            <a class="activity-card activity-card--bookable" href="workshop-details.html">
               <div class="activity-card__media">
                 <img class="activity-card__image" src="assets/workshop-event-cake.jpeg" alt="Blue floral cake being decorated" />
                 <time class="activity-card__date" datetime="2026-07-27"><span>Jul</span><strong>27</strong></time>
@@ -146,12 +146,12 @@
                 </ul>
                 <div class="activity-card__booking">
                   <div><strong>$55</strong><span>10 spots left</span></div>
-                  <a class="button button--solid activity-card__button" href="workshop-registration.html">Book Now</a>
+                  <span class="button button--solid activity-card__button">View Details</span>
                 </div>
               </div>
-            </article>
+            </a>
 
-            <article class="activity-card activity-card--bookable">
+            <a class="activity-card activity-card--bookable" href="workshop-details.html">
               <div class="activity-card__media">
                 <img class="activity-card__image" src="assets/workshop-event-macarons.jpeg" alt="Baking tools and pastries on a work surface" />
                 <time class="activity-card__date" datetime="2026-08-09"><span>Aug</span><strong>9</strong></time>
@@ -168,10 +168,10 @@
                 </ul>
                 <div class="activity-card__booking">
                   <div><strong>$75</strong><span>6 spots left</span></div>
-                  <a class="button button--solid activity-card__button" href="workshop-registration.html">Book Now</a>
+                  <span class="button button--solid activity-card__button">View Details</span>
                 </div>
               </div>
-            </article>
+            </a>
           </div>
         </section>
 
@@ -181,9 +181,9 @@
               <p class="eyebrow">Our Activities</p>
               <h2 class="activity-collection__title" id="events-title">Upcoming Event</h2>
             </div>
-            <a class="text-link activity-collection__link" href="#events">
+            <!-- <a class="text-link activity-collection__link" href="">
               View Past Events <i class="ri-arrow-right-s-line" aria-hidden="true"></i>
-            </a>
+            </a> -->
           </header>
 
           <div class="activity-collection__grid">
@@ -197,6 +197,7 @@
                 <p class="activity-card__time">Tue, Jun 10 · 10:00 AM</p>
                 <p class="activity-card__description">Join us for a fun fall-themed fondant cake decorating session! Kids will learn to sculpt leaves, pumpkins, and more.</p>
                 <ul class="activity-card__tags" aria-label="Event details"><li>Kids</li><li>Fondant</li><li>Beginner</li></ul>
+                <a class="button button--outline button--compact activity-card__event-button" href="event-details.html">Learn More</a>
               </div>
             </article>
 
@@ -210,6 +211,7 @@
                 <p class="activity-card__time">July 27, 2026 · 1:00 PM – 4:00 PM</p>
                 <p class="activity-card__description">An afternoon of creativity for young bakers! Learn piping, decorating, and basic fondant shaping in a supportive environment.</p>
                 <ul class="activity-card__tags" aria-label="Event details"><li>Kids</li><li>Creative</li><li>Inclusive</li></ul>
+                <a class="button button--outline button--compact activity-card__event-button" href="event-details.html">Learn More</a>
               </div>
             </article>
 
@@ -223,6 +225,7 @@
                 <p class="activity-card__time">Sat, Aug 9 · 11:00 AM</p>
                 <p class="activity-card__description">Master the art of the perfect French macaron — from batter consistency to filling and flavor pairing.</p>
                 <ul class="activity-card__tags" aria-label="Event details"><li>Adults</li><li>Macarons</li><li>Intermediate</li></ul>
+                <a class="button button--outline button--compact activity-card__event-button" href="event-details.html">Learn More</a>
               </div>
             </article>
 
@@ -236,6 +239,7 @@
                 <p class="activity-card__time">Sat, Aug 16 · 10:00 AM</p>
                 <p class="activity-card__description">Learn essential buttercream techniques, piping basics, and fun toppers in this beginner-friendly cupcake class.</p>
                 <ul class="activity-card__tags" aria-label="Event details"><li>All Ages</li><li>Cupcakes</li><li>Beginner</li></ul>
+                <a class="button button--outline button--compact activity-card__event-button" href="event-details.html">Learn More</a>
               </div>
             </article>
 
@@ -249,6 +253,7 @@
                 <p class="activity-card__time">Sat, Sep 6 · 1:00 PM</p>
                 <p class="activity-card__description">Push your creativity with 3D sculpted cakes — carving, crumb coating, and realistic texture techniques.</p>
                 <ul class="activity-card__tags" aria-label="Event details"><li>Adults</li><li>Sculpting</li><li>Advanced</li></ul>
+                <a class="button button--outline button--compact activity-card__event-button" href="event-details.html">Learn More</a>
               </div>
             </article>
 
@@ -262,6 +267,7 @@
                 <p class="activity-card__time">Sun, Sep 14 · 2:00 PM</p>
                 <p class="activity-card__description">Decorate beautiful sugar cookies with royal icing — flooding, detailing, and marbling techniques included.</p>
                 <ul class="activity-card__tags" aria-label="Event details"><li>All Ages</li><li>Cookies</li><li>Beginner</li></ul>
+                <a class="button button--outline button--compact activity-card__event-button" href="event-details.html">Learn More</a>
               </div>
             </article>
           </div>

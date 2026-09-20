@@ -147,7 +147,7 @@
               </div>
             </section>
 
-            <section class="cake-craft" aria-labelledby="cake-craft-title">
+            <!-- <section class="cake-craft" aria-labelledby="cake-craft-title">
               <p class="cake-detail__eyebrow cake-detail__eyebrow--small">Behind the craft</p>
               <h2 class="cake-detail__title cake-detail__title--small" id="cake-craft-title">Process &amp; Details</h2>
               <div class="cake-craft__gallery">
@@ -157,7 +157,7 @@
                 <img class="cake-craft__image" src="assets/gallery-detail-process-4.png" alt="Slice of vanilla celebration cake" />
                 <img class="cake-craft__image" src="assets/gallery-detail-process-5.png" alt="Buttercream being carefully applied by hand" />
               </div>
-            </section>
+            </section> -->
 
             <section class="cake-process" aria-labelledby="cake-process-title">
               <p class="cake-detail__eyebrow cake-detail__eyebrow--small">The process</p>
@@ -184,36 +184,36 @@
             <section class="cake-faq" aria-labelledby="cake-faq-title">
               <p class="cake-detail__eyebrow cake-detail__eyebrow--small">Good to know</p>
               <h2 class="cake-detail__title cake-detail__title--small" id="cake-faq-title">Frequently Asked</h2>
-              <div class="cake-faq__list">
-                <div class="cake-faq__item">
-                  <button class="cake-faq__question" type="button" aria-expanded="false" aria-controls="faq-booking" data-faq-trigger>
+              <div class="cake-faq__list site-accordion" data-accordion>
+                <div class="cake-faq__item site-accordion__item">
+                  <button class="cake-faq__question site-accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-booking" data-faq-trigger>
                     <span>How far in advance should I book?</span><i class="ri-add-line" aria-hidden="true"></i>
                   </button>
-                  <div class="cake-faq__answer" id="faq-booking" hidden>Wedding cakes require at least three weeks’ notice. Earlier booking is recommended for peak dates.</div>
+                  <div class="cake-faq__answer site-accordion__panel" id="faq-booking" aria-hidden="true"><div class="site-accordion__panel-inner"><div class="site-accordion__content">Wedding cakes require at least three weeks’ notice. Earlier booking is recommended for peak dates.</div></div></div>
                 </div>
-                <div class="cake-faq__item">
-                  <button class="cake-faq__question" type="button" aria-expanded="false" aria-controls="faq-tastings" data-faq-trigger>
+                <div class="cake-faq__item site-accordion__item">
+                  <button class="cake-faq__question site-accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-tastings" data-faq-trigger>
                     <span>Do you do cake tastings?</span><i class="ri-add-line" aria-hidden="true"></i>
                   </button>
-                  <div class="cake-faq__answer" id="faq-tastings" hidden>Tastings are available by appointment for qualifying wedding and large custom orders.</div>
+                  <div class="cake-faq__answer site-accordion__panel" id="faq-tastings" aria-hidden="true"><div class="site-accordion__panel-inner"><div class="site-accordion__content">Tastings are available by appointment for qualifying wedding and large custom orders.</div></div></div>
                 </div>
-                <div class="cake-faq__item">
-                  <button class="cake-faq__question" type="button" aria-expanded="false" aria-controls="faq-flavours" data-faq-trigger>
+                <div class="cake-faq__item site-accordion__item">
+                  <button class="cake-faq__question site-accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-flavours" data-faq-trigger>
                     <span>Can I mix flavours across tiers?</span><i class="ri-add-line" aria-hidden="true"></i>
                   </button>
-                  <div class="cake-faq__answer" id="faq-flavours" hidden>Yes. Each tier can have its own cake and filling combination.</div>
+                  <div class="cake-faq__answer site-accordion__panel" id="faq-flavours" aria-hidden="true"><div class="site-accordion__panel-inner"><div class="site-accordion__content">Yes. Each tier can have its own cake and filling combination.</div></div></div>
                 </div>
-                <div class="cake-faq__item">
-                  <button class="cake-faq__question" type="button" aria-expanded="false" aria-controls="faq-delivery" data-faq-trigger>
+                <div class="cake-faq__item site-accordion__item">
+                  <button class="cake-faq__question site-accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-delivery" data-faq-trigger>
                     <span>Do you deliver and set up?</span><i class="ri-add-line" aria-hidden="true"></i>
                   </button>
-                  <div class="cake-faq__answer" id="faq-delivery" hidden>Delivery and professional set-up are available throughout Calgary and surrounding areas.</div>
+                  <div class="cake-faq__answer site-accordion__panel" id="faq-delivery" aria-hidden="true"><div class="site-accordion__panel-inner"><div class="site-accordion__content">Delivery and professional set-up are available throughout Calgary and surrounding areas.</div></div></div>
                 </div>
-                <div class="cake-faq__item">
-                  <button class="cake-faq__question" type="button" aria-expanded="false" aria-controls="faq-guests" data-faq-trigger>
+                <div class="cake-faq__item site-accordion__item">
+                  <button class="cake-faq__question site-accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-guests" data-faq-trigger>
                     <span>What if my guest count changes?</span><i class="ri-add-line" aria-hidden="true"></i>
                   </button>
-                  <div class="cake-faq__answer" id="faq-guests" hidden>Contact us as soon as possible. We’ll confirm whether the size can be adjusted before production begins.</div>
+                  <div class="cake-faq__answer site-accordion__panel" id="faq-guests" aria-hidden="true"><div class="site-accordion__panel-inner"><div class="site-accordion__content">Contact us as soon as possible. We’ll confirm whether the size can be adjusted before production begins.</div></div></div>
                 </div>
               </div>
             </section>
@@ -252,8 +252,8 @@
                   <strong>Romantic · Floral · Classic</strong>
                 </div>
                 <div class="cake-order__actions">
-                  <a class="cake-order__button cake-order__button--primary" href="contact.html">Order This Cake</a>
-                  <a class="cake-order__button cake-order__button--outline" href="contact.html">Inquire Now</a>
+                  <a class="cake-order__button cake-order__button--primary" href="contact.html">Inquire Now</a>
+                  <!-- <a class="cake-order__button cake-order__button--outline" href="contact.html">Inquire Now</a> -->
                 </div>
                 <ul class="cake-order__benefits">
                   <li><i class="ri-checkbox-circle-line" aria-hidden="true"></i>100% custom — no two cakes alike</li>
@@ -273,7 +273,7 @@
               </footer>
             </section>
 
-            <section class="cake-contact-card" aria-labelledby="cake-contact-title">
+            <!-- <section class="cake-contact-card" aria-labelledby="cake-contact-title">
               <h2 id="cake-contact-title">Questions before you order?</h2>
               <p>Reach Karen directly — she’ll walk you through everything.</p>
               <address>
@@ -281,16 +281,16 @@
                 <a href="mailto:tastensee82@gmail.com"><i class="ri-mail-line" aria-hidden="true"></i>tastensee82@gmail.com</a>
                 <a href="index.html#instagram"><i class="ri-instagram-line" aria-hidden="true"></i>@tastensee82</a>
               </address>
-            </section>
+            </section> -->
 
-            <section class="cake-designer" aria-label="Your cake designer">
+            <!-- <section class="cake-designer" aria-label="Your cake designer">
               <img class="cake-designer__image" src="assets/gallery-detail-designer.png" alt="Karen, tasteNsee certified cake designer" />
               <div>
                 <h2>tasteNsee — Karen</h2>
                 <p>Certified Cake Designer</p>
                 <span>10+ years · Calgary based · 200+ cakes</span>
               </div>
-            </section>
+            </section> -->
           </aside>
         </div>
       </section>

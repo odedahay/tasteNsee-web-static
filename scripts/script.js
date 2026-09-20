@@ -141,15 +141,24 @@ galleryFilters.forEach((filterButton) => {
 });
 
 document.querySelectorAll('[data-faq-trigger]').forEach((trigger) => {
-  trigger.addEventListener('click', () => {
-    const panelId = trigger.getAttribute('aria-controls');
-    const panel = panelId ? document.getElementById(panelId) : null;
-    const willOpen = trigger.getAttribute('aria-expanded') !== 'true';
+  const panelId = trigger.getAttribute('aria-controls');
+  const panel = panelId ? document.getElementById(panelId) : null;
 
-    trigger.setAttribute('aria-expanded', String(willOpen));
-    trigger.querySelector('i')?.classList.toggle('ri-add-line', !willOpen);
-    trigger.querySelector('i')?.classList.toggle('ri-subtract-line', willOpen);
-    if (panel) panel.hidden = !willOpen;
+  if (!panel) return;
+
+  function setAccordionState(isOpen) {
+    trigger.setAttribute('aria-expanded', String(isOpen));
+    panel.setAttribute('aria-hidden', String(!isOpen));
+    panel.dataset.open = String(isOpen);
+    trigger.querySelector('i')?.classList.toggle('ri-add-line', !isOpen);
+    trigger.querySelector('i')?.classList.toggle('ri-subtract-line', isOpen);
+  }
+
+  setAccordionState(trigger.getAttribute('aria-expanded') === 'true');
+
+  trigger.addEventListener('click', () => {
+    const willOpen = trigger.getAttribute('aria-expanded') !== 'true';
+    setAccordionState(willOpen);
   });
 });
 
