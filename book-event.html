@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Book a private cookie, cupcake, or cake decorating event with tasteNsee in Calgary." />
+    <title>Book Your Private Event | tasteNsee</title>
+    <link rel="icon" href="assets/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#f0fae8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&amp;family=Nunito:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts/script.js" defer></script>
+  </head>
+  <body class="workshop-registration-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header" id="home">
+      <div class="site-header__inner page-shell">
+        <a class="site-header__brand" href="index.html" aria-label="tasteNsee home"><img class="site-header__logo" src="assets/tastensee-logo.svg" alt="tasteNsee" /></a>
+        <button class="site-header__menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation"><span class="site-header__menu-line"></span><span class="site-header__menu-line"></span><span class="site-header__menu-line"></span></button>
+        <nav class="site-header__nav" id="primary-navigation" aria-label="Primary navigation">
+          <a class="site-header__nav-link" href="index.html">Home</a><a class="site-header__nav-link" href="gallery.html">Cakes Gallery</a><a class="site-header__nav-link site-header__nav-link--active" href="workshops-events.html" aria-current="page">Events &amp; Workshops</a>
+          <div class="site-header__dropdown"><button class="site-header__nav-link site-header__dropdown-toggle" type="button" aria-expanded="false">More <i class="ri-arrow-down-s-line" aria-hidden="true"></i></button><div class="site-header__dropdown-menu"><a class="site-header__dropdown-link" href="about.html">About Me</a><a class="site-header__dropdown-link" href="blog.html">Blog</a><a class="site-header__dropdown-link" href="testimonials.html">Testimonials</a></div></div>
+          <a class="site-header__nav-link" href="contact.html">Contact</a>
+        </nav>
+        <div class="site-header__actions"><a class="site-header__social" href="index.html#instagram" aria-label="Instagram"><i class="ri-instagram-line" aria-hidden="true"></i></a><a class="button button--small button--solid" href="consultation.html">Cake Inquiry</a></div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="workshop-registration">
+        <div class="workshop-registration__inner">
+          <header class="workshop-registration__heading">
+            <h1 class="workshop-registration__title">Book Your Event</h1>
+            <p class="workshop-registration__intro">Tell us what you’re celebrating, what you’d love to make, and how many guests will join you.</p>
+          </header>
+          <div class="workshop-registration__layout workshop-registration__layout--centered">
+            <form class="registration-form" id="private-event-booking-form">
+              <header class="registration-form__header"><h2 class="registration-form__title">Private Event Inquiry</h2><p class="registration-form__subtitle">Cookie, cupcake, and cake decorating events in Calgary</p></header>
+              <div class="registration-form__body">
+                <h2 class="registration-form__section-title registration-form__section-title--compact">Your Contact Information</h2>
+                <div class="registration-form__row">
+                  <div class="registration-form__field"><label class="registration-form__label" for="event-name">Name <span aria-hidden="true">*</span></label><input class="registration-form__control" id="event-name" name="name" type="text" autocomplete="name" placeholder="Your full name" required /></div>
+                  <div class="registration-form__field"><label class="registration-form__label" for="event-email">Email <span aria-hidden="true">*</span></label><input class="registration-form__control" id="event-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required /></div>
+                </div>
+                <div class="registration-form__row registration-form__field--top-gap">
+                  <div class="registration-form__field"><label class="registration-form__label" for="event-phone">Phone <span aria-hidden="true">*</span></label><input class="registration-form__control" id="event-phone" name="phone" type="tel" autocomplete="tel" placeholder="(403) 000-0000" required /></div>
+                  <div class="registration-form__field"><label class="registration-form__label" for="event-date">Preferred Date <span aria-hidden="true">*</span></label><input class="registration-form__control" id="event-date" name="preferred_date" type="date" required /></div>
+                </div>
+
+                <h2 class="registration-form__section-title">Event Details</h2>
+                <div class="registration-form__field registration-form__field--spaced">
+                  <label class="registration-form__label" for="event-type">What event are you hosting with us? <span aria-hidden="true">*</span></label>
+                  <div class="registration-form__select-wrap"><select class="registration-form__control registration-form__select" id="event-type" name="event_type" required><option value="">Please select</option><option value="team-building">Team building</option><option value="birthday-party">Birthday party</option><option value="school-group">School group</option><option value="other">Other</option></select><i class="ri-arrow-down-s-line" aria-hidden="true"></i></div>
+                </div>
+                <div class="registration-form__field registration-form__field--spaced"><label class="registration-form__label" for="event-other">If other, please tell us more</label><input class="registration-form__control" id="event-other" name="event_other" type="text" placeholder="Bridal shower, private gathering, or another celebration" /></div>
+                <div class="registration-form__field registration-form__field--spaced">
+                  <label class="registration-form__label" for="event-treat">What treat are we making for you? <span aria-hidden="true">*</span></label>
+                  <div class="registration-form__select-wrap"><select class="registration-form__control registration-form__select" id="event-treat" name="treat" required><option value="">Please select</option><option value="cookie">Cookie</option><option value="cupcake">Cupcake</option><option value="mini-cake">Mini Cake</option></select><i class="ri-arrow-down-s-line" aria-hidden="true"></i></div>
+                </div>
+                <div class="registration-form__field registration-form__field--spaced">
+                  <label class="registration-form__label" for="event-guests">How many people are joining us? <span aria-hidden="true">*</span></label>
+                  <div class="registration-form__select-wrap"><select class="registration-form__control registration-form__select" id="event-guests" name="guest_count" required><option value="">Please select</option><option value="1-5">1–5</option><option value="6-10">6–10</option><option value="11-15">11–15</option><option value="16-20">16–20</option><option value="20+">More than 20</option></select><i class="ri-arrow-down-s-line" aria-hidden="true"></i></div>
+                </div>
+                <div class="registration-form__field registration-form__field--section-gap"><label class="registration-form__label" for="event-notes">Anything else we should know?</label><textarea class="registration-form__control registration-form__textarea registration-form__textarea--message" id="event-notes" name="notes" placeholder="Tell us about your group, theme, accessibility needs, or questions."></textarea></div>
+                <button class="registration-form__submit" type="submit">Request My Event <i class="ri-arrow-right-line" aria-hidden="true"></i></button>
+                <p class="registration-form__status" data-registration-message role="status" aria-live="polite"></p>
+              </div>
+              <footer class="registration-form__footer"><address class="registration-form__contact"><a href="tel:+12049638496"><i class="ri-phone-line" aria-hidden="true"></i>204-963-8496</a><a href="mailto:tastensee82@gmail.com"><i class="ri-mail-line" aria-hidden="true"></i>tastensee82@gmail.com</a></address><a class="registration-form__back" href="workshops-events.html"><i class="ri-arrow-left-line" aria-hidden="true"></i>Back to events</a></footer>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

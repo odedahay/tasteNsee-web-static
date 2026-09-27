@@ -49,22 +49,22 @@
 
         <nav class="site-header__nav" id="primary-navigation" aria-label="Primary navigation">
           <a class="site-header__nav-link" href="index.html">Home</a>
-          <a class="site-header__nav-link" href="gallery.html">Cakes</a>
+          <a class="site-header__nav-link" href="gallery.html">Cakes Gallery</a>
+          <a class="site-header__nav-link site-header__nav-link--active" href="workshops-events.html" aria-current="page">Events &amp; Workshops</a>
           <div class="site-header__dropdown">
             <button
-              class="site-header__nav-link site-header__nav-link--active site-header__dropdown-toggle"
+              class="site-header__nav-link site-header__dropdown-toggle"
               type="button"
               aria-expanded="false"
             >
               More <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
             </button>
             <div class="site-header__dropdown-menu">
-              <a class="site-header__dropdown-link" href="gallery.html">Gallery</a>
-              <a class="site-header__dropdown-link site-header__dropdown-link--active" href="workshops-events.html">Events &amp; Workshops</a>
+              <a class="site-header__dropdown-link" href="about.html">About Me</a>
               <a class="site-header__dropdown-link" href="blog.html">Blog</a>
+              <a class="site-header__dropdown-link" href="testimonials.html">Testimonials</a>
             </div>
           </div>
-          <a class="site-header__nav-link" href="about.html">About Me</a>
           <a class="site-header__nav-link" href="contact.html">Contact</a>
         </nav>
 
@@ -80,23 +80,39 @@
       <section class="workshop-registration">
         <div class="workshop-registration__inner">
           <header class="workshop-registration__heading">
-            <h1 class="workshop-registration__title">Kids Creative Workshop</h1>
+            <h1 class="workshop-registration__title">Kids’ Workshop Registration</h1>
             <p class="workshop-registration__intro">
-              Custom cakes, workshops, dessert tables or just a question — Odede reads every message personally and replies within 24 hours.
+              Choose a workshop and tell us what your child needs for a safe, creative, and joyful experience.
             </p>
           </header>
 
           <div class="workshop-registration__layout">
             <form class="registration-form" id="workshop-registration-form">
               <header class="registration-form__header">
-                <h2 class="registration-form__title">Registration</h2>
+                <h2 class="registration-form__title">Workshop Registration</h2>
                 <p class="registration-form__subtitle">Registration &amp; Consent Form. Participant Age Group: 8–14 yrs old</p>
               </header>
 
               <div class="registration-form__body">
                 <div class="registration-form__field registration-form__field--spaced">
+                  <label class="registration-form__label" for="kids-workshop">Workshop <span aria-hidden="true">*</span></label>
+                  <div class="registration-form__select-wrap">
+                    <select class="registration-form__control registration-form__select" id="kids-workshop" name="workshop" required>
+                      <option value="">Please select a workshop</option>
+                      <option>October 19 — Halloween Cupcake Design (1:00–3:00 PM)</option>
+                      <option>Fall Break Half-Day — Option 2 (1:00–3:30 PM)</option>
+                      <option>November 12 — Cookie Masterclass (1:00–3:30 PM)</option>
+                      <option>November 13 — Cake &amp; Canvas (1:00–3:30 PM)</option>
+                      <option>December 19 — Edible Gift Workshop (1:30–3:30 PM)</option>
+                    </select>
+                    <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
+                  </div>
+                </div>
+
+                <h2 class="registration-form__section-title registration-form__section-title--compact">Participant Information</h2>
+                <div class="registration-form__field registration-form__field--spaced">
                   <label class="registration-form__label" for="participant-name">
-                    Participant Information (Child) Name <span aria-hidden="true">*</span>
+                    Child’s Name <span aria-hidden="true">*</span>
                   </label>
                   <input
                     class="registration-form__control"
@@ -112,42 +128,43 @@
                 <div class="registration-form__row">
                   <div class="registration-form__field">
                     <label class="registration-form__label" for="participant-age">
-                      Age &amp; Grade Level <span aria-hidden="true">*</span>
+                      Age <span aria-hidden="true">*</span>
                     </label>
                     <input
                       class="registration-form__control"
                       id="participant-age"
-                      name="participant_age_grade"
-                      type="text"
-                      placeholder="Your name"
+                      name="participant_age"
+                      type="number"
+                      min="8"
+                      max="14"
+                      placeholder="Age"
                       required
                     />
                   </div>
                   <div class="registration-form__field">
-                    <label class="registration-form__label" for="participant-email">
-                      Email <span aria-hidden="true">*</span>
+                    <label class="registration-form__label" for="participant-grade">
+                      Grade Level <span aria-hidden="true">*</span>
                     </label>
                     <input
                       class="registration-form__control"
-                      id="participant-email"
-                      name="participant_email"
-                      type="email"
-                      placeholder="you@example.com"
-                      autocomplete="email"
+                      id="participant-grade"
+                      name="participant_grade"
+                      type="text"
+                      placeholder="Grade"
                       required
                     />
                   </div>
                 </div>
 
                 <div class="registration-form__field registration-form__field--top-gap">
-                  <label class="registration-form__label" for="participant-phone">Phone</label>
+                  <label class="registration-form__label" for="participant-allergies">Allergies <span aria-hidden="true">*</span></label>
                   <input
                     class="registration-form__control"
-                    id="participant-phone"
-                    name="participant_phone"
-                    type="tel"
-                    placeholder="(204) 000-0000"
-                    autocomplete="tel"
+                    id="participant-allergies"
+                    name="participant_allergies"
+                    type="text"
+                    placeholder="List allergies, or type None"
+                    required
                   />
                 </div>
 
@@ -163,7 +180,7 @@
                     id="medical-considerations"
                     name="medical_considerations"
                     maxlength="500"
-                    placeholder="Tell Odede what you need — include dates, occasion, guest count, colour palette, or anything relevant. The more detail, the better."
+                    placeholder="List any medical conditions or behavioural considerations, or type None."
                     required
                   ></textarea>
                 </div>
@@ -171,7 +188,7 @@
                 <h2 class="registration-form__section-title">Guardian Information</h2>
 
                 <div class="registration-form__field registration-form__field--spaced">
-                  <label class="registration-form__label" for="guardian-name">Name</label>
+                  <label class="registration-form__label" for="guardian-name">Name <span aria-hidden="true">*</span></label>
                   <input
                     class="registration-form__control"
                     id="guardian-name"
@@ -179,13 +196,14 @@
                     type="text"
                     placeholder="Your name"
                     autocomplete="name"
+                    required
                   />
                 </div>
 
                 <div class="registration-form__field registration-form__field--spaced">
-                  <label class="registration-form__label" for="guardian-relationship">Relationship to Child</label>
+                  <label class="registration-form__label" for="guardian-relationship">Relationship to Child <span aria-hidden="true">*</span></label>
                   <div class="registration-form__select-wrap">
-                    <select class="registration-form__control registration-form__select" id="guardian-relationship" name="guardian_relationship">
+                    <select class="registration-form__control registration-form__select" id="guardian-relationship" name="guardian_relationship" required>
                       <option value="">Please select</option>
                       <option value="parent">Parent</option>
                       <option value="guardian">Legal guardian</option>
@@ -227,21 +245,19 @@
                   </div>
                 </div>
 
-                <div class="registration-form__divider" aria-hidden="true"></div>
-
                 <div class="registration-form__field registration-form__field--message">
                   <div class="registration-form__label-row">
                     <label class="registration-form__label" for="registration-message">
-                      Your message <span aria-hidden="true">*</span>
+                      Please list two individuals authorized to pick up your child and their phone numbers <span aria-hidden="true">*</span>
                     </label>
                     <span class="registration-form__counter" data-character-counter="registration-message">0 chars</span>
                   </div>
                   <textarea
                     class="registration-form__control registration-form__textarea registration-form__textarea--message"
                     id="registration-message"
-                    name="message"
+                    name="authorized_pickup_people"
                     maxlength="1000"
-                    placeholder="Tell Odede what you need — include dates, occasion, guest count, colour palette, or anything relevant. The more detail, the better."
+                    placeholder="1. Full name — phone number&#10;2. Full name — phone number"
                     required
                   ></textarea>
                 </div>
@@ -252,7 +268,7 @@
                   <span class="registration-form__consent-copy">
                     <strong>Pickup Authorization</strong>
                     <small>
-                      We are mindful of our drop off (12:45pm–1pm) and pickup time (2:45pm–3pm). Please list the TWO individuals (Name, Relationship to Child, Phone Number) authorized to pick up your child after the workshop. Children will not be released to anyone not listed below without prior written notice.
+                      We are mindful of our drop-off and pick-up time. Sign-in begins 15 minutes before the workshop, and pick-up begins 15 minutes before the workshop ends. Please check that you acknowledge this.
                     </small>
                   </span>
                 </label>
@@ -261,9 +277,9 @@
                   <input name="workshop_policy" type="checkbox" required />
                   <span class="registration-form__check" aria-hidden="true"><i class="ri-check-line"></i></span>
                   <span class="registration-form__consent-copy">
-                    <strong>TasteNsee Workshop Policy (Mon, Oct 19):</strong>
+                    <strong>tasteNsee Workshop Policy</strong>
                     <small>
-                      Within 72 Hours: Non-refundable. Cancellations or no-shows forfeit fees. Transfers: Allowed if approved by management before class. Organizer Cancellation: 100% refund. Questions/Transfers: <a href="mailto:tastensee82@gmail.com">tastensee82@gmail.com</a>. Please confirm your acknowledgment with your initials.
+                      Within 72 hours, cancellation is non-refundable. Cancellations or no-shows forfeit fees. Transfers are allowed if approved by the instructor before the workshop. Instructor cancellation receives a 100% refund. For questions or transfers, email <a href="mailto:tastensee82@gmail.com">tastensee82@gmail.com</a>. Please check that you acknowledge this.
                     </small>
                   </span>
                 </label>
@@ -285,19 +301,23 @@
                   </label>
                 </fieldset>
 
+                <section class="registration-form__payment" aria-labelledby="kids-payment-title">
+                  <h2 id="kids-payment-title">Workshop Payment</h2>
+                  <p>Payment is completed after availability is confirmed. A secure payment link will be sent to the guardian email above.</p>
+                </section>
+
                 <button class="registration-form__submit" type="submit">
-                  Send My Message <i class="ri-arrow-right-line" aria-hidden="true"></i>
+                  Submit Registration <i class="ri-arrow-right-line" aria-hidden="true"></i>
                 </button>
                 <p class="registration-form__status" data-registration-message role="status" aria-live="polite"></p>
               </div>
 
               <footer class="registration-form__footer">
                 <address class="registration-form__contact">
-                  <a href="tel:+12041234567"><i class="ri-phone-line" aria-hidden="true"></i>(204) 123-4567</a>
+                  <a href="tel:+12049638496"><i class="ri-phone-line" aria-hidden="true"></i>204-963-8496</a>
                   <a href="mailto:tastensee82@gmail.com"><i class="ri-mail-line" aria-hidden="true"></i>tastensee82@gmail.com</a>
-                  <a href="index.html#instagram"><i class="ri-instagram-line" aria-hidden="true"></i>@tatsensee82</a>
                 </address>
-                <a class="registration-form__back" href="index.html"><i class="ri-arrow-left-line" aria-hidden="true"></i>Back to home</a>
+                <a class="registration-form__back" href="workshops-events.html#kids-workshops"><i class="ri-arrow-left-line" aria-hidden="true"></i>Back to workshops</a>
               </footer>
             </form>
 
@@ -323,7 +343,7 @@
                   <h2 class="workshop-host__name">Karen</h2>
                   <p class="workshop-host__role">Certified Cake Designer · Registered Nurse · Calgary, AB</p>
                   <p class="workshop-host__description">
-                    Odede reads every inquiry personally and replies with warmth and detail. There's no question too small and no brief too vague — she loves a good conversation about cake.
+                    Every inquiry is read personally and answered with warmth and detail. There’s no question too small and no brief too vague — Karen loves a good conversation about cake.
                   </p>
                   <ul class="workshop-host__tags" aria-label="Experience and qualifications">
                     <li>10+ years experience</li>
@@ -357,7 +377,7 @@
             <a href="about.html">About</a>
             <a href="gallery.html">Cakes</a>
             <a href="workshops-events.html#workshops">Workshops</a>
-            <a href="workshops-events.html#events">Events</a>
+            <a href="workshops-events.html#markets">Pop-Up Markets</a>
           </nav>
 
           <nav class="site-footer__column" aria-label="Customer care links">
@@ -371,7 +391,7 @@
 
           <div class="site-footer__column">
             <h2 class="site-footer__heading">Contact Us</h2>
-            <a href="tel:+12041234567">(204) 123-4567</a>
+            <a href="tel:+12049638496">204-963-8496</a>
             <a href="mailto:tastensee82@gmail.com">tastensee82@gmail.com</a>
             <address class="site-footer__address">1-204-963-8496 at 270 Sora Way SE<br />Calgary AB</address>
             <h2 class="site-footer__heading site-footer__heading--spaced">Business Hours</h2>

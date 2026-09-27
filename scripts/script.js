@@ -209,9 +209,11 @@ const inspirationUpload = document.querySelector('[data-upload-input]');
 const inspirationUploadLabel = document.querySelector('[data-upload-label]');
 
 inspirationUpload?.addEventListener('change', () => {
-  const selectedFile = inspirationUpload.files?.[0];
+  const selectedFiles = inspirationUpload.files;
   if (inspirationUploadLabel) {
-    inspirationUploadLabel.textContent = selectedFile?.name || 'Browse image';
+    inspirationUploadLabel.textContent = selectedFiles?.length
+      ? `${selectedFiles.length} image${selectedFiles.length === 1 ? '' : 's'} selected`
+      : 'Browse images';
   }
 });
 
@@ -237,7 +239,9 @@ registrationForm?.addEventListener('submit', (event) => {
   }
 
   if (registrationMessage) {
-    registrationMessage.textContent = 'Thank you! Your workshop registration is ready to send.';
+    registrationMessage.textContent = registrationForm.id === 'private-event-booking-form'
+      ? 'Thank you! Your private event request details are complete.'
+      : 'Thank you! Your workshop registration details are complete.';
   }
 });
 

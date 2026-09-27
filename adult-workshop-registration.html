@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Register for a tasteNsee adult edible art workshop in Calgary." />
+    <title>Adult Edible Art Workshop Registration | tasteNsee</title>
+    <link rel="icon" href="assets/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#f0fae8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&amp;family=Nunito:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts/script.js" defer></script>
+  </head>
+  <body class="workshop-registration-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header" id="home">
+      <div class="site-header__inner page-shell">
+        <a class="site-header__brand" href="index.html" aria-label="tasteNsee home"><img class="site-header__logo" src="assets/tastensee-logo.svg" alt="tasteNsee" /></a>
+        <button class="site-header__menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation"><span class="site-header__menu-line"></span><span class="site-header__menu-line"></span><span class="site-header__menu-line"></span></button>
+        <nav class="site-header__nav" id="primary-navigation" aria-label="Primary navigation">
+          <a class="site-header__nav-link" href="index.html">Home</a>
+          <a class="site-header__nav-link" href="gallery.html">Cakes Gallery</a>
+          <a class="site-header__nav-link site-header__nav-link--active" href="workshops-events.html" aria-current="page">Events &amp; Workshops</a>
+          <div class="site-header__dropdown">
+            <button class="site-header__nav-link site-header__dropdown-toggle" type="button" aria-expanded="false">More <i class="ri-arrow-down-s-line" aria-hidden="true"></i></button>
+            <div class="site-header__dropdown-menu"><a class="site-header__dropdown-link" href="about.html">About Me</a><a class="site-header__dropdown-link" href="blog.html">Blog</a><a class="site-header__dropdown-link" href="testimonials.html">Testimonials</a></div>
+          </div>
+          <a class="site-header__nav-link" href="contact.html">Contact</a>
+        </nav>
+        <div class="site-header__actions"><a class="site-header__social" href="index.html#instagram" aria-label="Instagram"><i class="ri-instagram-line" aria-hidden="true"></i></a><a class="button button--small button--solid" href="consultation.html">Inquire Now</a></div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="workshop-registration">
+        <div class="workshop-registration__inner">
+          <header class="workshop-registration__heading">
+            <h1 class="workshop-registration__title">Adult Edible Art Workshop</h1>
+            <p class="workshop-registration__intro">Choose your workshop and share anything that will help us make your experience comfortable and inspiring.</p>
+          </header>
+          <div class="workshop-registration__layout workshop-registration__layout--centered">
+            <form class="registration-form" id="adult-workshop-registration-form">
+              <header class="registration-form__header"><h2 class="registration-form__title">Workshop Registration</h2><p class="registration-form__subtitle">Adult participant registration and consent form</p></header>
+              <div class="registration-form__body">
+                <div class="registration-form__field registration-form__field--spaced">
+                  <label class="registration-form__label" for="adult-workshop">Workshop <span aria-hidden="true">*</span></label>
+                  <div class="registration-form__select-wrap">
+                    <select class="registration-form__control registration-form__select" id="adult-workshop" name="workshop" required>
+                      <option value="">Please select a workshop</option>
+                      <option>October 3 — Cake &amp; Canvas (6:30–8:30 PM)</option>
+                      <option>November 7 — Cake &amp; Canvas (6:30–8:30 PM)</option>
+                      <option>December 5 — Cake &amp; Canvas (6:30–8:30 PM)</option>
+                      <option>December 19 — Edible Gift Workshop (5:00–7:00 PM)</option>
+                    </select><i class="ri-arrow-down-s-line" aria-hidden="true"></i>
+                  </div>
+                </div>
+
+                <h2 class="registration-form__section-title registration-form__section-title--compact">Participant Information</h2>
+                <div class="registration-form__row">
+                  <div class="registration-form__field"><label class="registration-form__label" for="adult-name">Name <span aria-hidden="true">*</span></label><input class="registration-form__control" id="adult-name" name="participant_name" type="text" autocomplete="name" placeholder="Your full name" required /></div>
+                  <div class="registration-form__field"><label class="registration-form__label" for="adult-age">Age <span aria-hidden="true">*</span></label><input class="registration-form__control" id="adult-age" name="participant_age" type="number" min="18" placeholder="Age" required /></div>
+                </div>
+                <div class="registration-form__row registration-form__field--top-gap">
+                  <div class="registration-form__field"><label class="registration-form__label" for="adult-email">Email <span aria-hidden="true">*</span></label><input class="registration-form__control" id="adult-email" name="participant_email" type="email" autocomplete="email" placeholder="you@example.com" required /></div>
+                  <div class="registration-form__field"><label class="registration-form__label" for="adult-phone">Phone <span aria-hidden="true">*</span></label><input class="registration-form__control" id="adult-phone" name="participant_phone" type="tel" autocomplete="tel" placeholder="(403) 000-0000" required /></div>
+                </div>
+                <div class="registration-form__field registration-form__field--top-gap"><label class="registration-form__label" for="adult-allergies">Allergies <span aria-hidden="true">*</span></label><input class="registration-form__control" id="adult-allergies" name="allergies" type="text" placeholder="List allergies, or type None" required /></div>
+                <div class="registration-form__field registration-form__field--top-gap"><label class="registration-form__label" for="adult-medical">Medical Conditions <span aria-hidden="true">*</span></label><textarea class="registration-form__control registration-form__textarea registration-form__textarea--medical" id="adult-medical" name="medical_conditions" maxlength="500" placeholder="List any medical conditions, or type None" required></textarea></div>
+                <div class="registration-form__field registration-form__field--section-gap">
+                  <div class="registration-form__label-row"><label class="registration-form__label" for="cake-painting-experience">Any experience with cake painting? Tell me more:</label><span class="registration-form__counter" data-character-counter="cake-painting-experience">0 chars</span></div>
+                  <textarea class="registration-form__control registration-form__textarea registration-form__textarea--message" id="cake-painting-experience" name="cake_painting_experience" maxlength="1000" placeholder="Beginners are always welcome—tell us about any experience you have."></textarea>
+                </div>
+
+                <label class="registration-form__consent registration-form__consent--spaced">
+                  <input name="workshop_policy" type="checkbox" required /><span class="registration-form__check" aria-hidden="true"><i class="ri-check-line"></i></span>
+                  <span class="registration-form__consent-copy"><strong>tasteNsee Workshop Policy</strong><small>Within 72 hours, cancellation is non-refundable. Cancellations or no-shows forfeit fees. Transfers are allowed if approved by the instructor before the workshop. Instructor cancellation receives a 100% refund. For questions or transfers, email <a href="mailto:tastensee82@gmail.com">tastensee82@gmail.com</a>. Please check that you acknowledge this.</small></span>
+                </label>
+
+                <fieldset class="registration-form__media-consent">
+                  <legend>Media Release Consent <span aria-hidden="true">*</span></legend>
+                  <p>We love showcasing the beautiful sweet creations made during workshops. Please select your preference:</p>
+                  <label class="registration-form__media-option"><input name="media_consent" type="radio" value="grant" required /><span class="registration-form__check" aria-hidden="true"><i class="ri-check-line"></i></span><span>I DO grant permission for photos/videos of myself and my edible art to be used for promotional purposes (social media, website, and flyers).</span></label>
+                  <label class="registration-form__media-option"><input name="media_consent" type="radio" value="deny" required /><span class="registration-form__check" aria-hidden="true"><i class="ri-check-line"></i></span><span>I DO NOT grant permission for photos/videos of myself and my edible art to be used for promotional purposes (social media, website, and flyers).</span></label>
+                </fieldset>
+
+                <section class="registration-form__payment" aria-labelledby="adult-payment-title"><h2 id="adult-payment-title">Workshop Payment</h2><p>Payment is completed after availability is confirmed. A secure payment link will be sent to the email above.</p></section>
+                <button class="registration-form__submit" type="submit">Submit Registration <i class="ri-arrow-right-line" aria-hidden="true"></i></button>
+                <p class="registration-form__status" data-registration-message role="status" aria-live="polite"></p>
+              </div>
+              <footer class="registration-form__footer">
+                <address class="registration-form__contact"><a href="tel:+12049638496"><i class="ri-phone-line" aria-hidden="true"></i>204-963-8496</a><a href="mailto:tastensee82@gmail.com"><i class="ri-mail-line" aria-hidden="true"></i>tastensee82@gmail.com</a></address>
+                <a class="registration-form__back" href="workshops-events.html#adult-workshops"><i class="ri-arrow-left-line" aria-hidden="true"></i>Back to workshops</a>
+              </footer>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

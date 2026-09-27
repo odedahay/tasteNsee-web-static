@@ -42,18 +42,18 @@
 
         <nav class="site-header__nav" id="primary-navigation" aria-label="Primary navigation">
           <a class="site-header__nav-link" href="index.html">Home</a>
-          <a class="site-header__nav-link" href="gallery.html">Cakes</a>
+          <a class="site-header__nav-link" href="gallery.html">Cakes Gallery</a>
+          <a class="site-header__nav-link" href="workshops-events.html">Events &amp; Workshops</a>
           <div class="site-header__dropdown">
             <button class="site-header__nav-link site-header__dropdown-toggle" type="button" aria-expanded="false">
               More <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
             </button>
             <div class="site-header__dropdown-menu">
-              <a class="site-header__dropdown-link" href="gallery.html">Gallery</a>
-              <a class="site-header__dropdown-link" href="workshops-events.html">Events &amp; Workshops</a>
+              <a class="site-header__dropdown-link" href="about.html">About Me</a>
               <a class="site-header__dropdown-link" href="blog.html">Blog</a>
+              <a class="site-header__dropdown-link" href="testimonials.html">Testimonials</a>
             </div>
           </div>
-          <a class="site-header__nav-link" href="about.html">About Me</a>
           <a class="site-header__nav-link" href="contact.html">Contact</a>
         </nav>
 
@@ -108,11 +108,11 @@
                   </div>
                   <div class="consultation-form__field">
                     <label class="consultation-form__label" for="consultation-occasion">
-                      Occassion <span class="consultation-form__required" aria-hidden="true">*</span>
+                      Occasion <span class="consultation-form__required" aria-hidden="true">*</span>
                     </label>
                     <div class="consultation-form__select-wrap">
                       <select class="consultation-form__control consultation-form__select" id="consultation-occasion" name="occasion" required>
-                        <option value="" selected disabled>Select an occassion</option>
+                        <option value="" selected disabled>Select an occasion</option>
                         <option value="birthday">Birthday</option>
                         <option value="wedding">Wedding</option>
                         <option value="anniversary">Anniversary</option>
@@ -126,17 +126,16 @@
 
                 <div class="consultation-form__fields consultation-form__fields--two-column">
                   <div class="consultation-form__field">
-                    <label class="consultation-form__label" for="consultation-servings">
-                      Number of serving <span class="consultation-form__required" aria-hidden="true">*</span>
+                    <label class="consultation-form__label" for="consultation-package">
+                      Celebration Package Option <span class="consultation-form__required" aria-hidden="true">*</span>
                     </label>
                     <div class="consultation-form__select-wrap">
-                      <select class="consultation-form__control consultation-form__select" id="consultation-servings" name="servings" required>
-                        <option value="" selected disabled>Select number of serving</option>
-                        <option value="1-10">1–10 servings</option>
-                        <option value="11-25">11–25 servings</option>
-                        <option value="26-50">26–50 servings</option>
-                        <option value="51-100">51–100 servings</option>
-                        <option value="100+">More than 100 servings</option>
+                      <select class="consultation-form__control consultation-form__select" id="consultation-package" name="celebration-package" required>
+                        <option value="" selected disabled>Select a celebration package</option>
+                        <option value="sweet-petite">The Sweet Petite — 15–20 guests · $250</option>
+                        <option value="crowd-pleaser">The Crowd Pleaser — 20–30 guests · $450</option>
+                        <option value="big-bash">The Big Bash — 35–45 guests · $750</option>
+                        <option value="show-stopper">The Show Stopper — 50–80 guests · $1,450</option>
                       </select>
                       <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
                     </div>
@@ -148,43 +147,30 @@
                     <div class="consultation-form__select-wrap">
                       <select class="consultation-form__control consultation-form__select" id="consultation-cake-type" name="cake-type" required>
                         <option value="" selected disabled>Select cake type</option>
-                        <option value="custom-cake">Custom cake</option>
-                        <option value="wedding-cake">Wedding cake</option>
-                        <option value="cupcakes">Cupcakes</option>
-                        <option value="dessert-table">Dessert table</option>
-                        <option value="other">Other</option>
+                        <option value="wedding">Wedding</option>
+                        <option value="birthday-buttercream">Birthday Buttercream</option>
+                        <option value="birthday-fondant">Birthday Fondant</option>
+                        <option value="moms-cake">Mom’s Cake</option>
+                        <option value="dads-cake">Dad’s Cake</option>
+                        <option value="gender-reveal-baby-shower">Gender Reveal / Baby Shower</option>
+                        <option value="retirement-send-off">Retirement / Send Off</option>
+                        <option value="religious">Religious</option>
                       </select>
                       <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
                     </div>
                   </div>
                 </div>
 
-                <div class="consultation-form__fields consultation-form__fields--two-column">
-                  <div class="consultation-form__field">
-                    <label class="consultation-form__label" for="consultation-budget">
-                      Budget range <span class="consultation-form__required" aria-hidden="true">*</span>
-                    </label>
-                    <div class="consultation-form__select-wrap">
-                      <select class="consultation-form__control consultation-form__select" id="consultation-budget" name="budget" required>
-                        <option value="" selected disabled>Select budget range</option>
-                        <option value="under-100">Under $100</option>
-                        <option value="100-250">$100–$250</option>
-                        <option value="250-500">$250–$500</option>
-                        <option value="500-1000">$500–$1,000</option>
-                        <option value="1000+">$1,000+</option>
-                      </select>
-                      <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
-                    </div>
-                  </div>
+                <div class="consultation-form__fields consultation-form__fields--single">
                   <div class="consultation-form__field">
                     <label class="consultation-form__label" for="consultation-fulfillment">
-                      Pick or Delivery <span class="consultation-form__required" aria-hidden="true">*</span>
+                      Pickup or Delivery <span class="consultation-form__required" aria-hidden="true">*</span>
                     </label>
                     <div class="consultation-form__select-wrap">
                       <select class="consultation-form__control consultation-form__select" id="consultation-fulfillment" name="fulfillment" required>
-                        <option value="" selected disabled>Select pick or delivery</option>
-                        <option value="pickup">Pickup</option>
-                        <option value="delivery">Delivery</option>
+                        <option value="" selected disabled>Choose pickup or delivery</option>
+                        <option value="pickup">Free pickup</option>
+                        <option value="delivery">Delivery from $20 — rate varies by distance</option>
                       </select>
                       <i class="ri-arrow-down-s-line" aria-hidden="true"></i>
                     </div>
@@ -211,10 +197,10 @@
                 </div>
 
                 <div class="consultation-form__field consultation-form__field--upload">
-                  <label class="consultation-form__label" for="consultation-inspiration">Add inspiration photo</label>
+                  <label class="consultation-form__label" for="consultation-inspiration">Add inspiration photos</label>
                   <label class="consultation-form__upload" for="consultation-inspiration">
-                    <span data-upload-label>Browse image</span>
-                    <input id="consultation-inspiration" name="inspiration" type="file" accept="image/*" data-upload-input />
+                    <span data-upload-label>Browse images</span>
+                    <input id="consultation-inspiration" name="inspiration" type="file" accept="image/*" multiple data-upload-input />
                   </label>
                 </div>
 
@@ -247,7 +233,7 @@
                   </li>
                   <li>
                     <span class="quote-steps__number">3</span>
-                    <div><h3>We contact you</h3><p>We clarify ideas, flavours, sizing and budget</p></div>
+                    <div><h3>We contact you</h3><p>We clarify ideas, flavours, sizing, pickup, and delivery</p></div>
                   </li>
                 </ol>
               </section>
@@ -305,7 +291,7 @@
           <nav class="site-footer__column" aria-label="Footer quick links">
             <h2 class="site-footer__heading">Quick Links</h2>
             <a href="index.html">Home</a><a href="about.html">About</a><a href="gallery.html">Cakes</a>
-            <a href="workshops-events.html#workshops">Workshops</a><a href="workshops-events.html#events">Events</a>
+            <a href="workshops-events.html#workshops">Workshops</a><a href="workshops-events.html#markets">Pop-Up Markets</a>
           </nav>
           <nav class="site-footer__column" aria-label="Customer care links">
             <h2 class="site-footer__heading">Customer Care</h2>
@@ -315,7 +301,7 @@
           </nav>
           <div class="site-footer__column">
             <h2 class="site-footer__heading">Contact Us</h2>
-            <a href="tel:+12041234567">(204) 123-4567</a>
+            <a href="tel:+12049638496">204-963-8496</a>
             <a href="mailto:tastensee82@gmail.com">tastensee82@gmail.com</a>
             <address class="site-footer__address">1-204-963-8496 at 270 Sora Way SE<br />Calgary AB</address>
             <h2 class="site-footer__heading site-footer__heading--spaced">Business Hours</h2>
