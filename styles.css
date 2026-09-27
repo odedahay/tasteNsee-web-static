@@ -118,7 +118,7 @@
 
 .event-detail__tip p {
   margin: 4px 0 0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 24.375px;
 }
 
@@ -2461,7 +2461,7 @@ textarea:focus-visible {
 .workshop-value__text {
   margin: 0;
   color: rgba(26, 26, 26, 0.7);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.625;
 }
 
@@ -3879,7 +3879,7 @@ textarea:focus-visible {
   align-items: center;
   gap: 10px;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 22.5px;
   white-space: nowrap;
 }
@@ -3925,7 +3925,7 @@ textarea:focus-visible {
   align-items: center;
   gap: 5px;
   color: var(--color-purple);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 22.5px;
 }
 
@@ -4194,7 +4194,7 @@ textarea:focus-visible {
 
 .cake-breadcrumb i {
   color: rgba(26, 26, 26, 0.32);
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .cake-detail {
@@ -4299,7 +4299,7 @@ textarea:focus-visible {
 
 .cake-highlight i {
   color: var(--color-purple);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 15px;
 }
 
@@ -4552,7 +4552,7 @@ textarea:focus-visible {
   background: var(--color-mint);
   border: 1px solid var(--color-line);
   border-radius: 8px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .cake-order__spec dt {
@@ -4627,7 +4627,7 @@ textarea:focus-visible {
 .cake-order__button--outline {
   color: var(--color-purple);
   border: 2px solid var(--color-purple-light);
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .cake-order__benefits {
@@ -4697,7 +4697,7 @@ textarea:focus-visible {
 
 .cake-contact-card h2 {
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 22.5px;
 }
 
@@ -4750,7 +4750,7 @@ textarea:focus-visible {
 
 .cake-designer h2 {
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 22.5px;
 }
 
@@ -4922,7 +4922,7 @@ textarea:focus-visible {
   }
 
   .cake-faq__question {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .cake-order__specs,
@@ -4987,7 +4987,7 @@ textarea:focus-visible {
 .contact__intro {
   margin: 12px 0 0;
   color: rgba(26, 26, 26, 0.5);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 26px;
 }
 
@@ -7056,7 +7056,7 @@ textarea:focus-visible {
   background: var(--color-mint);
   border: 1px solid var(--color-line);
   border-radius: 999px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 16px;
 }
 
@@ -7095,7 +7095,7 @@ textarea:focus-visible {
 
 .journal-author time {
   color: rgba(26, 26, 26, 0.45);
-  font-size: 11px;
+  font-size: 13px;
   line-height: 17px;
 }
 
@@ -7830,7 +7830,7 @@ textarea:focus-visible {
 
 .journal-article__tip p {
   margin-top: 4px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.625;
 }
 
@@ -8083,7 +8083,7 @@ textarea:focus-visible {
 .journal-article-toc h2,
 .journal-article-related h2 {
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 23px;
 }
 
@@ -8602,7 +8602,7 @@ textarea:focus-visible {
 }
 
 .workshop-detail-schedule__list span {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 21px;
 }
 
@@ -8755,7 +8755,7 @@ textarea:focus-visible {
 .workshop-instructor__content > p:last-of-type {
   margin-top: 12px;
   color: rgba(26, 26, 26, 0.8);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.625;
 }
 
@@ -8774,7 +8774,7 @@ textarea:focus-visible {
   background: var(--color-mint);
   border: 1px solid var(--color-line);
   border-radius: 999px;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 18px;
 }
 
@@ -8908,7 +8908,7 @@ textarea:focus-visible {
 }
 
 .workshop-booking__date > div strong {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 19px;
 }
 
@@ -8968,7 +8968,7 @@ textarea:focus-visible {
   min-height: 51px;
   padding-block: 10px;
   background: var(--color-white);
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .workshop-booking__message {
@@ -9379,7 +9379,7 @@ textarea:focus-visible {
   }
 
   .workshop-detail-faq__item > button {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .workshop-booking__price,
@@ -9501,7 +9501,7 @@ textarea:focus-visible {
 
   .site-accordion .site-accordion__trigger {
     gap: 18px;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .site-accordion__content {
