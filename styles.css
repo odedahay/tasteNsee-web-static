@@ -721,7 +721,7 @@ textarea:focus-visible {
 .text-link {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 1px;
   white-space: nowrap;
   font-weight: 500;
 }
@@ -732,8 +732,10 @@ textarea:focus-visible {
   transition: transform 180ms ease;
 }
 
+.text-link:hover,
 .text-link:hover i {
   transform: translateX(4px);
+  color: var(--color-pink);
 }
 
 .site-header {
@@ -2284,6 +2286,17 @@ textarea:focus-visible {
   border-top: 1px solid var(--color-line);
 }
 
+.activity-card__link {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 20px;
+  transition: color 180ms ease;
+}
+
+.activity-card__link:hover {
+  color: var(--color-pink);
+}
+
 .activity-card__booking > div {
   display: flex;
   flex-direction: column;
@@ -2383,6 +2396,45 @@ textarea:focus-visible {
 
 .activity-card--compact .activity-card__event-button {
   margin-top: 0;
+}
+
+.activity-card--featured {
+  min-height: 0;
+}
+
+.activity-card--featured .activity-card__media {
+  height: 250px;
+  flex-basis: 250px;
+}
+
+.activity-card--featured .activity-card__image {
+  object-position: center 54%;
+}
+
+.activity-card--featured .activity-card__body {
+  padding: 28px;
+}
+
+.activity-card--featured .activity-card__title {
+  font-size: 28px;
+}
+
+.activity-card--featured .activity-card__time {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.activity-card--featured .activity-card__tags {
+  margin-top: 0;
+  padding-top: 24px;
+}
+
+.activity-card--featured .activity-card__actions {
+  padding-top: 28px;
+}
+
+.activity-card--featured .activity-card__read-more {
+  font-size: 16px;
 }
 
 .activity-card__level--past {
@@ -6391,15 +6443,15 @@ textarea:focus-visible {
 
 .quote-steps__list h3 {
   margin: 2px 0 0;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 16px;
+  line-height: 18px;
 }
 
 .quote-steps__list p {
   margin: 0;
   font-size: 16px;
-  line-height: 16.5px;
+  line-height: 18.5px;
 }
 
 .quote-consultant {
@@ -6617,7 +6669,7 @@ textarea:focus-visible {
   margin: 2px 0 0;
   color: rgba(26, 26, 26, 0.55);
   font-size: 16px;
-  line-height: 16.5px;
+  line-height: 18.5px;
 }
 
 .contact-inquiry-card__eyebrow {
