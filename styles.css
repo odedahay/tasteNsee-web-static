@@ -8178,7 +8178,7 @@ textarea:focus-visible {
   color: var(--color-purple);
   background: var(--color-purple-pale);
   border-radius: 999px;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 15px;
 }
@@ -8201,7 +8201,7 @@ textarea:focus-visible {
 .journal-article-related__item time {
   margin-top: 4px;
   color: rgba(26, 26, 26, 0.35);
-  font-size: 11px;
+  font-size: 13px;
   line-height: 17px;
 }
 
