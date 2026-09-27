@@ -245,6 +245,26 @@ registrationForm?.addEventListener('submit', (event) => {
   }
 });
 
+document.querySelectorAll('.workshops-events-page .activity-card').forEach((card) => {
+  const body = card.querySelector('.activity-card__body');
+  if (!body || body.querySelector('.activity-card__read-more')) return;
+
+  const actions = document.createElement('div');
+  actions.className = 'activity-card__actions';
+
+  const readMore = document.createElement('a');
+  readMore.className = 'activity-card__read-more';
+  const cardCollection = card.closest('[data-card-details-page]');
+  readMore.href = cardCollection?.dataset.cardDetailsPage || 'workshop-details.html';
+  readMore.innerHTML = 'Read More <i class="ri-arrow-right-s-line" aria-hidden="true"></i>';
+  actions.append(readMore);
+
+  const registrationLink = body.querySelector('.activity-card__event-button');
+  if (registrationLink) actions.append(registrationLink);
+
+  body.append(actions);
+});
+
 const blogPosts = [...document.querySelectorAll('[data-blog-post]')];
 const blogEmptyMessage = document.querySelector('[data-blog-empty]');
 const blogFilterButtons = [...document.querySelectorAll('[data-blog-filter]')];

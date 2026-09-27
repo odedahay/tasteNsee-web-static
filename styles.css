@@ -112,7 +112,7 @@
 
 .event-detail__tip strong {
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
 }
 
@@ -135,7 +135,7 @@
 .event-detail__tags strong {
   padding: 0 4px 6px 0;
   color: rgba(26, 26, 26, 0.4);
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 0.05em;
   line-height: 18px;
   text-transform: uppercase;
@@ -151,7 +151,7 @@
   background: var(--color-mint);
   border: 1px solid var(--color-line);
   border-radius: 999px;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 19.5px;
 }
 
@@ -193,14 +193,14 @@
 .event-detail-author__role {
   padding-top: 2px;
   color: rgba(26, 26, 26, 0.45);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 19.5px;
 }
 
 .event-detail-author__content > p:last-of-type {
   padding-top: 12px;
   color: rgba(26, 26, 26, 0.65);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 22.75px;
 }
 
@@ -213,7 +213,7 @@
 .event-detail-author__actions .button {
   min-height: 40px;
   padding: 8px 16px;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 19.5px;
 }
 
@@ -317,7 +317,7 @@
 }
 
 .event-detail-meta__date time {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 18px;
   white-space: nowrap;
@@ -340,7 +340,7 @@
   border: 2px solid var(--color-line);
   border-radius: 999px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 19.5px;
 }
 
@@ -378,7 +378,7 @@
 }
 
 .event-detail-newsletter__eyebrow {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.05em;
   line-height: 18px;
@@ -394,7 +394,7 @@
 .event-detail-newsletter > p:not(.event-detail-newsletter__eyebrow) {
   padding-top: 8px;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -410,7 +410,7 @@
   width: 100%;
   min-height: 36px;
   border-radius: 999px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .event-detail-newsletter__form input {
@@ -430,7 +430,7 @@
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.8);
   cursor: pointer;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -992,7 +992,7 @@ textarea:focus-visible {
   max-width: 240px;
   margin: auto;
   color: #4e4e4e;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .section {
@@ -1063,6 +1063,10 @@ textarea:focus-visible {
 .product-card__body {
   padding: 16px 12px 12px;
   text-align: center;
+}
+
+.creations__grid--custom .product-card__body {
+  text-align: left;
 }
 
 .product-card__title {
@@ -1209,7 +1213,7 @@ textarea:focus-visible {
 
 .event-card__date span {
   display: block;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .event-card__date strong {
@@ -1225,6 +1229,11 @@ textarea:focus-visible {
   flex-direction: column;
 }
 
+.event-card__content > .activity-card__read-more {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
 .event-card__title {
   margin: 0 0 10px;
   font-size: 20px;
@@ -1235,7 +1244,7 @@ textarea:focus-visible {
   display: flex;
   gap: 8px;
   margin: 0 0 7px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .event-card__detail i {
@@ -1293,7 +1302,7 @@ textarea:focus-visible {
   color: #4b47df;
   background: var(--color-white);
   border-radius: 999px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .blog-card__body {
@@ -1477,7 +1486,7 @@ textarea:focus-visible {
   color: var(--color-purple);
   background: var(--color-purple-pale);
   border-radius: 999px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -1600,7 +1609,7 @@ textarea:focus-visible {
   left: 16px;
   margin: 0;
   color: var(--color-purple);
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .site-footer {
@@ -2195,7 +2204,7 @@ textarea:focus-visible {
 
 .activity-card__date span {
   color: var(--color-purple);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 16px;
 }
 
@@ -2213,7 +2222,7 @@ textarea:focus-visible {
   color: var(--color-white);
   background: var(--color-purple-light);
   border-radius: 999px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 16px;
 }
@@ -2235,14 +2244,14 @@ textarea:focus-visible {
 
 .activity-card__time {
   margin: 4px 0 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
 }
 
 .activity-card__description {
   margin: 12px 0 0;
   color: rgba(26, 26, 26, 0.7);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.625;
 }
 
@@ -2261,7 +2270,7 @@ textarea:focus-visible {
   background: var(--color-mint);
   border: 1px solid var(--color-line);
   border-radius: 999px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 16px;
 }
 
@@ -2288,7 +2297,7 @@ textarea:focus-visible {
 
 .activity-card__booking span {
   color: #fff;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 16px;
 }
 
@@ -2296,13 +2305,43 @@ textarea:focus-visible {
   min-height: 37px;
   padding: 8px 20px;
   border: 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
 }
 
 .activity-card__event-button {
   align-self: flex-start;
   margin-top: 20px;
+}
+
+.activity-card__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 18px;
+}
+
+.activity-card__read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: var(--color-purple);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  white-space: nowrap;
+  transition: color 180ms ease;
+}
+
+.activity-card__read-more:hover {
+  color: var(--color-pink);
+  text-decoration: none;
+}
+
+.activity-card__actions .activity-card__event-button {
+  margin-top: 0;
 }
 
 .workshop-track {
@@ -2343,7 +2382,7 @@ textarea:focus-visible {
 }
 
 .activity-card--compact .activity-card__event-button {
-  margin-top: auto;
+  margin-top: 0;
 }
 
 .activity-card__level--past {
@@ -2355,10 +2394,18 @@ textarea:focus-visible {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.activity-collection__grid--archive {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.past-workshops-cta {
+  margin-bottom: 80px;
+}
+
 .workshop-values {
   padding-block: 80px;
   background: var(--color-white);
-  border-block: 1px solid var(--color-line);
+  border-top: 1px solid var(--color-line);
 }
 
 .workshop-values__header {
@@ -2556,7 +2603,7 @@ textarea:focus-visible {
   border-radius: 999px;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 18px;
 }
@@ -2567,6 +2614,10 @@ textarea:focus-visible {
 
 @media (max-width: 1100px) {
   .activity-collection__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .activity-collection__grid--archive {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -2680,6 +2731,10 @@ textarea:focus-visible {
   }
 
   .activity-collection__grid--past {
+    grid-template-columns: 1fr;
+  }
+
+  .activity-collection__grid--archive {
     grid-template-columns: 1fr;
   }
 
@@ -3458,7 +3513,7 @@ textarea:focus-visible {
 .gallery-catalog__count {
   margin: 0;
   color: rgba(26, 26, 26, 0.45);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
 }
 
@@ -3604,7 +3659,7 @@ textarea:focus-visible {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   white-space: nowrap;
 }
@@ -3631,7 +3686,7 @@ textarea:focus-visible {
   align-items: center;
   gap: 6px;
   color: rgba(26, 26, 26, 0.35);
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .gallery-filter--active .gallery-filter__count {
@@ -3648,7 +3703,7 @@ textarea:focus-visible {
 
 .gallery-sidebar__actions h2 {
   margin: 0 0 2px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.05em;
   line-height: 18px;
@@ -3662,7 +3717,7 @@ textarea:focus-visible {
   align-items: center;
   justify-content: center;
   border-radius: 999px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
   text-align: center;
   transition: transform 180ms ease, background-color 180ms ease;
@@ -3689,7 +3744,7 @@ textarea:focus-visible {
   min-height: 35px;
   gap: 4px;
   color: var(--color-purple);
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .gallery-sidebar__stats {
@@ -3932,7 +3987,7 @@ textarea:focus-visible {
 .gallery-extra-card__content p {
   margin: 0;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 19.5px;
 }
 
@@ -4125,7 +4180,7 @@ textarea:focus-visible {
   gap: 8px;
   padding: 0 24px;
   color: rgba(26, 26, 26, 0.55);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -4198,7 +4253,7 @@ textarea:focus-visible {
   color: #c2185b;
   background: #fde8f0;
   border-radius: 999px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 18px;
 }
@@ -4259,7 +4314,7 @@ textarea:focus-visible {
 
 .cake-highlight dd {
   margin: 2px 0 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 19.25px;
   white-space: nowrap;
@@ -4377,7 +4432,7 @@ textarea:focus-visible {
 .cake-process__step p {
   margin: 4px 0 0;
   color: rgba(26, 26, 26, 0.6);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.625;
 }
 
@@ -4424,7 +4479,7 @@ textarea:focus-visible {
 .cake-faq__answer {
   padding: 0 32px 18px 0;
   color: rgba(26, 26, 26, 0.64);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
@@ -4453,7 +4508,7 @@ textarea:focus-visible {
 .cake-order__price span {
   margin: 0;
   color: rgba(255, 255, 255, 0.72);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -4510,7 +4565,7 @@ textarea:focus-visible {
 
 .cake-order__spec dd {
   margin: 2px 0 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 19.25px;
 }
@@ -4535,7 +4590,7 @@ textarea:focus-visible {
 
 .cake-order__style strong {
   color: var(--color-muted);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
 }
 
@@ -4589,13 +4644,13 @@ textarea:focus-visible {
   align-items: center;
   gap: 10px;
   color: rgba(26, 26, 26, 0.55);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
 }
 
 .cake-order__benefits i {
   color: var(--color-muted);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .cake-order__share {
@@ -4611,7 +4666,7 @@ textarea:focus-visible {
 
 .cake-order__share > span:first-child {
   color: rgba(26, 26, 26, 0.4);
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .cake-order__share > div {
@@ -4649,7 +4704,7 @@ textarea:focus-visible {
 .cake-contact-card > p {
   margin: 4px 0 0;
   color: rgba(26, 26, 26, 0.6);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 19.5px;
 }
 
@@ -4664,7 +4719,7 @@ textarea:focus-visible {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 24px;
 }
 
@@ -4702,7 +4757,7 @@ textarea:focus-visible {
 .cake-designer p {
   margin: 0;
   color: var(--color-purple);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 18px;
 }
 
@@ -4710,7 +4765,7 @@ textarea:focus-visible {
   display: block;
   margin-top: 4px;
   color: rgba(26, 26, 26, 0.5);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 16.5px;
   white-space: nowrap;
 }
@@ -4963,7 +5018,7 @@ textarea:focus-visible {
 
 .consultation-form__top p {
   margin: 2px 0 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
 }
 
@@ -4990,7 +5045,7 @@ textarea:focus-visible {
   display: block;
   min-height: 29px;
   padding-bottom: 8px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 21px;
 }
@@ -5001,7 +5056,7 @@ textarea:focus-visible {
 
 .consultation-form__optional {
   color: rgba(26, 26, 26, 0.35);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 18px;
 }
@@ -5014,7 +5069,7 @@ textarea:focus-visible {
   background: var(--color-white);
   border: 2px solid var(--color-line);
   border-radius: 12px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
   transition: border-color 180ms ease, box-shadow 180ms ease;
 }
@@ -5092,7 +5147,7 @@ textarea:focus-visible {
   flex: 0 0 auto;
   align-items: center;
   gap: 8px;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 19.5px;
   white-space: nowrap;
 }
@@ -5136,7 +5191,7 @@ textarea:focus-visible {
 }
 
 .consultation-form__submit i {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .consultation-form__status {
@@ -5144,7 +5199,7 @@ textarea:focus-visible {
   margin: 0;
   padding-top: 7px;
   color: var(--color-muted);
-  font-size: 13px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -5157,7 +5212,7 @@ textarea:focus-visible {
   color: rgba(26, 26, 26, 0.45);
   background: #f9fdf5;
   border-top: 1px solid var(--color-mint);
-  font-size: 13px;
+  font-size: 16px;
   font-style: normal;
   line-height: 19.5px;
 }
@@ -5174,7 +5229,7 @@ textarea:focus-visible {
 }
 
 .consultation-form__contact i {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .contact__aside {
@@ -5235,7 +5290,7 @@ textarea:focus-visible {
 
 .consultation-expectations__item h3 {
   margin: 0;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 19.5px;
   white-space: nowrap;
@@ -5244,7 +5299,7 @@ textarea:focus-visible {
 .consultation-expectations__item p {
   margin: 2px 0 0;
   color: rgba(26, 26, 26, 0.55);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 16.5px;
 }
 
@@ -5306,7 +5361,7 @@ textarea:focus-visible {
   display: grid;
   gap: 4px;
   margin: 0;
-  font-size: 12px;
+  font-size: 16px;
   font-style: normal;
   line-height: 18px;
 }
@@ -5319,7 +5374,7 @@ textarea:focus-visible {
 }
 
 .studio-card__details i {
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .contact__back {
@@ -5329,7 +5384,7 @@ textarea:focus-visible {
   gap: 3px;
   margin: 58px auto 0;
   color: rgba(26, 26, 26, 0.4);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
 }
 
@@ -5437,7 +5492,7 @@ textarea:focus-visible {
   }
 
   .contact__intro {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
   }
 
@@ -5561,7 +5616,7 @@ textarea:focus-visible {
 .registration-form__subtitle {
   margin: 2px 0 0;
   color: rgba(255, 255, 255, 0.65);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
 }
 
@@ -5599,7 +5654,7 @@ textarea:focus-visible {
 
 .registration-form__label {
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 21px;
 }
@@ -5636,7 +5691,7 @@ textarea:focus-visible {
   background: var(--color-white);
   border: 2px solid var(--color-line);
   border-radius: 12px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
   transition: border-color 180ms ease, box-shadow 180ms ease;
 }
@@ -5742,7 +5797,7 @@ textarea:focus-visible {
 .registration-form__payment p {
   margin: 4px 0 0;
   color: var(--color-muted);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -5786,7 +5841,7 @@ textarea:focus-visible {
 
 .registration-form__consent-copy strong {
   display: block;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 19.5px;
 }
 
@@ -5794,7 +5849,7 @@ textarea:focus-visible {
   display: block;
   padding-top: 2px;
   overflow-wrap: anywhere;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 16.5px;
 }
 
@@ -5810,21 +5865,21 @@ textarea:focus-visible {
 
 .registration-form__media-consent legend {
   padding: 0;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 19.5px;
 }
 
 .registration-form__media-consent > p {
   margin: 2px 0 0;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 16.5px;
 }
 
 .registration-form__media-option {
   padding-top: 10px;
   overflow-wrap: anywhere;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 16.5px;
 }
 
@@ -5856,7 +5911,7 @@ textarea:focus-visible {
 }
 
 .registration-form__submit i {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .registration-form__status {
@@ -5864,7 +5919,7 @@ textarea:focus-visible {
   margin: 0;
   padding-top: 7px;
   color: var(--color-muted);
-  font-size: 13px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -5878,7 +5933,7 @@ textarea:focus-visible {
   color: rgba(26, 26, 26, 0.45);
   background: #f9fdf5;
   border-top: 1px solid var(--color-mint);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -5904,11 +5959,11 @@ textarea:focus-visible {
 }
 
 .registration-form__contact i {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .registration-form__back {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .workshop-registration__aside {
@@ -5962,14 +6017,14 @@ textarea:focus-visible {
 .workshop-host__role {
   margin: 2px 0 0;
   color: var(--color-purple);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 18px;
 }
 
 .workshop-host__description {
   margin: 8px 0 0;
   color: rgba(26, 26, 26, 0.65);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 19.5px;
 }
 
@@ -6054,7 +6109,7 @@ textarea:focus-visible {
   }
 
   .workshop-registration__intro {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
   }
 
@@ -6235,7 +6290,7 @@ textarea:focus-visible {
   border: 2px solid var(--color-line);
   border-radius: 12px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
   transition: border-color 180ms ease, box-shadow 180ms ease;
 }
@@ -6342,7 +6397,7 @@ textarea:focus-visible {
 
 .quote-steps__list p {
   margin: 0;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 16.5px;
 }
 
@@ -6421,7 +6476,7 @@ textarea:focus-visible {
   }
 
   .contact--consultation .contact__intro {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .consultation-form__general-question {
@@ -6560,7 +6615,7 @@ textarea:focus-visible {
 .contact-panel__intro {
   margin: 2px 0 0;
   color: rgba(26, 26, 26, 0.55);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 16.5px;
 }
 
@@ -6609,7 +6664,7 @@ textarea:focus-visible {
 }
 
 .contact-inquiry-card__button i {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .contact-reach-card h2 {
@@ -6620,7 +6675,7 @@ textarea:focus-visible {
   display: grid;
   gap: 24px;
   margin: 20px 0 0;
-  padding: 16px 32px;
+  padding: 16px 12px;
   background: #f9fdf5;
   border-top: 1px solid var(--color-mint);
   font-style: normal;
@@ -6651,7 +6706,7 @@ textarea:focus-visible {
 
 .contact-reach-card__item small {
   color: var(--color-ink);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 19.5px;
 }
 
@@ -6851,7 +6906,7 @@ textarea:focus-visible {
 
 .journal-feed__header span {
   color: rgba(26, 26, 26, 0.55);
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .journal-feed__grid {
@@ -6921,7 +6976,7 @@ textarea:focus-visible {
   align-items: center;
   gap: 8px;
   color: rgba(26, 26, 26, 0.5);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 18px;
 }
 
@@ -6981,7 +7036,7 @@ textarea:focus-visible {
 .journal-post__excerpt {
   margin: 10px 0 0;
   color: rgba(26, 26, 26, 0.58);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.625;
 }
 
@@ -7034,7 +7089,7 @@ textarea:focus-visible {
 }
 
 .journal-author strong {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 18px;
 }
 
@@ -7053,15 +7108,25 @@ textarea:focus-visible {
 }
 
 .journal-post__read {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
   color: var(--color-purple);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
+  line-height: 21px;
   white-space: nowrap;
+  transition: color 180ms ease;
+}
+
+.journal-post__read:hover {
+  color: var(--color-pink);
+  text-decoration: none;
 }
 
 .journal-post__read--light {
   color: var(--color-mint-strong);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .journal-feed__empty {
@@ -7120,7 +7185,7 @@ textarea:focus-visible {
 .journal-author-card__body p {
   margin: 8px 0 16px;
   color: rgba(26, 26, 26, 0.58);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.55;
 }
 
@@ -7129,7 +7194,7 @@ textarea:focus-visible {
   min-height: 40px;
   padding: 8px 18px;
   border: 0;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .journal-subscribe {
@@ -7156,7 +7221,7 @@ textarea:focus-visible {
 .journal-subscribe > p:not(.journal-subscribe__eyebrow) {
   margin: 8px 0 14px;
   color: rgba(255, 255, 255, 0.72);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.55;
 }
 
@@ -7216,16 +7281,7 @@ textarea:focus-visible {
 }
 
 .journal-popular__list li {
-  display: grid;
-  grid-template-columns: 24px 1fr;
-  gap: 10px;
-}
-
-.journal-popular__list li > span {
-  color: var(--color-purple-light);
-  font-size: 22px;
-  font-weight: 800;
-  line-height: 1;
+  min-width: 0;
 }
 
 .journal-popular__list a {
@@ -7233,11 +7289,16 @@ textarea:focus-visible {
   min-width: 0;
   flex-direction: column;
   gap: 3px;
+  transition: color 180ms ease;
+}
+
+.journal-popular__list a:hover {
+  color: var(--color-pink);
 }
 
 .journal-popular__list strong {
-  font-size: 12px;
-  line-height: 1.3;
+  font-size: 16px;
+  line-height: 1.35;
 }
 
 .journal-popular__list small {
@@ -7262,7 +7323,11 @@ textarea:focus-visible {
   border-radius: 8px;
   background: transparent;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 16px;
+}
+
+.journal-filter__list button {
+  font-size: 16px;
 }
 
 .journal-filter__list button:hover,
@@ -7302,6 +7367,7 @@ textarea:focus-visible {
 
 .journal-tags__list button {
   cursor: pointer;
+  font-size: 16px;
 }
 
 .journal-tags__list button:hover,
@@ -7319,14 +7385,14 @@ textarea:focus-visible {
 
 .journal-order > p:not(.journal-order__eyebrow) {
   margin: 6px 0 14px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .journal-order .button {
   width: 100%;
   min-height: 39px;
   padding: 8px 18px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .journal-order .button + .button {
@@ -7393,14 +7459,14 @@ textarea:focus-visible {
 .journal-topic span {
   margin-top: 6px;
   color: rgba(26, 26, 26, 0.55);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.625;
 }
 
 .journal-topic small {
   margin-top: 12px;
   color: var(--color-purple);
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .journal-topic--purple {
@@ -7534,7 +7600,7 @@ textarea:focus-visible {
   }
 
   .journal-feature__excerpt {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .journal-feature__footer {
@@ -7620,7 +7686,7 @@ textarea:focus-visible {
   align-items: center;
   gap: 8px;
   color: rgba(255, 255, 255, 0.5);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -7642,13 +7708,13 @@ textarea:focus-visible {
   gap: 12px;
   padding-top: 20px;
   color: rgba(255, 255, 255, 0.5);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
 }
 
 .journal-article-hero__meta .journal-post__category {
   padding: 4px 12px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .journal-article-hero__title {
@@ -7679,13 +7745,13 @@ textarea:focus-visible {
 }
 
 .journal-article-hero__author strong {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
 }
 
 .journal-article-hero__author span {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 12px;
+  font-size: 16px;
   line-height: 18px;
 }
 
@@ -7758,7 +7824,7 @@ textarea:focus-visible {
 
 .journal-article__tip strong {
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
 }
 
@@ -7790,7 +7856,7 @@ textarea:focus-visible {
   display: block;
   margin-top: 12px;
   color: rgba(26, 26, 26, 0.5);
-  font-size: 13px;
+  font-size: 16px;
   font-style: normal;
   line-height: 20px;
 }
@@ -7836,7 +7902,7 @@ textarea:focus-visible {
   padding: 12px 20px;
   color: rgba(26, 26, 26, 0.55);
   background: var(--color-mint);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
   text-align: center;
 }
@@ -7854,7 +7920,7 @@ textarea:focus-visible {
 .journal-article__tags strong {
   margin-right: 2px;
   color: rgba(26, 26, 26, 0.5);
-  font-size: 12px;
+  font-size: 16px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -7864,7 +7930,7 @@ textarea:focus-visible {
   color: var(--color-muted);
   border: 1px solid var(--color-line);
   border-radius: 999px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 18px;
 }
 
@@ -7909,14 +7975,14 @@ textarea:focus-visible {
 .journal-article-author__role {
   padding-top: 2px;
   color: rgba(26, 26, 26, 0.45);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
 }
 
 .journal-article-author__content > p:last-of-type {
   padding-top: 12px;
   color: rgba(26, 26, 26, 0.65);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.625;
 }
 
@@ -7929,7 +7995,7 @@ textarea:focus-visible {
 .journal-article-author__actions .button {
   min-height: 40px;
   padding: 8px 16px;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -8032,7 +8098,7 @@ textarea:focus-visible {
   padding: 8px 8px 8px 28px;
   color: rgba(26, 26, 26, 0.55);
   border-radius: 12px;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 18px;
 }
 
@@ -8078,7 +8144,7 @@ textarea:focus-visible {
 .journal-article-subscribe .journal-subscribe__form button {
   min-height: 37px;
   border-radius: 12px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .journal-article-related {
@@ -8126,7 +8192,7 @@ textarea:focus-visible {
   display: -webkit-box;
   overflow: hidden;
   margin-top: 6px;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.375;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -8314,7 +8380,7 @@ textarea:focus-visible {
   gap: 6px;
   padding-bottom: 1px;
   color: rgba(26, 26, 26, 0.45);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -8371,7 +8437,7 @@ textarea:focus-visible {
 .workshop-detail-hero__status strong {
   padding: 4px 12px;
   border-radius: 999px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 18px;
 }
 
@@ -8405,7 +8471,7 @@ textarea:focus-visible {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 999px;
   backdrop-filter: blur(8px);
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 18px;
 }
@@ -8441,7 +8507,7 @@ textarea:focus-visible {
   align-items: center;
   gap: 6px;
   color: rgba(255, 255, 255, 0.9);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
 }
 
@@ -8510,7 +8576,7 @@ textarea:focus-visible {
 .workshop-detail-schedule__intro {
   margin: 4px 0 0;
   color: rgba(26, 26, 26, 0.55);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .workshop-detail-schedule__list {
@@ -8531,7 +8597,7 @@ textarea:focus-visible {
 
 .workshop-detail-schedule__list time {
   color: var(--color-purple-light);
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -8571,7 +8637,7 @@ textarea:focus-visible {
   align-items: flex-start;
   gap: 12px;
   min-width: 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
 }
 
@@ -8619,7 +8685,7 @@ textarea:focus-visible {
 .workshop-detail-list li {
   position: relative;
   padding-left: 27px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.4;
 }
 
@@ -8682,7 +8748,7 @@ textarea:focus-visible {
 
 .workshop-instructor__role {
   color: var(--color-purple);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
 }
 
@@ -8708,7 +8774,7 @@ textarea:focus-visible {
   background: var(--color-mint);
   border: 1px solid var(--color-line);
   border-radius: 999px;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 18px;
 }
 
@@ -8754,7 +8820,7 @@ textarea:focus-visible {
 .workshop-detail-faq__answer {
   padding: 0 36px 20px 0;
   color: rgba(26, 26, 26, 0.7);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
@@ -8785,7 +8851,7 @@ textarea:focus-visible {
 
 .workshop-booking__price span {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
 }
 
@@ -8799,7 +8865,7 @@ textarea:focus-visible {
 .workshop-booking__price small {
   margin-top: 4px;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -8849,7 +8915,7 @@ textarea:focus-visible {
 .workshop-booking__date > div span {
   margin-top: 2px;
   color: rgba(26, 26, 26, 0.55);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -8876,7 +8942,7 @@ textarea:focus-visible {
 
 .workshop-booking__facts dd {
   margin: 2px 0 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 21px;
 }
@@ -8908,7 +8974,7 @@ textarea:focus-visible {
 .workshop-booking__message {
   min-height: 17px;
   color: var(--color-purple);
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -8926,7 +8992,7 @@ textarea:focus-visible {
   align-items: flex-start;
   gap: 10px;
   color: rgba(26, 26, 26, 0.6);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 18px;
 }
 
@@ -8949,7 +9015,7 @@ textarea:focus-visible {
 
 .workshop-booking__share > span {
   color: rgba(26, 26, 26, 0.5);
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .workshop-booking__share > div {
@@ -9074,7 +9140,7 @@ textarea:focus-visible {
   color: var(--color-muted);
   background: var(--color-mint-strong);
   border-radius: 999px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 18px;
 }
@@ -9101,7 +9167,7 @@ textarea:focus-visible {
 .workshop-more-card__body p {
   margin-top: 4px;
   color: rgba(26, 26, 26, 0.5);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -9125,7 +9191,7 @@ textarea:focus-visible {
   display: inline-flex;
   align-items: center;
   color: var(--color-purple);
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -9416,7 +9482,7 @@ textarea:focus-visible {
   min-height: 0;
   overflow: hidden;
   color: rgba(26, 26, 26, 0.64);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
