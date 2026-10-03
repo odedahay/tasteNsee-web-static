@@ -73,6 +73,6 @@ Then open [http://localhost:8000](http://localhost:8000) in your browser.
 ├── workshops-events.html
 ├── event-details.html
 ├── workshop-details.html
-├── workshop-registration.html
+├── workshop-kids-registration.html
 └── styles.css                  # Shared site styles and responsive layouts
 ```
