@@ -40,13 +40,13 @@
 .event-detail-hero__eyebrow {
   color: var(--color-pink);
   font-family: "Caveat", cursive;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 40px;
 }
 
 .event-detail-hero__title {
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 800;
   line-height: 65px;
 }
@@ -78,7 +78,7 @@
   margin: 0;
   padding-top: 10px;
   color: #2a2a2a;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -86,7 +86,7 @@
   margin: 24px 0 0;
   padding: 16px 0 4px;
   border-bottom: 2px solid var(--color-purple-light);
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 800;
   line-height: 32.5px;
 }
@@ -96,7 +96,7 @@
   margin: 0;
   padding-top: 24px;
   color: #2a2a2a;
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 31.45px;
 }
 
@@ -113,13 +113,13 @@
 
 .event-detail__tip strong {
   display: block;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 21px;
 }
 
 .event-detail__tip p {
   margin: 4px 0 0;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 24.375px;
 }
 
@@ -136,7 +136,7 @@
 .event-detail__tags strong {
   padding: 0 4px 6px 0;
   color: rgba(26, 26, 26, 0.4);
-  font-size: 12px;
+  font-size: 0.75rem;
   letter-spacing: 0.05em;
   line-height: 18px;
   text-transform: uppercase;
@@ -152,7 +152,7 @@
   background: var(--color-mint);
   border: 1px solid var(--color-line);
   border-radius: 999px;
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 19.5px;
 }
 
@@ -186,7 +186,7 @@
 }
 
 .event-detail-author h2 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 800;
   line-height: 27px;
 }
@@ -194,14 +194,14 @@
 .event-detail-author__role {
   padding-top: 2px;
   color: rgba(26, 26, 26, 0.45);
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 19.5px;
 }
 
 .event-detail-author__content > p:last-of-type {
   padding-top: 12px;
   color: rgba(26, 26, 26, 0.65);
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 22.75px;
 }
 
@@ -214,7 +214,7 @@
 .event-detail-author__actions .button {
   min-height: 40px;
   padding: 8px 16px;
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 19.5px;
 }
 
@@ -243,7 +243,7 @@
   margin: 0 0 20px;
   color: var(--color-pink);
   font-family: "Caveat", cursive;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 40px;
   text-align: left;
 }
@@ -280,7 +280,7 @@
 .event-detail-facts__list dd {
   margin: 0;
   color: #000;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 22px;
   white-space: nowrap;
 }
@@ -318,7 +318,7 @@
 }
 
 .event-detail-meta__date time {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 700;
   line-height: 18px;
   white-space: nowrap;
@@ -326,7 +326,7 @@
 
 .event-detail-meta__date span {
   color: rgba(26, 26, 26, 0.4);
-  font-size: 11px;
+  font-size: 0.6875rem;
   line-height: 16.5px;
 }
 
@@ -341,7 +341,7 @@
   border: 2px solid var(--color-line);
   border-radius: 999px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19.5px;
 }
 
@@ -379,7 +379,7 @@
 }
 
 .event-detail-newsletter__eyebrow {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   line-height: 18px;
@@ -388,14 +388,14 @@
 
 .event-detail-newsletter h2 {
   padding-top: 4px;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 24px;
 }
 
 .event-detail-newsletter > p:not(.event-detail-newsletter__eyebrow) {
   padding-top: 8px;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
 }
 
@@ -411,7 +411,7 @@
   width: 100%;
   min-height: 36px;
   border-radius: 999px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .event-detail-newsletter__form input {
@@ -431,14 +431,14 @@
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.8);
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 .event-detail-newsletter__message {
   min-height: 0;
   color: var(--color-white);
-  font-size: 11px;
+  font-size: 0.6875rem;
   line-height: 1.35;
 }
 
@@ -487,7 +487,7 @@
   }
 
   .event-detail-hero__title {
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 1.15;
   }
 
@@ -517,11 +517,11 @@
   }
 
   .event-detail-hero__eyebrow {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .event-detail-hero__title {
-    font-size: 34px;
+    font-size: 2.125rem;
   }
 
   .event-detail__layout {
@@ -533,11 +533,11 @@
   }
 
   .event-detail__content h2 {
-    font-size: 23px;
+    font-size: 1.4375rem;
   }
 
   .event-detail__content > p {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.75;
   }
 
@@ -584,7 +584,7 @@ body {
   color: var(--color-ink);
   background: var(--color-white);
   font-family: "Nunito", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.45;
   -webkit-font-smoothing: antialiased;
 }
@@ -662,7 +662,7 @@ textarea:focus-visible {
   margin: 0;
   color: var(--color-pink);
   font-family: "Caveat", cursive;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1.08;
 }
@@ -728,7 +728,7 @@ textarea:focus-visible {
 }
 
 .text-link i {
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 0;
   transition: transform 180ms ease;
 }
@@ -855,7 +855,7 @@ textarea:focus-visible {
 }
 
 .site-header__social i {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .site-header__menu-toggle {
@@ -893,7 +893,7 @@ textarea:focus-visible {
 
 .hero__title {
   margin: 12px 0 20px;
-  font-size: clamp(48px, 4.45vw, 64px);
+  font-size: clamp(3rem, 4.45vw, 4rem);
   font-weight: 800;
   letter-spacing: -0.025em;
   line-height: 1.05;
@@ -902,7 +902,7 @@ textarea:focus-visible {
 .hero__description {
   max-width: 460px;
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .hero__actions {
@@ -938,7 +938,7 @@ textarea:focus-visible {
   background: var(--color-purple-light);
   border-radius: 50%;
   font-family: "Caveat", cursive;
-  font-size: 25px;
+  font-size: 1.5625rem;
   line-height: 0.95;
   text-align: center;
   transform: rotate(-6deg);
@@ -948,7 +948,7 @@ textarea:focus-visible {
   display: block;
   margin-bottom: 4px;
   font-family: "Nunito", sans-serif;
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 .benefits {
@@ -981,13 +981,13 @@ textarea:focus-visible {
   display: block;
   min-height: 48px;
   color: var(--color-pink);
-  font-size: 44px;
+  font-size: 2.75rem;
   line-height: 1;
 }
 
 .benefits__title {
   margin: 10px 0 6px;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 
@@ -995,7 +995,7 @@ textarea:focus-visible {
   max-width: 240px;
   margin: auto;
   color: #4e4e4e;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .section {
@@ -1027,7 +1027,7 @@ textarea:focus-visible {
 
 .section-heading__title {
   margin: 4px 0 0;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   letter-spacing: -0.02em;
   line-height: 1.35;
@@ -1089,7 +1089,7 @@ textarea:focus-visible {
 
 .product-card__title {
   margin: 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.22;
 }
 
@@ -1148,7 +1148,7 @@ textarea:focus-visible {
 
 .about__feature i {
   color: var(--color-purple);
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .workshops {
@@ -1199,7 +1199,7 @@ textarea:focus-visible {
 
 .workshops__previous i {
   margin-right: 6px;
-  font-size: 25px;
+  font-size: 1.5625rem;
   vertical-align: -2px;
 }
 
@@ -1231,13 +1231,13 @@ textarea:focus-visible {
 
 .event-card__date span {
   display: block;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .event-card__date strong {
   display: block;
   color: var(--color-ink);
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 1;
 }
 
@@ -1254,7 +1254,7 @@ textarea:focus-visible {
 
 .event-card__title {
   margin: 0 0 10px;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.25;
 }
 
@@ -1262,13 +1262,13 @@ textarea:focus-visible {
   display: flex;
   gap: 8px;
   margin: 0 0 7px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .event-card__detail i {
   flex: 0 0 auto;
   color: var(--color-purple);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .event-card__link i,
@@ -1320,7 +1320,7 @@ textarea:focus-visible {
   color: #4b47df;
   background: var(--color-white);
   border-radius: 999px;
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 .blog-card__body {
@@ -1333,7 +1333,7 @@ textarea:focus-visible {
 
 .blog-card__title {
   margin: 0;
-  font-size: 21px;
+  font-size: 1.3125rem;
   line-height: 1.35;
 }
 
@@ -1428,7 +1428,7 @@ textarea:focus-visible {
   border: 1px solid var(--color-line);
   border-radius: 999px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 1.25rem;
   transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease;
 }
 
@@ -1493,7 +1493,7 @@ textarea:focus-visible {
 
 .testimonial-card--full .testimonial-card__quote {
   min-height: 0;
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.65;
 }
 
@@ -1504,7 +1504,7 @@ textarea:focus-visible {
   color: var(--color-purple);
   background: var(--color-purple-pale);
   border-radius: 999px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -1522,7 +1522,7 @@ textarea:focus-visible {
 
 .testimonials-cta h2 {
   margin: 4px 0 0;
-  font-size: 30px;
+  font-size: 1.875rem;
   line-height: 1.3;
 }
 
@@ -1534,13 +1534,13 @@ textarea:focus-visible {
 
 .instagram__title {
   margin: 0;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 
 .instagram .eyebrow {
   margin-top: 4px;
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 .instagram__grid {
@@ -1590,7 +1590,7 @@ textarea:focus-visible {
 
 .newsletter__title {
   margin: 0;
-  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 1.2;
 }
 
@@ -1627,7 +1627,7 @@ textarea:focus-visible {
   left: 16px;
   margin: 0;
   color: var(--color-purple);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .site-footer {
@@ -1654,7 +1654,7 @@ textarea:focus-visible {
 .site-footer__summary {
   max-width: 278px;
   margin: 16px 0 0;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .site-footer__socials {
@@ -1681,7 +1681,7 @@ textarea:focus-visible {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .site-footer__column a:hover {
@@ -1691,7 +1691,7 @@ textarea:focus-visible {
 .site-footer__heading {
   margin: 0 0 8px;
   color: var(--color-mint-strong);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -1716,7 +1716,7 @@ textarea:focus-visible {
   margin-top: 40px;
   padding-top: 24px;
   border-top: 1px solid rgba(196, 219, 168, 0.15);
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .site-footer__bottom p {
@@ -1848,7 +1848,7 @@ textarea:focus-visible {
   }
 
   .hero__title {
-    font-size: clamp(44px, 11vw, 62px);
+    font-size: clamp(2.75rem, 11vw, 3.875rem);
   }
 
   .hero__visual {
@@ -1863,7 +1863,7 @@ textarea:focus-visible {
     left: -10px;
     width: 108px;
     height: 108px;
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .benefits__grid {
@@ -1876,7 +1876,7 @@ textarea:focus-visible {
   }
 
   .section-heading__title {
-    font-size: 34px;
+    font-size: 2.125rem;
   }
 
   .about__media {
@@ -1942,11 +1942,11 @@ textarea:focus-visible {
   }
 
   .eyebrow {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .hero__title {
-    font-size: 42px;
+    font-size: 2.625rem;
   }
 
   .hero__actions {
@@ -1990,7 +1990,7 @@ textarea:focus-visible {
   }
 
   .section-heading__title {
-    font-size: 31px;
+    font-size: 1.9375rem;
     line-height: 1.22;
   }
 
@@ -1999,7 +1999,7 @@ textarea:focus-visible {
   }
 
   .product-card__title {
-    font-size: 17px;
+    font-size: 1.0625rem;
   }
 
   .product-card__body {
@@ -2021,7 +2021,7 @@ textarea:focus-visible {
   }
 
   .event-card__title {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .blog-card {
@@ -2054,7 +2054,7 @@ textarea:focus-visible {
   }
 
   .testimonials-cta h2 {
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
 
   .testimonials-cta__actions {
@@ -2126,7 +2126,7 @@ textarea:focus-visible {
 
 .page-hero__title {
   margin: 8px 0 0;
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 800;
   line-height: 1.25;
 }
@@ -2134,7 +2134,7 @@ textarea:focus-visible {
 .page-hero__description {
   max-width: 576px;
   margin: 16px 0 0;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.625;
 }
 
@@ -2156,14 +2156,14 @@ textarea:focus-visible {
 
 .activity-collection__title {
   margin: 4px 0 0;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   line-height: 1.25;
 }
 
 .activity-collection__link {
   margin-bottom: 7px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .activity-collection__grid {
@@ -2222,12 +2222,12 @@ textarea:focus-visible {
 
 .activity-card__date span {
   color: var(--color-purple);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 16px;
 }
 
 .activity-card__date strong {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
   line-height: 30px;
 }
@@ -2240,7 +2240,7 @@ textarea:focus-visible {
   color: var(--color-white);
   background: var(--color-purple-light);
   border-radius: 999px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 16px;
 }
@@ -2255,21 +2255,21 @@ textarea:focus-visible {
 
 .activity-card__title {
   margin: 0;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.375;
 }
 
 .activity-card__time {
   margin: 4px 0 0;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
 }
 
 .activity-card__description {
   margin: 12px 0 0;
   color: rgba(26, 26, 26, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.625;
 }
 
@@ -2288,7 +2288,7 @@ textarea:focus-visible {
   background: var(--color-mint);
   border: 1px solid var(--color-line);
   border-radius: 999px;
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 16px;
 }
 
@@ -2320,13 +2320,13 @@ textarea:focus-visible {
 
 .activity-card__booking strong {
   color: var(--color-purple);
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
 }
 
 .activity-card__booking span {
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 16px;
 }
 
@@ -2334,7 +2334,7 @@ textarea:focus-visible {
   min-height: 37px;
   padding: 8px 20px;
   border: 0;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
 }
 
@@ -2357,7 +2357,7 @@ textarea:focus-visible {
   align-items: center;
   gap: 3px;
   color: var(--color-purple);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 21px;
   white-space: nowrap;
@@ -2394,7 +2394,7 @@ textarea:focus-visible {
 
 .workshop-track__header h3 {
   margin: 4px 0 0;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 1.25;
 }
 
@@ -2432,11 +2432,11 @@ textarea:focus-visible {
 }
 
 .activity-card--featured .activity-card__title {
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 .activity-card--featured .activity-card__time {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.4;
 }
 
@@ -2450,7 +2450,7 @@ textarea:focus-visible {
 }
 
 .activity-card--featured .activity-card__read-more {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .activity-card__level--past {
@@ -2486,7 +2486,7 @@ textarea:focus-visible {
 
 .workshop-values__title {
   margin: 8px 0 0;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   line-height: 1.5;
 }
@@ -2522,14 +2522,14 @@ textarea:focus-visible {
 
 .workshop-value__title {
   margin: 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
 }
 
 .workshop-value__text {
   margin: 0;
   color: rgba(26, 26, 26, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.625;
 }
 
@@ -2584,7 +2584,7 @@ textarea:focus-visible {
   margin: 0;
   color: #f9b8dc;
   font-family: "Caveat", cursive;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
   line-height: 45px;
 }
@@ -2592,7 +2592,7 @@ textarea:focus-visible {
 .private-events__title {
   max-width: 504px;
   margin: 8px 0 0;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 800;
   line-height: 1.25;
 }
@@ -2671,7 +2671,7 @@ textarea:focus-visible {
   border-radius: 999px;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 18px;
 }
@@ -2716,12 +2716,12 @@ textarea:focus-visible {
   }
 
   .page-hero__title {
-    font-size: clamp(40px, 8vw, 52px);
+    font-size: clamp(2.5rem, 8vw, 3.25rem);
   }
 
   .activity-collection__title,
   .workshop-values__title {
-    font-size: 34px;
+    font-size: 2.125rem;
   }
 
   .private-events {
@@ -2745,12 +2745,12 @@ textarea:focus-visible {
   }
 
   .page-hero__title {
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 1.18;
   }
 
   .page-hero__description {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .workshops-events-listings,
@@ -2770,7 +2770,7 @@ textarea:focus-visible {
 
   .activity-collection__title,
   .workshop-values__title {
-    font-size: 31px;
+    font-size: 1.9375rem;
     line-height: 1.22;
   }
 
@@ -2832,7 +2832,7 @@ textarea:focus-visible {
   }
 
   .private-events__title {
-    font-size: 31px;
+    font-size: 1.9375rem;
   }
 
   .private-events__actions {
@@ -2904,12 +2904,12 @@ textarea:focus-visible {
 
 .about-hero__title span {
   display: block;
-  font-size: 56px;
+  font-size: 3.5rem;
   font-weight: 800;
 }
 
 .about-hero__title span:last-child {
-  font-size: 48px;
+  font-size: 3rem;
 }
 
 .about-hero__statement {
@@ -2928,12 +2928,12 @@ textarea:focus-visible {
 }
 
 .about-hero__statement i {
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 
 .about-hero__subtitle {
   margin: 0;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 700;
 }
 
@@ -2954,7 +2954,7 @@ textarea:focus-visible {
 
 .about-hero__button {
   min-height: 56px;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 
@@ -2970,7 +2970,7 @@ textarea:focus-visible {
   background: var(--color-purple-light);
   border-radius: 50%;
   font-family: "Caveat", cursive;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
   line-height: 0.95;
   text-align: center;
@@ -2980,7 +2980,7 @@ textarea:focus-visible {
 .about-hero__seal i {
   margin-bottom: 4px;
   font-family: remixicon;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 400;
 }
 
@@ -3088,7 +3088,7 @@ textarea:focus-visible {
 }
 
 .value-card__icon i {
-  font-size: 58px;
+  font-size: 3.625rem;
   font-weight: 300;
 }
 
@@ -3107,7 +3107,7 @@ textarea:focus-visible {
 .value-card__title {
   min-height: 60px;
   margin: 0;
-  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 1.35;
 }
 
@@ -3148,13 +3148,13 @@ textarea:focus-visible {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .credentials__item i {
   flex: 0 0 auto;
   color: var(--color-pink);
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 .credentials__media {
@@ -3212,7 +3212,7 @@ textarea:focus-visible {
 
 .reason-card__title {
   margin: 0;
-  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 1.2;
 }
 
@@ -3258,12 +3258,12 @@ textarea:focus-visible {
 }
 
 .about-cta__icon i {
-  font-size: 82px;
+  font-size: 5.125rem;
 }
 
 .about-cta__title {
   margin: 0;
-  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 1.2;
 }
 
@@ -3278,11 +3278,11 @@ textarea:focus-visible {
   }
 
   .about-hero__title span {
-    font-size: 46px;
+    font-size: 2.875rem;
   }
 
   .about-hero__title span:last-child {
-    font-size: 39px;
+    font-size: 2.4375rem;
   }
 
   .journey__grid {
@@ -3362,7 +3362,7 @@ textarea:focus-visible {
     bottom: 34px;
     width: 104px;
     height: 104px;
-    font-size: 23px;
+    font-size: 1.4375rem;
   }
 
   .journey__grid,
@@ -3435,12 +3435,12 @@ textarea:focus-visible {
 
   .about-hero__title span,
   .about-hero__title span:last-child {
-    font-size: 39px;
+    font-size: 2.4375rem;
     line-height: 1.1;
   }
 
   .about-hero__subtitle {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .about-hero__actions {
@@ -3528,7 +3528,7 @@ textarea:focus-visible {
   }
 
   .reason-card__title {
-    font-size: 19px;
+    font-size: 1.1875rem;
   }
 
   .about-cta__content {
@@ -3543,7 +3543,7 @@ textarea:focus-visible {
   }
 
   .about-cta__icon i {
-    font-size: 56px;
+    font-size: 3.5rem;
   }
 
   .about-cta__inner .button {
@@ -3581,7 +3581,7 @@ textarea:focus-visible {
 .gallery-catalog__count {
   margin: 0;
   color: rgba(26, 26, 26, 0.45);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
 }
 
@@ -3652,13 +3652,13 @@ body.is-gallery-modal-open {
 .gallery-modal__category {
   margin: 0 0 4px;
   color: var(--color-purple);
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 700;
 }
 
 .gallery-modal__title {
   margin: 0;
-  font-size: clamp(20px, 4vw, 28px);
+  font-size: clamp(1.25rem, 4vw, 1.75rem);
   line-height: 1.25;
 }
 
@@ -3673,7 +3673,7 @@ body.is-gallery-modal-open {
   border-radius: 50%;
   background: var(--color-white);
   color: var(--color-purple);
-  font-size: 30px;
+  font-size: 1.875rem;
   cursor: pointer;
 }
 
@@ -3716,7 +3716,7 @@ body.is-gallery-modal-open {
   left: 12px;
   padding: 3px 10px;
   border-radius: 999px;
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 700;
   line-height: 16.5px;
 }
@@ -3769,14 +3769,14 @@ body.is-gallery-modal-open {
 
 .gallery-sidebar__heading span {
   font-family: "Caveat", cursive;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   line-height: 1;
 }
 
 .gallery-sidebar__heading strong {
   margin-top: 2px;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
   line-height: 1.25;
 }
@@ -3816,7 +3816,7 @@ body.is-gallery-modal-open {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   white-space: nowrap;
 }
@@ -3830,7 +3830,7 @@ body.is-gallery-modal-open {
   color: var(--color-purple);
   background: var(--color-mint);
   border-radius: 12px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .gallery-filter--active .gallery-filter__label > i {
@@ -3843,7 +3843,7 @@ body.is-gallery-modal-open {
   align-items: center;
   gap: 6px;
   color: rgba(26, 26, 26, 0.35);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .gallery-filter--active .gallery-filter__count {
@@ -3860,7 +3860,7 @@ body.is-gallery-modal-open {
 
 .gallery-sidebar__actions h2 {
   margin: 0 0 2px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   line-height: 18px;
@@ -3874,7 +3874,7 @@ body.is-gallery-modal-open {
   align-items: center;
   justify-content: center;
   border-radius: 999px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
   text-align: center;
   transition: transform 180ms ease, background-color 180ms ease;
@@ -3901,7 +3901,7 @@ body.is-gallery-modal-open {
   min-height: 35px;
   gap: 4px;
   color: var(--color-purple);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .gallery-sidebar__stats {
@@ -3923,7 +3923,7 @@ body.is-gallery-modal-open {
 
 .gallery-sidebar__stats dt {
   color: var(--color-purple);
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800;
   line-height: 20px;
 }
@@ -3931,7 +3931,7 @@ body.is-gallery-modal-open {
 .gallery-sidebar__stats dd {
   margin: 2px 0 0;
   color: rgba(26, 26, 26, 0.45);
-  font-size: 11px;
+  font-size: 0.6875rem;
   line-height: 16.5px;
 }
 
@@ -3966,7 +3966,7 @@ body.is-gallery-modal-open {
   margin: 0;
   color: #f9b8dc;
   font-family: "Caveat", cursive;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
   line-height: 1;
 }
@@ -3974,7 +3974,7 @@ body.is-gallery-modal-open {
 .gallery-cta__title {
   max-width: 560px;
   margin: 8px 0 0;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   line-height: 1.25;
 }
@@ -3983,7 +3983,7 @@ body.is-gallery-modal-open {
   max-width: 480px;
   margin: 16px 0 0;
   color: rgba(255, 255, 255, 0.75);
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.625;
 }
 
@@ -4014,7 +4014,7 @@ body.is-gallery-modal-open {
   color: var(--color-purple);
   background: var(--color-white);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 
@@ -4037,14 +4037,14 @@ body.is-gallery-modal-open {
   align-items: center;
   gap: 10px;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 22.5px;
   white-space: nowrap;
 }
 
 .gallery-cta__features i {
   color: var(--color-mint-strong);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .gallery-extras {
@@ -4066,14 +4066,14 @@ body.is-gallery-modal-open {
   margin: 0;
   color: #f490b1;
   font-family: "Caveat", cursive;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 700;
   line-height: 1;
 }
 
 .gallery-extras__title {
   margin: 0;
-  font-size: 34px;
+  font-size: 2.125rem;
   font-weight: 800;
   line-height: 1.5;
 }
@@ -4083,7 +4083,7 @@ body.is-gallery-modal-open {
   align-items: center;
   gap: 5px;
   color: var(--color-purple);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 22.5px;
 }
 
@@ -4138,14 +4138,14 @@ body.is-gallery-modal-open {
 
 .gallery-extra-card__content h3 {
   margin: 0;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 27px;
 }
 
 .gallery-extra-card__content p {
   margin: 0;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19.5px;
 }
 
@@ -4297,7 +4297,7 @@ body.is-gallery-modal-open {
   }
 
   .gallery-cta__title {
-    font-size: 34px;
+    font-size: 2.125rem;
   }
 
   .gallery-cta__features {
@@ -4316,7 +4316,7 @@ body.is-gallery-modal-open {
   }
 
   .gallery-extras__title {
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 1.25;
   }
 
@@ -4338,7 +4338,7 @@ body.is-gallery-modal-open {
   gap: 8px;
   padding: 0 24px;
   color: rgba(26, 26, 26, 0.55);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
 }
 
@@ -4352,7 +4352,7 @@ body.is-gallery-modal-open {
 
 .cake-breadcrumb i {
   color: rgba(26, 26, 26, 0.32);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .cake-detail {
@@ -4411,7 +4411,7 @@ body.is-gallery-modal-open {
   color: #c2185b;
   background: #fde8f0;
   border-radius: 999px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 18px;
 }
@@ -4420,7 +4420,7 @@ body.is-gallery-modal-open {
   margin: 12px 0 0;
   color: #f9b8dc;
   font-family: "Caveat", cursive;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 700;
   line-height: 1;
 }
@@ -4428,7 +4428,7 @@ body.is-gallery-modal-open {
 .cake-showcase__title {
   margin: 4px 0 0;
   color: var(--color-white);
-  font-size: 42px;
+  font-size: 2.625rem;
   font-weight: 800;
   line-height: 1.25;
 }
@@ -4457,14 +4457,14 @@ body.is-gallery-modal-open {
 
 .cake-highlight i {
   color: var(--color-purple);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 15px;
 }
 
 .cake-highlight dt {
   padding-top: 8px;
   color: rgba(26, 26, 26, 0.45);
-  font-size: 11px;
+  font-size: 0.6875rem;
   letter-spacing: 0.05em;
   line-height: 16.5px;
   text-transform: uppercase;
@@ -4472,7 +4472,7 @@ body.is-gallery-modal-open {
 
 .cake-highlight dd {
   margin: 2px 0 0;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 19.25px;
   white-space: nowrap;
@@ -4488,30 +4488,30 @@ body.is-gallery-modal-open {
   margin: 0;
   color: var(--color-pink);
   font-family: "Caveat", cursive;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
   line-height: 1;
 }
 
 .cake-detail__eyebrow--small {
-  font-size: 26px;
+  font-size: 1.625rem;
 }
 
 .cake-detail__title {
   margin: 4px 0 0;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 800;
   line-height: 1.5;
 }
 
 .cake-detail__title--small {
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 .cake-story__copy {
   padding-top: 28px;
   color: rgba(26, 26, 26, 0.75);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.85;
 }
 
@@ -4571,26 +4571,26 @@ body.is-gallery-modal-open {
   align-items: center;
   gap: 12px;
   color: var(--color-line);
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
   line-height: 1;
 }
 
 .cake-process__number i {
   color: var(--color-purple);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .cake-process__step h3 {
   margin: 16px 0 0;
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 25.5px;
 }
 
 .cake-process__step p {
   margin: 4px 0 0;
   color: rgba(26, 26, 26, 0.6);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.625;
 }
 
@@ -4619,14 +4619,14 @@ body.is-gallery-modal-open {
   background: transparent;
   border: 0;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   text-align: left;
 }
 
 .cake-faq__question i {
   color: var(--color-purple);
-  font-size: 20px;
+  font-size: 1.25rem;
   transition: transform 180ms ease;
 }
 
@@ -4637,7 +4637,7 @@ body.is-gallery-modal-open {
 .cake-faq__answer {
   padding: 0 32px 18px 0;
   color: rgba(26, 26, 26, 0.64);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -4666,14 +4666,14 @@ body.is-gallery-modal-open {
 .cake-order__price span {
   margin: 0;
   color: rgba(255, 255, 255, 0.72);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
 }
 
 .cake-order__price strong {
   display: block;
   margin-top: 4px;
-  font-size: 44px;
+  font-size: 2.75rem;
   font-weight: 800;
   line-height: 1.23;
 }
@@ -4710,12 +4710,12 @@ body.is-gallery-modal-open {
   background: var(--color-mint);
   border: 1px solid var(--color-line);
   border-radius: 8px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .cake-order__spec dt {
   color: rgba(26, 26, 26, 0.45);
-  font-size: 11px;
+  font-size: 0.6875rem;
   letter-spacing: 0.05em;
   line-height: 11px;
   text-transform: uppercase;
@@ -4723,7 +4723,7 @@ body.is-gallery-modal-open {
 
 .cake-order__spec dd {
   margin: 2px 0 0;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 19.25px;
 }
@@ -4740,7 +4740,7 @@ body.is-gallery-modal-open {
 
 .cake-order__style span {
   color: rgba(26, 26, 26, 0.45);
-  font-size: 11px;
+  font-size: 0.6875rem;
   letter-spacing: 0.05em;
   line-height: 16.5px;
   text-transform: uppercase;
@@ -4748,7 +4748,7 @@ body.is-gallery-modal-open {
 
 .cake-order__style strong {
   color: var(--color-muted);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
 }
 
@@ -4778,14 +4778,14 @@ body.is-gallery-modal-open {
   color: var(--color-white);
   background: var(--color-purple);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 700;
 }
 
 .cake-order__button--outline {
   color: var(--color-purple);
   border: 2px solid var(--color-purple-light);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .cake-order__benefits {
@@ -4802,13 +4802,13 @@ body.is-gallery-modal-open {
   align-items: center;
   gap: 10px;
   color: rgba(26, 26, 26, 0.55);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
 }
 
 .cake-order__benefits i {
   color: var(--color-muted);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .cake-order__share {
@@ -4824,7 +4824,7 @@ body.is-gallery-modal-open {
 
 .cake-order__share > span:first-child {
   color: rgba(26, 26, 26, 0.4);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .cake-order__share > div {
@@ -4855,14 +4855,14 @@ body.is-gallery-modal-open {
 
 .cake-contact-card h2 {
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 22.5px;
 }
 
 .cake-contact-card > p {
   margin: 4px 0 0;
   color: rgba(26, 26, 26, 0.6);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19.5px;
 }
 
@@ -4877,13 +4877,13 @@ body.is-gallery-modal-open {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
 }
 
 .cake-contact-card address i {
   color: var(--color-muted);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .cake-designer {
@@ -4908,14 +4908,14 @@ body.is-gallery-modal-open {
 
 .cake-designer h2 {
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 22.5px;
 }
 
 .cake-designer p {
   margin: 0;
   color: var(--color-purple);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 18px;
 }
 
@@ -4923,7 +4923,7 @@ body.is-gallery-modal-open {
   display: block;
   margin-top: 4px;
   color: rgba(26, 26, 26, 0.5);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 16.5px;
   white-space: nowrap;
 }
@@ -5030,11 +5030,11 @@ body.is-gallery-modal-open {
   }
 
   .cake-showcase__eyebrow {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .cake-showcase__title {
-    font-size: 34px;
+    font-size: 2.125rem;
   }
 
   .cake-highlights {
@@ -5054,7 +5054,7 @@ body.is-gallery-modal-open {
 
   .cake-detail__title,
   .cake-detail__title--small {
-    font-size: 26px;
+    font-size: 1.625rem;
     line-height: 1.35;
   }
 
@@ -5080,7 +5080,7 @@ body.is-gallery-modal-open {
   }
 
   .cake-faq__question {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .cake-order__specs,
@@ -5129,14 +5129,14 @@ body.is-gallery-modal-open {
   margin: 0;
   color: var(--color-pink);
   font-family: "Caveat", cursive;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 28px;
 }
 
 .contact__title {
   margin: 8px 0 0;
-  font-size: 44px;
+  font-size: 2.75rem;
   font-weight: 800;
   letter-spacing: -0.025em;
   line-height: 55px;
@@ -5145,7 +5145,7 @@ body.is-gallery-modal-open {
 .contact__intro {
   margin: 12px 0 0;
   color: rgba(26, 26, 26, 0.5);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 26px;
 }
 
@@ -5176,7 +5176,7 @@ body.is-gallery-modal-open {
 
 .consultation-form__top p {
   margin: 2px 0 0;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
 }
 
@@ -5203,7 +5203,7 @@ body.is-gallery-modal-open {
   display: block;
   min-height: 29px;
   padding-bottom: 8px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 21px;
 }
@@ -5214,7 +5214,7 @@ body.is-gallery-modal-open {
 
 .consultation-form__optional {
   color: rgba(26, 26, 26, 0.35);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 18px;
 }
@@ -5227,7 +5227,7 @@ body.is-gallery-modal-open {
   background: var(--color-white);
   border: 2px solid var(--color-line);
   border-radius: 12px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
   transition: border-color 180ms ease, box-shadow 180ms ease;
 }
@@ -5276,7 +5276,7 @@ body.is-gallery-modal-open {
   top: 50%;
   right: 12px;
   color: var(--color-purple-light);
-  font-size: 18px;
+  font-size: 1.125rem;
   pointer-events: none;
   transform: translateY(-50%);
 }
@@ -5305,7 +5305,7 @@ body.is-gallery-modal-open {
   flex: 0 0 auto;
   align-items: center;
   gap: 8px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19.5px;
   white-space: nowrap;
 }
@@ -5317,7 +5317,7 @@ body.is-gallery-modal-open {
   place-items: center;
   background: var(--color-line);
   border-radius: 50%;
-  font-size: 10px;
+  font-size: 0.625rem;
   font-weight: 800;
 }
 
@@ -5336,7 +5336,7 @@ body.is-gallery-modal-open {
   border-radius: 999px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 700;
   line-height: 25.5px;
   transition: background-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
@@ -5349,7 +5349,7 @@ body.is-gallery-modal-open {
 }
 
 .consultation-form__submit i {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .consultation-form__status {
@@ -5357,7 +5357,7 @@ body.is-gallery-modal-open {
   margin: 0;
   padding-top: 7px;
   color: var(--color-muted);
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -5370,7 +5370,7 @@ body.is-gallery-modal-open {
   color: rgba(26, 26, 26, 0.45);
   background: #f9fdf5;
   border-top: 1px solid var(--color-mint);
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   line-height: 19.5px;
 }
@@ -5387,7 +5387,7 @@ body.is-gallery-modal-open {
 }
 
 .consultation-form__contact i {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .contact__aside {
@@ -5406,14 +5406,14 @@ body.is-gallery-modal-open {
   margin: 0;
   color: var(--color-pink);
   font-family: "Caveat", cursive;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   line-height: 20px;
 }
 
 .consultation-expectations__title {
   margin: 4px 0 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800;
   line-height: 30px;
 }
@@ -5443,12 +5443,12 @@ body.is-gallery-modal-open {
   background: var(--color-mint);
   border: 1px solid var(--color-line);
   border-radius: 12px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .consultation-expectations__item h3 {
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 19.5px;
   white-space: nowrap;
@@ -5457,7 +5457,7 @@ body.is-gallery-modal-open {
 .consultation-expectations__item p {
   margin: 2px 0 0;
   color: rgba(26, 26, 26, 0.55);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 16.5px;
 }
 
@@ -5502,14 +5502,14 @@ body.is-gallery-modal-open {
   margin: 0;
   color: #f9b8dc;
   font-family: "Caveat", cursive;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   line-height: 18px;
 }
 
 .studio-card__title {
   margin: 4px 0 8px;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 800;
   line-height: 28px;
   white-space: nowrap;
@@ -5519,7 +5519,7 @@ body.is-gallery-modal-open {
   display: grid;
   gap: 4px;
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   line-height: 18px;
 }
@@ -5532,7 +5532,7 @@ body.is-gallery-modal-open {
 }
 
 .studio-card__details i {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .contact__back {
@@ -5542,7 +5542,7 @@ body.is-gallery-modal-open {
   gap: 3px;
   margin: 58px auto 0;
   color: rgba(26, 26, 26, 0.4);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
 }
 
@@ -5607,7 +5607,7 @@ body.is-gallery-modal-open {
   }
 
   .contact__title {
-    font-size: 38px;
+    font-size: 2.375rem;
     line-height: 48px;
   }
 
@@ -5650,7 +5650,7 @@ body.is-gallery-modal-open {
   }
 
   .contact__intro {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 22px;
   }
 
@@ -5721,7 +5721,7 @@ body.is-gallery-modal-open {
 
 .workshop-registration__title {
   margin: 0;
-  font-size: 44px;
+  font-size: 2.75rem;
   font-weight: 800;
   letter-spacing: -0.025em;
   line-height: 55px;
@@ -5730,7 +5730,7 @@ body.is-gallery-modal-open {
 .workshop-registration__intro {
   margin: 12px 0 0;
   color: rgba(26, 26, 26, 0.55);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 26px;
 }
 
@@ -5766,7 +5766,7 @@ body.is-gallery-modal-open {
 
 .registration-form__title {
   margin: 0;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 800;
   line-height: 33px;
 }
@@ -5774,7 +5774,7 @@ body.is-gallery-modal-open {
 .registration-form__subtitle {
   margin: 2px 0 0;
   color: rgba(255, 255, 255, 0.65);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
 }
 
@@ -5812,7 +5812,7 @@ body.is-gallery-modal-open {
 
 .registration-form__label {
   display: block;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 21px;
 }
@@ -5837,7 +5837,7 @@ body.is-gallery-modal-open {
 .registration-form__counter {
   flex: 0 0 auto;
   color: rgba(26, 26, 26, 0.3);
-  font-size: 11px;
+  font-size: 0.6875rem;
   line-height: 16.5px;
 }
 
@@ -5849,7 +5849,7 @@ body.is-gallery-modal-open {
   background: var(--color-white);
   border: 2px solid var(--color-line);
   border-radius: 12px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
   transition: border-color 180ms ease, box-shadow 180ms ease;
 }
@@ -5887,7 +5887,7 @@ body.is-gallery-modal-open {
   align-items: center;
   margin: 0;
   padding-bottom: 8px;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   line-height: 21px;
 }
@@ -5913,7 +5913,7 @@ body.is-gallery-modal-open {
   top: calc(50% + 4px);
   right: 12px;
   color: var(--color-purple-light);
-  font-size: 18px;
+  font-size: 1.125rem;
   pointer-events: none;
   transform: translateY(-50%);
 }
@@ -5948,14 +5948,14 @@ body.is-gallery-modal-open {
 
 .registration-form__payment h2 {
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
 }
 
 .registration-form__payment p {
   margin: 4px 0 0;
   color: var(--color-muted);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
 }
 
@@ -5980,7 +5980,7 @@ body.is-gallery-modal-open {
   color: transparent;
   background: var(--color-white);
   border: 1px solid #838383;
-  font-size: 16px;
+  font-size: 1rem;
   transition: color 160ms ease, background-color 160ms ease, border-color 160ms ease;
 }
 
@@ -5999,7 +5999,7 @@ body.is-gallery-modal-open {
 
 .registration-form__consent-copy strong {
   display: block;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19.5px;
 }
 
@@ -6007,7 +6007,7 @@ body.is-gallery-modal-open {
   display: block;
   padding-top: 2px;
   overflow-wrap: anywhere;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 16.5px;
 }
 
@@ -6023,21 +6023,21 @@ body.is-gallery-modal-open {
 
 .registration-form__media-consent legend {
   padding: 0;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 19.5px;
 }
 
 .registration-form__media-consent > p {
   margin: 2px 0 0;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 16.5px;
 }
 
 .registration-form__media-option {
   padding-top: 10px;
   overflow-wrap: anywhere;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 16.5px;
 }
 
@@ -6056,7 +6056,7 @@ body.is-gallery-modal-open {
   border-radius: 999px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 700;
   line-height: 25.5px;
   transition: background-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
@@ -6069,7 +6069,7 @@ body.is-gallery-modal-open {
 }
 
 .registration-form__submit i {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .registration-form__status {
@@ -6077,7 +6077,7 @@ body.is-gallery-modal-open {
   margin: 0;
   padding-top: 7px;
   color: var(--color-muted);
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -6091,7 +6091,7 @@ body.is-gallery-modal-open {
   color: rgba(26, 26, 26, 0.45);
   background: #f9fdf5;
   border-top: 1px solid var(--color-mint);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
 }
 
@@ -6117,11 +6117,11 @@ body.is-gallery-modal-open {
 }
 
 .registration-form__contact i {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .registration-form__back {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .workshop-registration__aside {
@@ -6160,14 +6160,14 @@ body.is-gallery-modal-open {
   margin: 0;
   color: var(--color-pink);
   font-family: "Caveat", cursive;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 700;
   line-height: 17px;
 }
 
 .workshop-host__name {
   margin: 2px 0 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800;
   line-height: 25px;
 }
@@ -6175,14 +6175,14 @@ body.is-gallery-modal-open {
 .workshop-host__role {
   margin: 2px 0 0;
   color: var(--color-purple);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 18px;
 }
 
 .workshop-host__description {
   margin: 8px 0 0;
   color: rgba(26, 26, 26, 0.65);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19.5px;
 }
 
@@ -6201,7 +6201,7 @@ body.is-gallery-modal-open {
   background: var(--color-mint);
   border: 1px solid var(--color-line);
   border-radius: 999px;
-  font-size: 11px;
+  font-size: 0.6875rem;
   line-height: 16.5px;
   white-space: nowrap;
 }
@@ -6261,13 +6261,13 @@ body.is-gallery-modal-open {
 
   .workshop-registration__title {
     max-width: 100%;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 40px;
     overflow-wrap: anywhere;
   }
 
   .workshop-registration__intro {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 22px;
   }
 
@@ -6386,12 +6386,12 @@ body.is-gallery-modal-open {
 }
 
 .contact--consultation .contact__eyebrow {
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 .contact--consultation .contact__intro {
   color: rgba(26, 26, 26, 0.55);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .contact--consultation .contact__layout > *,
@@ -6407,7 +6407,7 @@ body.is-gallery-modal-open {
 .consultation-form__title {
   margin: 0;
   color: var(--color-white);
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 800;
   line-height: 33px;
 }
@@ -6448,7 +6448,7 @@ body.is-gallery-modal-open {
   border: 2px solid var(--color-line);
   border-radius: 12px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
   transition: border-color 180ms ease, box-shadow 180ms ease;
 }
@@ -6491,7 +6491,7 @@ body.is-gallery-modal-open {
   padding: 16px 32px;
   background: #f9fdf5;
   border-top: 1px solid var(--color-mint);
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 19.5px;
 }
 
@@ -6513,7 +6513,7 @@ body.is-gallery-modal-open {
 
 .quote-steps__title {
   margin: 4px 0 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800;
   line-height: 30px;
 }
@@ -6541,21 +6541,21 @@ body.is-gallery-modal-open {
   color: var(--color-white);
   background: #775ca7;
   border-radius: 50%;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1;
 }
 
 .quote-steps__list h3 {
   margin: 2px 0 0;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   line-height: 18px;
 }
 
 .quote-steps__list p {
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 18.5px;
 }
 
@@ -6634,12 +6634,12 @@ body.is-gallery-modal-open {
   }
 
   .contact--consultation .contact__intro {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .consultation-form__general-question {
     padding-inline: 20px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .quote-consultant__profile {
@@ -6691,7 +6691,7 @@ body.is-gallery-modal-open {
 }
 
 .contact--message .contact__eyebrow {
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 .contact__layout--message {
@@ -6765,7 +6765,7 @@ body.is-gallery-modal-open {
 
 .contact-panel h2 {
   margin: 4px 0 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800;
   line-height: 30px;
 }
@@ -6773,7 +6773,7 @@ body.is-gallery-modal-open {
 .contact-panel__intro {
   margin: 2px 0 0;
   color: rgba(26, 26, 26, 0.55);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 18.5px;
 }
 
@@ -6792,7 +6792,7 @@ body.is-gallery-modal-open {
   margin: 0;
   color: var(--color-pink);
   font-family: "Caveat", cursive;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   line-height: 20px;
 }
@@ -6809,7 +6809,7 @@ body.is-gallery-modal-open {
   background: var(--color-purple);
   border-radius: 999px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 700;
   line-height: 25.5px;
   transition: background-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
@@ -6822,7 +6822,7 @@ body.is-gallery-modal-open {
 }
 
 .contact-inquiry-card__button i {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .contact-reach-card h2 {
@@ -6858,13 +6858,13 @@ body.is-gallery-modal-open {
 }
 
 .contact-reach-card__item strong {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 16px;
 }
 
 .contact-reach-card__item small {
   color: var(--color-ink);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19.5px;
 }
 
@@ -6988,7 +6988,7 @@ body.is-gallery-modal-open {
   color: var(--color-white);
   background: var(--color-pink);
   border-radius: 999px;
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 800;
   letter-spacing: 0.1em;
   line-height: 17px;
@@ -7007,7 +7007,7 @@ body.is-gallery-modal-open {
 
 .journal-feature__title {
   margin: 16px 0 0;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 800;
   line-height: 1.25;
 }
@@ -7017,7 +7017,7 @@ body.is-gallery-modal-open {
   overflow: hidden;
   margin: 12px 0 0;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 26px;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -7058,13 +7058,13 @@ body.is-gallery-modal-open {
 }
 
 .journal-feed__header h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 36px;
 }
 
 .journal-feed__header span {
   color: rgba(26, 26, 26, 0.55);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .journal-feed__grid {
@@ -7134,7 +7134,7 @@ body.is-gallery-modal-open {
   align-items: center;
   gap: 8px;
   color: rgba(26, 26, 26, 0.5);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 18px;
 }
 
@@ -7181,20 +7181,20 @@ body.is-gallery-modal-open {
 
 .journal-post__title {
   margin: 12px 0 0;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 800;
   line-height: 1.28;
 }
 
 .journal-post--lead .journal-post__title {
-  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 1.25;
 }
 
 .journal-post__excerpt {
   margin: 10px 0 0;
   color: rgba(26, 26, 26, 0.58);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.625;
 }
 
@@ -7214,7 +7214,7 @@ body.is-gallery-modal-open {
   background: var(--color-mint);
   border: 1px solid var(--color-line);
   border-radius: 999px;
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 16px;
 }
 
@@ -7247,13 +7247,13 @@ body.is-gallery-modal-open {
 }
 
 .journal-author strong {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 18px;
 }
 
 .journal-author time {
   color: rgba(26, 26, 26, 0.45);
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 17px;
 }
 
@@ -7270,7 +7270,7 @@ body.is-gallery-modal-open {
   align-items: center;
   gap: 3px;
   color: var(--color-purple);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 21px;
   white-space: nowrap;
@@ -7284,7 +7284,7 @@ body.is-gallery-modal-open {
 
 .journal-post__read--light {
   color: var(--color-mint-strong);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .journal-feed__empty {
@@ -7337,13 +7337,13 @@ body.is-gallery-modal-open {
 }
 
 .journal-author-card__body h2 {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .journal-author-card__body p {
   margin: 8px 0 16px;
   color: rgba(26, 26, 26, 0.58);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.55;
 }
 
@@ -7352,7 +7352,7 @@ body.is-gallery-modal-open {
   min-height: 40px;
   padding: 8px 18px;
   border: 0;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .journal-subscribe {
@@ -7367,19 +7367,19 @@ body.is-gallery-modal-open {
   margin: 0;
   color: #f9b8dc;
   font-family: "Caveat", cursive;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
 .journal-subscribe h2 {
   margin-top: 2px;
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 .journal-subscribe > p:not(.journal-subscribe__eyebrow) {
   margin: 8px 0 14px;
   color: rgba(255, 255, 255, 0.72);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.55;
 }
 
@@ -7416,7 +7416,7 @@ body.is-gallery-modal-open {
 .journal-subscribe__message {
   min-height: 16px;
   color: var(--color-mint-strong);
-  font-size: 11px;
+  font-size: 0.6875rem;
 }
 
 .journal-popular,
@@ -7426,7 +7426,7 @@ body.is-gallery-modal-open {
 }
 
 .journal-sidebar__card h2 {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
 }
 
@@ -7455,13 +7455,13 @@ body.is-gallery-modal-open {
 }
 
 .journal-popular__list strong {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.35;
 }
 
 .journal-popular__list small {
   color: rgba(26, 26, 26, 0.5);
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 
 .journal-filter__list {
@@ -7481,11 +7481,11 @@ body.is-gallery-modal-open {
   border-radius: 8px;
   background: transparent;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .journal-filter__list button {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .journal-filter__list button:hover,
@@ -7525,7 +7525,7 @@ body.is-gallery-modal-open {
 
 .journal-tags__list button {
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .journal-tags__list button:hover,
@@ -7543,14 +7543,14 @@ body.is-gallery-modal-open {
 
 .journal-order > p:not(.journal-order__eyebrow) {
   margin: 6px 0 14px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .journal-order .button {
   width: 100%;
   min-height: 39px;
   padding: 8px 18px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .journal-order .button + .button {
@@ -7569,13 +7569,13 @@ body.is-gallery-modal-open {
 
 .journal-topics__header .eyebrow {
   color: #f490b1;
-  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 26px;
 }
 
 .journal-topics__header h2 {
   margin: 4px 0 0;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 48px;
 }
 
@@ -7610,21 +7610,21 @@ body.is-gallery-modal-open {
 }
 
 .journal-topic strong {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
 }
 
 .journal-topic span {
   margin-top: 6px;
   color: rgba(26, 26, 26, 0.55);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.625;
 }
 
 .journal-topic small {
   margin-top: 12px;
   color: var(--color-purple);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .journal-topic--purple {
@@ -7701,7 +7701,7 @@ body.is-gallery-modal-open {
   }
 
   .journal-feature__title {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   .journal-feed__grid,
@@ -7754,11 +7754,11 @@ body.is-gallery-modal-open {
   }
 
   .journal-feature__title {
-    font-size: 27px;
+    font-size: 1.6875rem;
   }
 
   .journal-feature__excerpt {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .journal-feature__footer {
@@ -7781,7 +7781,7 @@ body.is-gallery-modal-open {
   }
 
   .journal-post--lead .journal-post__title {
-    font-size: 23px;
+    font-size: 1.4375rem;
   }
 
   .journal-topics {
@@ -7789,7 +7789,7 @@ body.is-gallery-modal-open {
   }
 
   .journal-topics__header h2 {
-    font-size: 29px;
+    font-size: 1.8125rem;
   }
 }
 
@@ -7844,7 +7844,7 @@ body.is-gallery-modal-open {
   align-items: center;
   gap: 8px;
   color: rgba(255, 255, 255, 0.5);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
 }
 
@@ -7866,19 +7866,19 @@ body.is-gallery-modal-open {
   gap: 12px;
   padding-top: 20px;
   color: rgba(255, 255, 255, 0.5);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
 }
 
 .journal-article-hero__meta .journal-post__category {
   padding: 4px 12px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .journal-article-hero__title {
   max-width: 780px;
   margin: 16px 0 0;
-  font-size: 42px;
+  font-size: 2.625rem;
   font-weight: 800;
   line-height: 1.1;
 }
@@ -7903,13 +7903,13 @@ body.is-gallery-modal-open {
 }
 
 .journal-article-hero__author strong {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
 }
 
 .journal-article-hero__author span {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 18px;
 }
 
@@ -7933,14 +7933,14 @@ body.is-gallery-modal-open {
   margin: 0;
   padding-bottom: 32px;
   border-bottom: 1px solid var(--color-line);
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   line-height: 1.6;
 }
 
 .journal-article__content {
   color: #2a2a2a;
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.85;
 }
 
@@ -7961,7 +7961,7 @@ body.is-gallery-modal-open {
   padding: 16px 0 4px;
   border-bottom: 2px solid var(--color-mint-strong);
   color: var(--color-ink);
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 800;
   line-height: 1.25;
 }
@@ -7982,13 +7982,13 @@ body.is-gallery-modal-open {
 
 .journal-article__tip strong {
   display: block;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
 }
 
 .journal-article__tip p {
   margin-top: 4px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.625;
 }
 
@@ -8005,7 +8005,7 @@ body.is-gallery-modal-open {
 .journal-article__quote p {
   margin: 0;
   font-family: "Caveat", cursive;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 700;
   line-height: 1.375;
 }
@@ -8014,7 +8014,7 @@ body.is-gallery-modal-open {
   display: block;
   margin-top: 12px;
   color: rgba(26, 26, 26, 0.5);
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   line-height: 20px;
 }
@@ -8060,7 +8060,7 @@ body.is-gallery-modal-open {
   padding: 12px 20px;
   color: rgba(26, 26, 26, 0.55);
   background: var(--color-mint);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
   text-align: center;
 }
@@ -8078,7 +8078,7 @@ body.is-gallery-modal-open {
 .journal-article__tags strong {
   margin-right: 2px;
   color: rgba(26, 26, 26, 0.5);
-  font-size: 16px;
+  font-size: 1rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -8088,7 +8088,7 @@ body.is-gallery-modal-open {
   color: var(--color-muted);
   border: 1px solid var(--color-line);
   border-radius: 999px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 18px;
 }
 
@@ -8126,21 +8126,21 @@ body.is-gallery-modal-open {
 }
 
 .journal-article-author h2 {
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 27px;
 }
 
 .journal-article-author__role {
   padding-top: 2px;
   color: rgba(26, 26, 26, 0.45);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
 }
 
 .journal-article-author__content > p:last-of-type {
   padding-top: 12px;
   color: rgba(26, 26, 26, 0.65);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.625;
 }
 
@@ -8153,7 +8153,7 @@ body.is-gallery-modal-open {
 .journal-article-author__actions .button {
   min-height: 40px;
   padding: 8px 16px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -8207,7 +8207,7 @@ body.is-gallery-modal-open {
 
 .journal-article-side__date time,
 .journal-article-side__date span {
-  font-size: 11px;
+  font-size: 0.6875rem;
   line-height: 17px;
 }
 
@@ -8226,7 +8226,7 @@ body.is-gallery-modal-open {
   border: 1px solid var(--color-purple-light);
   border-radius: 999px;
   cursor: pointer;
-  font-size: 11px;
+  font-size: 0.6875rem;
 }
 
 .journal-article-side__share:hover {
@@ -8241,7 +8241,7 @@ body.is-gallery-modal-open {
 .journal-article-toc h2,
 .journal-article-related h2 {
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 23px;
 }
 
@@ -8256,7 +8256,7 @@ body.is-gallery-modal-open {
   padding: 8px 8px 8px 28px;
   color: rgba(26, 26, 26, 0.55);
   border-radius: 12px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 18px;
 }
 
@@ -8302,7 +8302,7 @@ body.is-gallery-modal-open {
 .journal-article-subscribe .journal-subscribe__form button {
   min-height: 37px;
   border-radius: 12px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .journal-article-related {
@@ -8336,7 +8336,7 @@ body.is-gallery-modal-open {
   color: var(--color-purple);
   background: var(--color-purple-pale);
   border-radius: 999px;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 700;
   line-height: 15px;
 }
@@ -8350,7 +8350,7 @@ body.is-gallery-modal-open {
   display: -webkit-box;
   overflow: hidden;
   margin-top: 6px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.375;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
@@ -8359,7 +8359,7 @@ body.is-gallery-modal-open {
 .journal-article-related__item time {
   margin-top: 4px;
   color: rgba(26, 26, 26, 0.35);
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 17px;
 }
 
@@ -8405,21 +8405,21 @@ body.is-gallery-modal-open {
   }
 
   .journal-article-hero__title {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 
   .journal-article__lead {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 1.55;
   }
 
   .journal-article__content {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.75;
   }
 
   .journal-article__content h2 {
-    font-size: 23px;
+    font-size: 1.4375rem;
   }
 
   .journal-article__tip {
@@ -8471,7 +8471,7 @@ body.is-gallery-modal-open {
 
   .journal-article-hero__title {
     margin-top: 14px;
-    font-size: 31px;
+    font-size: 1.9375rem;
   }
 
   .journal-article-hero__author {
@@ -8491,11 +8491,11 @@ body.is-gallery-modal-open {
   }
 
   .journal-article__content h2 {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .journal-article__quote p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .journal-article__figure img {
@@ -8538,12 +8538,12 @@ body.is-gallery-modal-open {
   gap: 6px;
   padding-bottom: 1px;
   color: rgba(26, 26, 26, 0.45);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
 }
 
 .workshop-detail-breadcrumb i {
-  font-size: 17px;
+  font-size: 1.0625rem;
 }
 
 .workshop-detail-breadcrumb strong {
@@ -8595,7 +8595,7 @@ body.is-gallery-modal-open {
 .workshop-detail-hero__status strong {
   padding: 4px 12px;
   border-radius: 999px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 18px;
 }
 
@@ -8629,7 +8629,7 @@ body.is-gallery-modal-open {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 999px;
   backdrop-filter: blur(8px);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 18px;
 }
@@ -8638,7 +8638,7 @@ body.is-gallery-modal-open {
   margin: 12px 0 0;
   color: #f9b8dc;
   font-family: "Caveat", cursive;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 700;
   line-height: 22px;
 }
@@ -8646,7 +8646,7 @@ body.is-gallery-modal-open {
 .workshop-detail-hero h1 {
   max-width: 768px;
   margin: 4px 0 0;
-  font-size: 38px;
+  font-size: 2.375rem;
   font-weight: 800;
   line-height: 1.25;
 }
@@ -8665,7 +8665,7 @@ body.is-gallery-modal-open {
   align-items: center;
   gap: 6px;
   color: rgba(255, 255, 255, 0.9);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
 }
 
@@ -8695,7 +8695,7 @@ body.is-gallery-modal-open {
   margin: 0;
   color: var(--color-pink);
   font-family: "Caveat", cursive;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 700;
   line-height: 1.5;
 }
@@ -8704,7 +8704,7 @@ body.is-gallery-modal-open {
 .workshop-detail-faq > h2,
 .workshop-more__header h2 {
   margin: 0;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 800;
   line-height: 1.25;
 }
@@ -8712,7 +8712,7 @@ body.is-gallery-modal-open {
 .workshop-detail-about > p:not(.workshop-detail-heading) {
   margin: 24px 0 0;
   color: rgba(26, 26, 26, 0.8);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.75;
 }
 
@@ -8727,14 +8727,14 @@ body.is-gallery-modal-open {
 .workshop-detail-schedule .workshop-detail-heading,
 .workshop-detail-faq .workshop-detail-heading,
 .workshop-instructor .workshop-detail-heading {
-  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 1.5;
 }
 
 .workshop-detail-schedule__intro {
   margin: 4px 0 0;
   color: rgba(26, 26, 26, 0.55);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .workshop-detail-schedule__list {
@@ -8755,12 +8755,12 @@ body.is-gallery-modal-open {
 
 .workshop-detail-schedule__list time {
   color: var(--color-purple-light);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 .workshop-detail-schedule__list span {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
 }
 
@@ -8772,7 +8772,7 @@ body.is-gallery-modal-open {
 
 .workshop-detail-card h2 {
   margin: 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
@@ -8795,7 +8795,7 @@ body.is-gallery-modal-open {
   align-items: flex-start;
   gap: 12px;
   min-width: 0;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
 }
 
@@ -8843,7 +8843,7 @@ body.is-gallery-modal-open {
 .workshop-detail-list li {
   position: relative;
   padding-left: 27px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.4;
 }
 
@@ -8853,7 +8853,7 @@ body.is-gallery-modal-open {
   left: 0;
   color: var(--color-purple-light);
   content: "✓";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 800;
 }
 
@@ -8866,7 +8866,7 @@ body.is-gallery-modal-open {
   top: 1px;
   left: 0;
   color: var(--color-muted);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1;
 }
 
@@ -8900,20 +8900,20 @@ body.is-gallery-modal-open {
 }
 
 .workshop-instructor__content h2 {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
 }
 
 .workshop-instructor__role {
   color: var(--color-purple);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
 }
 
 .workshop-instructor__content > p:last-of-type {
   margin-top: 12px;
   color: rgba(26, 26, 26, 0.8);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.625;
 }
 
@@ -8932,7 +8932,7 @@ body.is-gallery-modal-open {
   background: var(--color-mint);
   border: 1px solid var(--color-line);
   border-radius: 999px;
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 18px;
 }
 
@@ -8964,7 +8964,7 @@ body.is-gallery-modal-open {
   background: transparent;
   border: 0;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 24px;
   text-align: left;
@@ -8972,13 +8972,13 @@ body.is-gallery-modal-open {
 
 .workshop-detail-faq__item > button i {
   color: var(--color-purple);
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .workshop-detail-faq__answer {
   padding: 0 36px 20px 0;
   color: rgba(26, 26, 26, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -9009,13 +9009,13 @@ body.is-gallery-modal-open {
 
 .workshop-booking__price span {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 21px;
 }
 
 .workshop-booking__price strong {
   margin-top: 4px;
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 800;
   line-height: 1;
 }
@@ -9023,7 +9023,7 @@ body.is-gallery-modal-open {
 .workshop-booking__price small {
   margin-top: 4px;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
 }
 
@@ -9049,13 +9049,13 @@ body.is-gallery-modal-open {
 }
 
 .workshop-booking__date time span {
-  font-size: 11px;
+  font-size: 0.6875rem;
   line-height: 11px;
 }
 
 .workshop-booking__date time strong {
   color: var(--color-ink);
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 35px;
 }
 
@@ -9066,14 +9066,14 @@ body.is-gallery-modal-open {
 }
 
 .workshop-booking__date > div strong {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
 }
 
 .workshop-booking__date > div span {
   margin-top: 2px;
   color: rgba(26, 26, 26, 0.55);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
 }
 
@@ -9092,7 +9092,7 @@ body.is-gallery-modal-open {
 
 .workshop-booking__facts dt {
   color: rgba(26, 26, 26, 0.5);
-  font-size: 11px;
+  font-size: 0.6875rem;
   letter-spacing: 0.05em;
   line-height: 17px;
   text-transform: uppercase;
@@ -9100,7 +9100,7 @@ body.is-gallery-modal-open {
 
 .workshop-booking__facts dd {
   margin: 2px 0 0;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 21px;
 }
@@ -9118,7 +9118,7 @@ body.is-gallery-modal-open {
 .workshop-booking__actions .button--solid {
   min-height: 58px;
   background: #775ca7;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 700;
 }
 
@@ -9126,13 +9126,13 @@ body.is-gallery-modal-open {
   min-height: 51px;
   padding-block: 10px;
   background: var(--color-white);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .workshop-booking__message {
   min-height: 17px;
   color: var(--color-purple);
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -9150,7 +9150,7 @@ body.is-gallery-modal-open {
   align-items: flex-start;
   gap: 10px;
   color: rgba(26, 26, 26, 0.6);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 18px;
 }
 
@@ -9173,7 +9173,7 @@ body.is-gallery-modal-open {
 
 .workshop-booking__share > span {
   color: rgba(26, 26, 26, 0.5);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .workshop-booking__share > div {
@@ -9218,7 +9218,7 @@ body.is-gallery-modal-open {
 }
 
 .workshop-more__header h2 {
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 1.5;
 }
 
@@ -9226,7 +9226,7 @@ body.is-gallery-modal-open {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
 }
 
@@ -9281,12 +9281,12 @@ body.is-gallery-modal-open {
 
 .workshop-more-card__media time span {
   color: var(--color-purple);
-  font-size: 10px;
+  font-size: 0.625rem;
   line-height: 10px;
 }
 
 .workshop-more-card__media time strong {
-  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 28px;
 }
 
@@ -9298,7 +9298,7 @@ body.is-gallery-modal-open {
   color: var(--color-muted);
   background: var(--color-mint-strong);
   border-radius: 999px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 18px;
 }
@@ -9318,14 +9318,14 @@ body.is-gallery-modal-open {
 }
 
 .workshop-more-card__body h3 {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 22px;
 }
 
 .workshop-more-card__body p {
   margin-top: 4px;
   color: rgba(26, 26, 26, 0.5);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
 }
 
@@ -9341,7 +9341,7 @@ body.is-gallery-modal-open {
 
 .workshop-more-card__body footer > strong {
   color: var(--color-purple);
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
 }
 
@@ -9349,7 +9349,7 @@ body.is-gallery-modal-open {
   display: inline-flex;
   align-items: center;
   color: var(--color-purple);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
 }
 
@@ -9418,7 +9418,7 @@ body.is-gallery-modal-open {
   }
 
   .workshop-detail-hero h1 {
-    font-size: 34px;
+    font-size: 2.125rem;
   }
 
   .workshop-detail-hero__facts {
@@ -9496,7 +9496,7 @@ body.is-gallery-modal-open {
   }
 
   .workshop-detail-hero h1 {
-    font-size: 29px;
+    font-size: 1.8125rem;
   }
 
   .workshop-detail-hero__facts {
@@ -9511,11 +9511,11 @@ body.is-gallery-modal-open {
 
   .workshop-detail-about h2,
   .workshop-detail-faq > h2 {
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
 
   .workshop-detail-heading {
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
 
   .workshop-detail-schedule__list li {
@@ -9537,7 +9537,7 @@ body.is-gallery-modal-open {
   }
 
   .workshop-detail-faq__item > button {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .workshop-booking__price,
@@ -9548,7 +9548,7 @@ body.is-gallery-modal-open {
   }
 
   .workshop-booking__price strong {
-    font-size: 46px;
+    font-size: 2.875rem;
   }
 
   .workshop-booking__facts {
@@ -9571,7 +9571,7 @@ body.is-gallery-modal-open {
   }
 
   .workshop-more__header h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 }
 
@@ -9601,7 +9601,7 @@ body.is-gallery-modal-open {
   background: transparent;
   border: 0;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
@@ -9610,7 +9610,7 @@ body.is-gallery-modal-open {
 .site-accordion .site-accordion__trigger i {
   flex: 0 0 auto;
   color: var(--color-purple);
-  font-size: 20px;
+  font-size: 1.25rem;
   transition: transform 240ms ease;
 }
 
@@ -9640,7 +9640,7 @@ body.is-gallery-modal-open {
   min-height: 0;
   overflow: hidden;
   color: rgba(26, 26, 26, 0.64);
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -9659,7 +9659,7 @@ body.is-gallery-modal-open {
 
   .site-accordion .site-accordion__trigger {
     gap: 18px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .site-accordion__content {
