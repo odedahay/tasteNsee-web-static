@@ -1062,6 +1062,21 @@ textarea:focus-visible {
   object-fit: cover;
 }
 
+.photo-modal-trigger {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.photo-modal-trigger:focus-visible {
+  outline: 3px solid var(--color-purple);
+  outline-offset: -3px;
+}
+
 .product-card__body {
   padding: 16px 12px 12px;
   text-align: center;
@@ -3581,6 +3596,9 @@ textarea:focus-visible {
 }
 
 .gallery-card {
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
   position: relative;
   height: 222px;
   margin: 0;
@@ -3592,6 +3610,92 @@ textarea:focus-visible {
 
 .gallery-card[hidden] {
   display: none;
+}
+
+.gallery-card:focus-visible {
+  outline: 3px solid var(--color-purple);
+  outline-offset: 4px;
+}
+
+body.is-gallery-modal-open {
+  overflow: hidden;
+}
+
+.gallery-modal {
+  width: min(760px, calc(100% - 32px));
+  max-height: calc(100dvh - 32px);
+  padding: 0;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-card);
+  background: var(--color-mint);
+  color: var(--color-ink);
+  box-shadow: var(--shadow-soft);
+}
+
+.gallery-modal::backdrop {
+  background: rgba(26, 26, 26, 0.72);
+}
+
+.gallery-modal[open] {
+  animation: gallery-modal-enter 200ms ease-out;
+}
+
+.gallery-modal__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 24px;
+}
+
+.gallery-modal__category {
+  margin: 0 0 4px;
+  color: var(--color-purple);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.gallery-modal__title {
+  margin: 0;
+  font-size: clamp(20px, 4vw, 28px);
+  line-height: 1.25;
+}
+
+.gallery-modal__close {
+  display: grid;
+  place-items: center;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid var(--color-line);
+  border-radius: 50%;
+  background: var(--color-white);
+  color: var(--color-purple);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.gallery-modal__close:focus-visible {
+  outline: 3px solid var(--color-purple);
+  outline-offset: 2px;
+}
+
+.gallery-modal__image {
+  display: block;
+  width: 100%;
+  max-height: calc(100dvh - 160px);
+  object-fit: contain;
+  background: var(--color-white);
+}
+
+@keyframes gallery-modal-enter {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gallery-modal[open] { animation: none; }
 }
 
 .gallery-card__image {

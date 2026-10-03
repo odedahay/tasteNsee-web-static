@@ -118,6 +118,37 @@ document.querySelectorAll('[data-current-year]').forEach((element) => {
 const galleryFilters = [...document.querySelectorAll('[data-gallery-filter]')];
 const galleryCards = [...document.querySelectorAll('.gallery-card[data-category]')];
 const galleryCount = document.querySelector('[data-gallery-count]');
+const galleryModal = document.querySelector('#gallery-modal');
+
+if (galleryModal) {
+  const modalImage = galleryModal.querySelector('[data-gallery-modal-image]');
+  const modalTitle = galleryModal.querySelector('.gallery-modal__title');
+  const modalCategory = galleryModal.querySelector('[data-gallery-modal-category]');
+
+  document.querySelectorAll('[data-gallery-title]').forEach((card) => {
+    card.addEventListener('click', () => {
+      const photo = card.querySelector('img');
+      modalImage.src = photo.currentSrc || photo.src;
+      modalImage.alt = photo.alt;
+      modalTitle.textContent = card.dataset.galleryTitle;
+      modalCategory.textContent = card.dataset.galleryCategory || card.querySelector('.gallery-card__tag')?.textContent || '';
+      galleryModal.showModal();
+      document.body.classList.add('is-gallery-modal-open');
+    });
+  });
+
+  galleryModal.querySelector('.gallery-modal__close').addEventListener('click', () => galleryModal.close());
+  galleryModal.addEventListener('click', (event) => {
+    const bounds = galleryModal.getBoundingClientRect();
+    if (event.target === galleryModal && (
+      event.clientX < bounds.left || event.clientX > bounds.right ||
+      event.clientY < bounds.top || event.clientY > bounds.bottom
+    )) galleryModal.close();
+  });
+  galleryModal.addEventListener('close', () => {
+    document.body.classList.remove('is-gallery-modal-open');
+  });
+}
 
 galleryFilters.forEach((filterButton) => {
   filterButton.addEventListener('click', () => {
